@@ -1,0 +1,1001 @@
+resolve test failure add test http jira duraspace org browse duracloud __label__extract
+fix bug relate still use ojbconcreteclass property deal inheritance domain model project rely property need old behavior believe fenix web app use fenixdomainmodelwithocc class generate domain change dml generate xml file __label__push-down
+mant generate build user xml à la eclipse add overwrite parameter mojo overwrite build xml update antbuildwriter generate build xml could overwrite maven build xml maven build property use import task ant build xml target could override updated test case git svn id http svn apache org repos asf maven plugins trunk f bb ffa edef __label__extract
+refactor move webclientproperties databaseservice __label__move
+address issue refactoring towards native adea action toolbar also move action code separate class __label__move
+implement itagpriority extractlimit parameter __label__extract
+refactor build management fix xcode scan build work alongside release configuration __label__move
+add filesystem support libvirt functionality allow map kvm host filesystem guest domain refactor various libvirt xml function __label__extract
+encapsulate matcher create factory method implement matcher logic matcherimpl subclass __label__push-down
+minor clean ups __label__inline
+rename method __label__rename
+xslt space normalization also bunch refactorings request xslt template go thru factory add flag tag extractor allow function normalize space mode non normalized mode switch back non normalized space change constant template file factory switch normalize flag false th transformer __label__extract
+lot refactoring support multiple connection __label__inline
+hv rename site package class location __label__rename
+misc rm redundant cast rename method git svn id http pmd svn sourceforge net svnroot pmd trunk baf c fc e __label__rename
+introduce mavenexecutioncontext threadlocal use associate maven execution context current thread context encapsulate maven session configuration e force update offline etc flag well repository session cache data ensures consistent use configuration data structure maven call perform thread specicially solve multiple case forceupdate honour project configuration update bug solves extremely slow performance multiple project reference miss dependency forceupdates true bug see imavenexecutioncontext javadoc new api detail sign igor fedorenko __label__inline
+move simpleservlets webapp web directory __label__pull-up
+add stream __label__extract
+rf qcadoomes rename countmachine countrealized __label__rename
+rename test method sign jonas berlin __label__rename
+increase stability assertcurrentactivity method well pressspinneritem also move waitforactivity waiter class minor refactoring __label__move
+convert purify plugin pluginfilter get close fiji design guideline __label__inline
+refactoring cleanup f index deligate code __label__pull-up
+logtool create new producer annotation allow function bifunction create exception return __label__extract
+refactoring support view subclass change id e f aab fa e afc cc __label__pull-up
+wagon add unit test wagon ssh embed ssh server refactor able share test scp external module git svn id http svn apache org repos asf maven wagon trunk f bb ffa edef __label__pull-up
+ui model view deep refactoring git svn id http bg upf edu svn gitools trunk b f e b ddf __label__pull-up
+willie thean laf change add ability specify proxy http download change default logging info __label__extract
+menu contain menu item precusor gui add hide frequent overlay option view menu add outlier handle option view menu change jmenuitems jradiobuttonmenuitems necessairy functionality add actionlisteners menu item still missning plus skeleton performer method __label__extract
+rename method __label__rename
+massive change support multiple subdivision many method move around logical class code look good anyway program still work spite change git svn id http svn mkgmap org uk mkgmap trunk f ee dfeeeb __label__move
+major refactoring simplify ant parser generalize fold logic work tag def initions php source implement native tag filter function index ing project basis __label__inline
+imagesaverdialog return select option viewer start stop play video sequence change desire frame rate colormap fix color calculation alpha blend delete key use remove control point color component line order modify alpha front fix sequence save operation well name logic f key open browser support forum fix minor issue plugin installation somehow replace focused viewer active viewer may change fix minor issue ij icy image transformation action refactoring remove old deprecate unit rework javadoc generation minor change tweak __label__pull-up
+make default warc size comply spec adjust default pool size few odd size w arc archivefileconstants javaremove superfluous constant writerpool javadefault max active writerpoolmember javaupdate constant use remove deprecate unused method writerpoolprocessor javapull storepaths subclass set default via subclass methodset defaultmaxsize via subclass method warcwriterprocessor java arcwriterprocessor java getdefaultmaxfilesize getdefaultstorepaths appropriate __label__pull-up
+added support extract json object array request body via helper __label__extract
+enhance mismatch block stache error previously highlight close mustache case mismatch provide quick fix user probably expect use xml html edit capability move mismatch detection parser annotation object inspection add quick fix make name match also smarten check cover complex id previously ensure foo match foo bar foo baz hence miss error case like __label__pull-up
+move delete vcomponent utility todo move edit delete vcomponent __label__move
+move method get boolean property basesourcecreator __label__pull-up
+tidy add comment git svn id http svn mkgmap org uk mkgmap trunk f ee dfeeeb __label__inline
+change webinar example code __label__inline
+fix documentation autostart tag define constant autostart remove one handler method minor code refactoring git svn id http svn apache org repos asf mina trunk f bb ffa edef __label__inline
+add support sign commits add support require number review __label__extract
+extract method localize responsibility __label__extract
+extract kahn algorithm compute method __label__extract
+improve performance correct simplify formerly unused code elementquadtree split boundary way part max node fill elementquadtree boundary fragment code still need lot intersection test typically much faster git svn id http svn mkgmap org uk mkgmap branch country border f ee dfeeeb __label__inline
+ticket batch histogram wip refactor produce batch histogram non tau parameter also drive current fit image dropdown selection __label__push-down
+deva preethi move therapy patient patient currenttherapy list therapy treatment therapyuid instead therapydocid alltherapies remove move therapymapper functionality patientmapper __label__move
+near end another major refactor __label__pull-up
+half finish preference pane display save back yet move handle xml preference file uistarter userpreferences make logger print class name insead whole package tidy aboutmessagedialog insignificant change __label__move
+refactor allow method add service show plot dialog __label__pull-up
+clean __label__inline
+refactor query creation fetcher __label__pull-up
+minor rename __label__rename
+remove auctionservermanager reference entrylist auction reference do directly database do yet still bit dangerous git svn id svn svn jbidwatcher com jbidwatcher trunk b acfa eb db b cd b e __label__pull-up
+refactoring move common functionality jgitcommon __label__move
+rename getsourcestring getsourceasstring use parser __label__rename
+add global preference page stub include wsil browser support schemaimportdialog fixed new file wizard unable edit file name __label__extract
+fix paxwicket refactored httptracker syncronized model base extractedservletdescriptor unify exceptionhandling extractednormalizemountpoint function genericcontext httptracker __label__extract
+roi add group field basically allow group roi specific operation add getlength sequence method compute length perimeter sequence pixel size information add geteffectivedimension dimension method add unselectallpoints method move method roiutil much interaction vtk display move modify roi directly view roi add support z drag operation cleanup tweak roi dshape many change add interaction vtk render safe vtk render roi dpoint well vtk render roi darea safer vtk render fix small issue vtk display correctly update drag operation minor tweak improvement roi add roi dpainter class easy display interaction roi add isoveredge method add roi dshape abstract class shape roi add roi dpoint point type roi add roi dline line type roi add roi dpolyline polyline type roi add roi dstackshape abstract class stack shape roi add roi dstackellipse ellipse stack type roi available stack operation add roi dstackpolygon polygon stack type roi available stack operation roi dstack fix setname method child get modify well deprecate getusechildcolor setusechildcolor method roi darea safer optimize vtk render add roi darea booleanmask zmin zmax constructor add isoveredge method roiutil move method roi getunion getintersection add converttostack method convert roi stack roi add converttomask method convert shape roi area roi add converttoshape method convert area roi polygon roi add getconnectedcomponents separate retrieve connect component input roi added copyroiproperties copy property input roi roi action add convert stack operation convert roi stack roi add convert mask operation convert shape roi area roi add convert shape operation convert area roi polygon roi add separate object operation separate connect component area roi add manual cut operation manually cut separate roi yet implement add automatic split operation automatically split roi give shape yet implement roi panel modify position size multiple roi time remove copy paste roi link operation gui add new tooltip explain main menu add java warn osx user first menu task dedicate roi operation remove image open save action organize roi creation action add many roi operation action anchor added integer z position information position roi add vtk display interaction support allow roi manipulation vtk pathanchor fix visibility closing point booleanmask add getconnectedcontourpoints method retrieve contour connect order minor change make safer icycanvas add canvastoimagelogdeltaz method z equivalent canvastoimagelogdeltay canvastoimagelogdeltax method icycanvas improve setmousepos method safier icycanvas add method handle mouse image position canvas reverse pan direction keypad key vtkcanvas add getworldz point method retrieve z depth give canvas position add worldtodisplay point method convert world point canvas position add displaytoworld point method convert canvas position world point implement imagetocanvas canvastoimage previous add method implement getscalex method implement setmouseimageposx z method mouse event provide correct mouse position remove enable picking mouse move switch vtkutil simplify getsurfacefromimage method icyvtkpanel add proper event consume systemutil add getjavaversionasnumber method icyexceptionhandler add anti spam protection report method fileutil add getfiles method easily retrieve file specific extension without use filefilter xmlutil add filter avoid incorrect character name attribute field icycommandbutton add setpopup method enable popup action tooltipframe add support open external browser click url roiperimeterdescriptor modify use new roi getlength method __label__move
+rename map method mapfrom mapto sign luke hutchison __label__rename
+check interval overlap simplify code correct wrong assignment todo check duplicate yet okay random number optimization increase precision address search git svn id http svn mkgmap org uk mkgmap branch housenumbers f ee dfeeeb __label__inline
+clean model class __label__inline
+dividend trrdiv rename totalrateofreturndiv fix wrong calculation mean number share debugstop move class helper __label__rename
+fix clean ups get test move run eclipse launch work test pass app exit __label__move
+extract method __label__extract
+multiple module add refactoring __label__inline
+refactor customobjects resource customobjects bo customobject useworld usebiome also customobjects even tree customobject resource inherit resource setting store generic resource object store resource allow flexibility plugin developer add customobjects resource __label__push-down
+massive refactors list complete give idea many thing lombok eclipse move lombok core enable reuse lombok javac b lombok javac work similarly eclipse model first make big asts bidirectionally traversable walk annotation c instead get annotation instance get object flexible e g give class value enum string instead class object may fail class classpath lombok source internal sun class javac add contrib __label__move
+http bug eclipse org bug show bug cgi id http bug eclipse org bug show bug cgi id http bug eclipse org bug show bug cgi id http bug eclipse org bug show bug cgi id move property sheet base class avoid circular plugin dependency core ui also add configuration popup dialog framework default implementation display subset tabbed property sheet popup dialog extension plugins override behavior __label__move
+wip cleanup __label__pull-up
+push assert method basetestcase erxtestcase factor remove basetestcase __label__push-down
+extract common g gap assertion code something readable processor method __label__extract
+refactoring relay package extract android projecttests change yet __label__extract
+cleanup issue number obtain submit reviewed __label__extract
+rename public method __label__rename
+minor message handling cleanup __label__push-down
+enable creation retrieval org webhooksmade ghhook abstract create two concrete subclass organd repo hook create utility class ghhooks manage creationand retrieval org repo hook minimal code duplication theseare invoke ghorganization ghrepository respectively __label__push-down
+rename ciminstance connectinstance coverityenvbuildwrapper consistent coverityviewresults __label__rename
+try fix bug show locally __label__push-down
+renew slot move occured request cluster suggest http redis io topic cluster spec antirez redis rb cluster implementation since redis beta introduces cluster slot becomes easy fixme fully synchronize hurt performance somewhat poor implementation try reader writer strategy make lock wait make shorter __label__move
+delete getdisplaysubject relnotes remove getdisplaysubject caller use actualasstring overriders use actualcustomstringrepresentation create moe http github com google moe moe migrate revid __label__inline
+cdi module move configuration module add load cdi configuration xml file __label__move
+move jbidwatcher specific stuff general purpose jconfig library jbidwatcher specific jconfig library __label__push-down
+refactored dictionary portlet use wrapper instead model __label__move
+move getposition method linearmotion motion __label__pull-up
+subscriptionexecutionstate change serialize format json avro serialize avro raw data without schema embed need think wrt versioning case ever want change format maybe prepend version number next week git svn id svn ssh dev outerthought org outerthought lilyproject trunk b f e bd e dc __label__inline
+finish costing variance https sourceforge net tracker index php func detail aid group id atid cost variance calculate order close mo reevaluation end period need do new code work ad client isusebetafunctions activate refactored doc costcollector break createfacts much small method costdimension introduces resource id property git svn id http adempiere svn sourceforge net svnroot adempiere branch libero f ce ac b f __label__extract
+implement dynamic class load unit test rhino fork rhino browser code standardclassloader loadscript rename jooruntimetestcase loadclass import simply call joo classloader import turn end standardclassloader loadscript call jooruntimetestcase global joo loadscript testcatch test also work wihtout load dependant class git p depot path coremedia jangaroo change __label__rename
+bug aspect deadlock use equinox aspect spring dm extender parse aspect definition move bundle resolve event __label__move
+leave scmtestbase alone instead move test incrementally functionaltest use parameter __label__move
+move abstractlazylayout addcompoenteagerly lazylayout __label__push-down
+rename mutator superdelete mutator subdelete consistent rest api __label__rename
+update doc untested change bitext extraction pipeline __label__extract
+checkpointing work progress need add migration strip old api cruft __label__extract
+nojira move resourcemapping emergencyalert lifecyclecontroler rename get fee get notification uncategorized go start reuse __label__move
+rename pipecommand pipe __label__rename
+pipeline stuff move separate repository __label__move
+face develop alloy inputtime component face develop alloy inputdate component refactor inputdate consistent inputtime __label__push-down
+revert change xtest runner offer validate run interface reverts commit b ce f b caaee e e __label__inline
+ca port change cas pac j project saml clientconfiguration make non final allow forsub class new init method introduce nothing insaml clientconfiguration overridden sub class saml client call new init method configuration piece code client extract separate method itallows reuse sub class client __label__extract
+refactor jogltargetfixedfunction common code abstractjogltarget __label__move
+use new type deobfuscating make update go time faster use jarjar rule file rename class file deobfuscate change move new type deobfuscating change jar requirement minecraft server jar minecraft servero jar remove code relate reserve list unused anyway clean stuff update minecraft sql match late need sql remove reserve list update sql __label__move
+rework csv import support currency use extractor validation logic show review page insert transaction move csv related code separate package rename ui class include csv issue __label__rename
+refactoring rename query queryparams reduce string base comparators __label__rename
+improve bundle profile match best practice self document profile crawler bean cxml add comment unstated default value operator might want change many reorder refactor rename well minimize match simple configuration __label__rename
+add new server command added command feedback telnet available command ban stop restart kick save give unmute unban time setgroup setipgroup listips unwhitelist reload whitelist mute backup __label__extract
+fix typed property relationships added test __label__extract
+change make factory method e g idfactory getdefault makeid create method e g idfactory getdefault createid __label__extract
+backlog change utilhtmlsanitizer function params move name sanitization connectionservice connectionserviceimpl __label__move
+jsdk sdk user would like avoid double post manual journal entry via api add new public method support post gl journal entry transactionid __label__extract
+finish draft ensemble refactor __label__move
+minor improvement mathassess glue unexpected failure snuggletex conversion process wrap good exception allow original input log help fix snuggletex rename method mathassess package use new naming convention introduce early year tidy thing __label__rename
+rename deallocationrule expiration __label__rename
+qualifiedname also mark generated astconverter phase like simplename fix rename inner type use main type inner type __label__rename
+hv style change move setter getter approach validationbootstrapparameters __label__move
+enunciate add option override subcontext git svn id http svn codehaus org enunciate trunk enunciate c b b b e __label__extract
+add next int step prev stepsbetween hash hash geohash add boundingboxsampler class refactored common code boundingboxsampler boundingboxiterator __label__move
+refactor extract class portinput add getport accessor extend test __label__push-down
+extract test run builder style object __label__extract
+rename method astifstatement __label__rename
+clean websocket interface __label__inline
+rename method __label__rename
+massive change eclipse handler set generatedby flag use patch eclipse specific place ignore generate node __label__inline
+generified extraction view certain index __label__extract
+reorganize package structure __label__pull-up
+refactored parameter __label__move
+artif support interact artificer ejb split service logic atom resource __label__extract
+bdbje update refactoring common pom xml classpath update bdb je bdbmodule java getstoredqueue add getstoredmap make general opendatabase database manage tempstoredsortedmap java disposablestoredsortedmap java rename statisticstracker java report java use new name storedqueue java storedqueuetest java move org archive bdb package bdbmultipleworkqueues java prefixfindertest java update bdb je change bdbfrontier java use getstoredqueue drop unneeded custom serialization support workqueuefrontier java drop unneeded custom serialization support __label__move
+loader dialog add z range selection add channel selection add resolution level selection improve preview load saver dialog remove z range selection well adjust range add saveroptionpanel easier set definition set preserve xml preference display warn output format loss information conversion automatically do loader add checkopening method check enough resource open image add method load sub part z c sub resolution image fix issue use importer non image file many change general new method refactoring bio format importer add multi thread support add tile load large image sub resolution load good thumbnail load saver add many new method check compatibility image write compatiblity revert channel combination channel image save tif format well rgb image preview method z range saving operation deprecate well add method getcompatiblesequenceforwriter automatically convert sequence save give writer possible data loss roi add add exclusiveadd intersects subtract operation roiutil add split roi line cut split roi give line gui reorganize file roi tool menu add open region command load specific region image give resolution level add roi stack conversion add roi shape mask conversion add roi mask shape conversion add roi component separation tool add roi line cutter tool sequence add position x z information metadata add origin resolution xy region z range range channel information load sub part image add getoutputbasename getoutputextension getoutputfilename obtain wanted output filename give origin information try load large array data throw toolargearrayexception exception sequencepersistent add isvalidxmlpersitence method sequenceutil sequence merging operation possible sequence different type fix possible memory leak issue method well colormap metadata preservation add getoriginpoint convertpoint point position conversion operation add getoriginrectangle convertrectangle rectangle position conversion operation abstractimageprovider pluginsequencefileimporter pluginsequenceidimporter improve default getthumbnail implementation add getimagebytile method load image tile useful large image icybufferedimage try load large array data throw toolargearrayexception exception add copydata array method copy data array icybufferedimageutil add fast downscaleby method quickly downscale image factor systemutil rework bit memory method return accurate value getjavafreememory return total amount free memory available jvm getjavamaxmemory return maximum amount memory jvm attempt use getjavaallocatedmemory return memory currently allocate jvm getjavausedmemory return estimation memory currently use jvm getjavatotalmemory deprecate replaced getjavaallocatedmemory roidescriptor add getdescriptor descriptor descriptorid method metadatautil replace omexmlmetadataimpl class omexmlmetadata generic check bring issue imagejutil add converttoicybufferedimage method convert single image imageplus icybufferedimage polygon polygon polyline fix add new point empty polygon polyline improve memory usage estimation memory monitor defaultsequenceedit default undo operation sequence also preserve roi overlay reference add rectangle dutil line dutil class many bug fixes several tweak optimization code cleanup __label__pull-up
+rename method eventservice findxxx __label__rename
+fix merge issue scopusfetch repo clean __label__inline
+bug manhattan rout extremely inefficient slows editor response http bugzilla redhat com show bug cgi id arrows change unexpectedly node move canvas __label__move
+fix receive loop insns rename ert receive peek loop rec ert wait forever wait ert method match beam insn name make corresponding change compiler simplify correct logic messge loop message retrieve correct order explicitly initialize midx __label__rename
+remove repositorymgr gettypemgr usage lead repositorymanager l repository refactoring indexer code __label__move
+introduce attributebuilder interface __label__push-down
+remove much specialize method sendto websocketserver java user implement behavior self easily __label__push-down
+fix background image bug cache image browser enhance linklistener house clean play idea code inspection utility __label__inline
+rfc redesign http authenticator related class git svn id http svn apache org repos asf httpcomponents httpclient trunk f bb ffa edef __label__pull-up
+minvoker provide way install extra dependency add support relocation root artifact git svn id http svn apache org repos asf maven plugins trunk f bb ffa edef __label__extract
+refactored extract open type converter class __label__extract
+exojcr clean test __label__pull-up
+pull line information nodeinfo __label__pull-up
+clean meta processing sign gordon smith __label__pull-up
+add support readvalues well __label__extract
+bit work symbol table class name record globalscope come think probably record sourcefilescope interim layer instead allow private inner class rate also push stuff abstractscope localscope seem fit well remove useless unit test add good one generally make progress towards fix unused private field false positive inner class private field reference enclose class git svn id http pmd svn sourceforge net svnroot pmd trunk baf c fc e __label__push-down
+refactoring move movetreedocafter celementswebscriptservice treenodescriptservice __label__move
+refactored admin route make instance rather static add new mapping resource pagination __label__pull-up
+remove last piece old non work clip region check push handful field box blockbox __label__push-down
+option rename __label__rename
+polish log move test dedicate class __label__move
+face move implementation bridgecontext dispatch string externalcontext __label__move
+add processingqueue make processingqueue process protect call outside class add punch hole close hole event serialize state request state provider http issue jboss org browse jgrp add hole punch barrier correctly set tcpping initial host unit test add support get current view state transfer complete call state requester jchannel getstate throw exception timeout add test block thread barriertest punch hole state requester provider handle exception close barrier http issue jboss org browse jgrp discard message barrier close store last message deliver message barrier close http issue jboss org browse jgrp skip block wait thread timeout close barrier thread can not flush statetransfertest test state transfer protocols fix another bug blockinginputstream also backported barrier let message unicast multicast skip barrier flag pas add skip barrier flag message remove barrier close handle barrier directly __label__inline
+remove interceptorholder value move proxyconfig __label__move
+nearly everything function split blockgenerator component part clarity change behavior use list helper reference holder __label__extract
+clean index entry point documentation git svn id svn ssh svn internal sanger ac uk repos svn pathsoft psu trunk genlib java crawl ee ac c ac e b aa f __label__pull-up
+extract method getmetatags __label__extract
+code consolidation cleanup __label__pull-up
+first iteration remove code duplication __label__pull-up
+fix compilation error master counter add infinispan version x __label__push-down
+refactor threadlocalcleanup extract warningthreadlocalcleanup subclass __label__extract
+merge revision via svnmerge http www dev java net svn hudson branch rc r kohsuke fri oct line fix hudson fix possible abstractmethoderror r kohsuke fri oct line fix hudson support failsafe report maven job type r kohsuke sit oct line add additional code assist trouble shoot r kohsuke sit oct line performance optimization wrt usage buffer r kohsuke sit oct line fix hudson hudson incorrect use weakhashmap result two instance pipewindows oid r kohsuke sit oct line debug code accidentally creep r kohsuke sit oct line maven release plugin prepare release hudson r kohsuke sit oct line maven release plugin prepare next development iteration r kohsuke sit oct line update changelog part release git svn id http hudson dev java net svn hudson trunk hudson main c de ed b c __label__inline
+improve javadoc remove empty tag add new addanimation method __label__extract
+reorganize termapi move list function prologlists __label__move
+remove module relate option push pull goal __label__push-down
+fix headersmoved bit internalreduced log codeextracted replayprefixonecharinputstreamextraced stty detailsextracted shutdown hook detail __label__extract
+minor code comment improvement service layer rename ensure method assert check client condition service indicate whether use authorisation __label__rename
+merge sandobox main looong time __label__inline
+additional fix bug https bug eclipse org bug show bug cgi id add api abstractrsaclientservice simplify creation provider change id eeaf de eb ad c f __label__extract
+hh rename method understandable ivanov __label__rename
+msurefire clean surefire move test ng battery git svn id http svn apache org repos asf maven surefire branch surefire testng f bb ffa edef __label__move
+move pingheader pingdata header message payload http issue jboss org browse jgrp remove local addr log statement conflict merge log error trace move fd sock fdheader cachedaddrs message body move stable stableheader digest message body move flush flushheader digest message body __label__move
+refactor swftest fix broken storescu mppsscu stgcmtscu __label__inline
+refactoring task introduce single scheduling scheme hybrid periodic trigger scheduler executor redone __label__pull-up
+refactored parcel parceldto us autovalue central us parcel directly __label__inline
+df qcadoomes qcadoomes refactored operational task operational task order plugin fix npe problem miss operation name __label__extract
+sweep cleanup reduce tangle improve code __label__pull-up
+add write lock remove read lock iterator method add first test concurrency __label__pull-up
+refactor client twilioclient extend subdomains __label__pull-up
+added support dynos endpoint list restart dynos __label__extract
+add epi report https www pivotaltracker com story show __label__extract
+ismavatar commit alpha complete recode gm file resource handle script window code add scriptframe window view code modify preparation windows namedocument add window name textfields check input update formatted dependancies gm file rename includefile include git svn id http lateralgm svn sourceforge net svnroot lateralgm f f bc e cd __label__rename
+change json format importer rest interface list multivalue path hierarchy value type define value type field type longer booleans multivalue hierarchical instead type field also allow list path append another valuetype bracket example list git svn id svn ssh dev outerthought org outerthought lilyproject branch complextypes b f e bd e dc __label__inline
+balajin reflect contract object rename contrib adherence module __label__rename
+rearrange file relate method extract little endian method gmstreamencoder streamencoder choose gsdecoder due obfuscation table maybe add gm support revise model gse extend se hold resource specific method move low level method gmfilewriter gse likewise gmfilereader gsdecoder improve read readd use byte array rather individual read git svn id http lateralgm svn sourceforge net svnroot lateralgm f f bc e cd __label__extract
+refactor backends use permissiondata architecture use list instead array lot place __label__pull-up
+refactored xmlnode hierarchy well ns support __label__pull-up
+httpclient computation original route move director git svn id http svn apache org repos asf jakarta httpcomponents httpclient trunk f bb ffa edef __label__move
+new parent class abstractcontentdigesthistory implementation extend abstractcontentdigesthistory java abstract method load store non abstract persistkeyfor javadocs bdbcontentdigesthistory java extend abstractcontentdigesthistory contentdigesthistoryloader java contentdigesthistorystorer java use abstractcontentdigesthistory __label__pull-up
+major internal change xmloutputter public protect method signature change code much clean regard whitespace handle text trim printing behaves whole lot well fact follow setting pretty print output even doc contains content whitespace file content build memory whitespace settrimtext true setindent setnewlines true may perfectly match everyone idea pretty mind pretty good btw default setting trim indent newlines still behave exact print document raw among structural change printxxx method print xxx concern whitespace around xxx item example printcomment print comment try print new line indention place whitespace handle occurs printdocument document level whitespace printelementcontent whitespace element tag case whitespace naturally within item print signature change deprecate public setindentlevel method global indent well do stacked filteroutputstream method empty remove beta deprected public setpadtext method need current output mechanism method empty remove beta change protect printxxx method new signature without int indentlevel final parameter bother deprecation thanks mark roder raise issue get start jh __label__inline
+reimplementing remotelauncher fix remoting issue __label__push-down
+initial commit inline content refactoring __label__inline
+remove support add mod __label__push-down
+change grouprequest use completablefuture http issue jboss org browse jgrp remove grouprequest setanycasting already present requestoptions instance pass grouprequest async unicast rpcs without future lead creation unicastrequest send directly https issue jboss org browse jgrp rpc async create grouprequest instance remove nullfuture replace explicit message messagedispatcher sendmessage castmessage call buffer https issue jboss org browse jgrp unicastrequest receiveresponse consult rspfilter replace org jgroups timeoutexception java util concurrent timeoutexception change accessors requestoptions unicastrequest use completablefuture change rsplist subclass hashmap save byte plus few method unicastrequest get future remove request correlator table call empty destination set always return empty rsplist __label__inline
+rename boolean ishasxxx method hasxxx expose xxx attribute xpath git svn id http pmd svn sourceforge net svnroot pmd trunk baf c fc e __label__rename
+implementation dependency manager move code client service acquisition well place cleanups client code __label__move
+refactors cleanups javadoc __label__inline
+set clear enctype invokeaction addition appendtoresponse form appendtoresponse fire case add erxwofileupload via update container inside form __label__extract
+profile refactored shared element abstractprofile warc refers date set long correctly format getwarcheaders __label__pull-up
+added list experimental design idf view __label__pull-up
+fix merge __label__inline
+add test demo bug ignore bid zero quantity __label__extract
+add delay option insert __label__extract
+refactored rdf step add cx rdf load cx rdf store cx sparql __label__pull-up
+move test section menus __label__pull-up
+tweak clean ups __label__pull-up
+add good support keypath visibility property convert detail eo id pk format instead pk delegate attempt load default rest delegate name restentitydelegate make registration easy put request handler session fix ajax jsonrequesthandler restrequesthandler add convenience registration method erxrestrequesthandler add misc javadoc ified move generic render method higher support generate alternative output format __label__move
+rename startat endat startsat endsat project java engine __label__rename
+rename sessionhash sessiontoken __label__rename
+refactor reload implementation abstract also fix reload spigot reduce amount implementation specific code __label__push-down
+oozie refactor class launcher jar oozie sharelib rkanter git svn id http svn apache org repos asf oozie trunk f bb ffa edef __label__move
+add general test case lck j detection include functionality handle project contain multiple file also refactored test make small easy maintain __label__move
+update first incremental check http jira duraspace org browse duracloud primarily refactors clean duplicationservice preparation add report error queue git svn id http svn duraspace org duracloud trunk ed cd f c b fe bcb __label__push-down
+rename variable __label__rename
+start change indexerconf indexer indexertest match new design work run compile want try switch new svn repo location git svn id svn ssh dev outerthought org outerthought lilyproject project lily trunk b f e bd e dc __label__inline
+rename link method thing consistent __label__rename
+rename api method nicer form allow full operator overload __label__rename
+add executemoverunnertest sub method __label__extract
+avoid code duplication extract method __label__extract
+dependency fix add laxhttpparser use explicitly use lax header parse functionality add httpparser extends laxhttpparser original httpclient package avoid break compatibility code may still reference httpparser explicit common code change use laxhttpparser arc warc record reading __label__pull-up
+rename entry feature type event everywhere code __label__rename
+clearcase plugin add option set time window merge change log entry git svn id http hudson dev java net svn hudson trunk hudson plugins c de ed b c __label__extract
+refactored common code __label__pull-up
+remove inputstream reference add decode buffer type reference sign paulo lope __label__inline
+add initial implementation durareport storage reporting test need add functional initialization start storage report store x duracloud admin space first report complete available http host port durareport storagereport report url respond wait report get http host port durareport storagereport info status schedule currently place new report kick post first url git svn id http svn duraspace org duracloud trunk ed cd f c b fe bcb __label__extract
+change pdxdiskstoreawarebeanfactorypostprocessor class base code review david turnaski pr jira issue sgf __label__inline
+move test section menus __label__push-down
+move method test class __label__push-down
+sgf add basic lookup factory bean refactored exist schema add namespace parser add integration test __label__pull-up
+oozie support drop hcat dataset coord rerun cleanup option ryota __label__extract
+refactoring move selection parameter common selectorparameters repair __label__move
+remove dead code slf jreporter test remove among thing unnecessary reset string builder method accept one argument __label__inline
+refactoring interface __label__push-down
+unit test refactoring __label__pull-up
+switchyard eliminate separate context exchange message etc eliminate context message move scoped context exchange try strike happy balance getcontext method attach everything magic thread local stand alone context object current api prevent context bleeding across exchange inadvertently like take message one exchange send another __label__move
+render id top level think use force ago test extract style render button render style label span rather container __label__extract
+rename wrongly name unit test __label__rename
+metric add configurable obfuscation jms header attribute property __label__extract
+rename removetopic deletetopic __label__rename
+simplify tool api even asynchronous one less boilerplate stuff work __label__inline
+add good collection parameterised mutators intbitset e g removeall update unit test ssomewhat __label__pull-up
+remove stringforkey method replaces call system getproperty __label__inline
+dp refactoring code data load refactoring code service controller git svn id http svn origo ethz ch eeg database trunk f c aaa da e aacc __label__pull-up
+face develop portal navbar portal nav portal navitem component face develop portal permissionsurl component refactored use new abstract portaltagrenderer parent class face develop liferay face showcase add use case portal navbar portal nav __label__pull-up
+sramp move ramp client ramp server ramp wagon integration test ramp test refactored test arquillian remove resteasy test tjws dependency __label__pull-up
+even performance issue fix guarantee bug build status else need do assess later change every protection inside cache safe assume block cache database leverage fact heavily build give significant boost performance cache cache computation numerous cache add various place specific point bad performance locate cache generally store computationally expensive call overall also significant cache nice toasty module lwc module system would broadcast event every register module add overhead k nanosecond per module override method change detect runtime method override send event module overridden could modules register event use would break backwards compatibility plugins hook lwc us reflection do startup overhead minimal gain fairly large worthwhile still potential shave even precious cpu cycle assess initial result scope example value event time nanosecond event redstone k k interact k k __label__inline
+improve make coherent ssl tl option __label__push-down
+loader dialog add z range selection add channel selection add resolution level selection improve preview load saver dialog remove z range selection well adjust range add saveroptionpanel easier set definition set preserve xml preference display warn output format loss information conversion automatically do loader add checkopening method check enough resource open image add method load sub part z c sub resolution image fix issue use importer non image file many change general new method refactoring bio format importer add multi thread support add tile load large image sub resolution load good thumbnail load saver add many new method check compatibility image write compatiblity revert channel combination channel image save tif format well rgb image preview method z range saving operation deprecate well add method getcompatiblesequenceforwriter automatically convert sequence save give writer possible data loss roi add add exclusiveadd intersects subtract operation roiutil add split roi line cut split roi give line gui reorganize file roi tool menu add open region command load specific region image give resolution level add roi stack conversion add roi shape mask conversion add roi mask shape conversion add roi component separation tool add roi line cutter tool sequence add position x z information metadata add origin resolution xy region z range range channel information load sub part image add getoutputbasename getoutputextension getoutputfilename obtain wanted output filename give origin information try load large array data throw toolargearrayexception exception sequencepersistent add isvalidxmlpersitence method sequenceutil sequence merging operation possible sequence different type fix possible memory leak issue method well colormap metadata preservation add getoriginpoint convertpoint point position conversion operation add getoriginrectangle convertrectangle rectangle position conversion operation abstractimageprovider pluginsequencefileimporter pluginsequenceidimporter improve default getthumbnail implementation add getimagebytile method load image tile useful large image icybufferedimage try load large array data throw toolargearrayexception exception add copydata array method copy data array icybufferedimageutil add fast downscaleby method quickly downscale image factor systemutil rework bit memory method return accurate value getjavafreememory return total amount free memory available jvm getjavamaxmemory return maximum amount memory jvm attempt use getjavaallocatedmemory return memory currently allocate jvm getjavausedmemory return estimation memory currently use jvm getjavatotalmemory deprecate replaced getjavaallocatedmemory roidescriptor add getdescriptor descriptor descriptorid method metadatautil replace omexmlmetadataimpl class omexmlmetadata generic check bring issue imagejutil add converttoicybufferedimage method convert single image imageplus icybufferedimage polygon polygon polyline fix add new point empty polygon polyline improve memory usage estimation memory monitor defaultsequenceedit default undo operation sequence also preserve roi overlay reference add rectangle dutil line dutil class many bug fixes several tweak optimization code cleanup __label__inline
+allow direct write channel without pass select pas writerequest chain store original message remove lastwriterequest field abstractiosession need anymore renamed highlevelmessage field originalmessage defaultwriterequest add setter defaultwriterequest add writedirect message iosession todo check good idea interface fixed test accordingly change git svn id http svn apache org repos asf mina mina trunk f bb ffa edef __label__rename
+introduce unresolved stop event __label__push-down
+enhance simpleretentionstorereader support different retention __label__push-down
+fix hudson add support creation removal dynamic view tweak view removal job delete renamed workspace wipe git svn id http hudson dev java net svn hudson trunk hudson plugins c de ed b c __label__pull-up
+refactored querystage functionality move reusable class __label__move
+refactoring move download ticket trac class git svn id http svn apache org repos asf maven plugins trunk f bb ffa edef __label__move
+wonder bunch fix cleanups etc stream utils include nio base file copying __label__extract
+jenkins configurable issue priorityid typeid actionidonsuccess motivation jenkins create jira ticket priority type id hardcoded may break ticket creation note jenkins modification allow admin configure issue priority id type id jenkins job configuration allow admin configure actionid success allow plugin automatically resolve close ticket result support jira type id different great flexibility setting workflow __label__extract
+jenkins minor refactor __label__move
+create result iterable search move longsearch senateobjectsearch rely resultsearch __label__move
+recordhandlers set rather list find result logback xml add classappender config comment enable easily want changenamespacetest fix arg test p vivo xsl update use merge record jdbcfetch remove executeold transfer remove emptyjc jc use jc truncate xsltranslator revamp cleanup merge fix work specialentities add exception ability translatetest stop catching exception see fails specialentitiestest update reflect exception __label__inline
+aesh clean consolecommand interface two method easier use __label__push-down
+path compilation issue test move proper location __label__move
+performance improvement locationhook quadtree use locationhook reimplemented use optimal data structure functionality really use remove quadtree check boundary directory contains bound do git svn id http svn mkgmap org uk mkgmap trunk f ee dfeeeb __label__inline
+refactor git svn id http svn jetbrains org idea trunk clojure plugin f e c e f __label__push-down
+finish initial refactoring database package __label__push-down
+refactored graph related class rinde sim core graph package remove pathfinder class move functionality graph class __label__move
+explicit import rename method getplay argument getplay systempropertiesarguments __label__rename
+refactored last test use common base class __label__pull-up
+rename method __label__rename
+tynstep resolve fix chapter lookup require bit refactoring __label__inline
+sesamize cleanup __label__inline
+add linkindexupdator update linkindex previously call linkmanager response repository event recordlinkextractor extract link link field still todo blob field still need testcases stumble upon small block issue repository secondary change add queue mock package contain class fake queue operation use indexer linkmgmt test add repo util utility class useful multiple module repository relate contrast util package dependent lily repository also disable indexer root pom xml build run git svn id svn ssh dev outerthought org outerthought lilyproject project lily trunk b f e bd e dc __label__extract
+add gcm buffer incl test __label__extract
+move relatedlinks content described move relatedlinks field relate method hierarchy describe content person also related link __label__pull-up
+initial pas update client java library change payment apis invoie payment apis still development __label__push-down
+httpclient refactoring primary execute method cachinghttpclient mostly method extraction git svn id http svn apache org repos asf httpcomponents httpclient trunk f bb ffa edef __label__extract
+sc qcadoo refactor component definition __label__move
+rename keystore truststore method __label__rename
+refactored uploading attempt upload time rather connection __label__pull-up
+creates single center nod real live data git svn id http svn mkgmap org uk mkgmap branch nod f ee dfeeeb __label__push-down
+start refactor merge unsafe base compressor mainline __label__push-down
+integrate alex patch send brett per alex cv log rename public printelementcontent outputelementcontent consistency add padtext property avoid trimtext change quick brown fox quickbrownfox allow output browser friendly html even use trimtext misc doc fix __label__rename
+wcet move utility miscutils fix minor bug report generation __label__move
+add callgraph class lot bugfixes extendsions struct invokes __label__push-down
+rf move panel cdk __label__push-down
+remove remain bukkit reference __label__inline
+cadmium fix initialization error __label__push-down
+rename class name change phrase androidservice android follow change mqttserviceandroidclient mqttandroidclient mqttserviceclient mqttconnection mqttdeliverytokenandroidservice mqttdeliverytokenandroid mqtttokenandroidservice mqttdeliverytokenandroid add close method merge late code android wakelock java paho ping mechanism change id b dc cbee bd c e da b sign pleong __label__rename
+rename varables correct return value getter graphrep __label__rename
+fix cleanup first round test __label__pull-up
+refactor code fix copyright notice __label__inline
+nxp cleanup right public private social workspace cleanup unit test __label__push-down
+bug label activity equal two object bug support bpmnlabel di element bug label feature package expose bug bpmn modeler usability look feel save work still need update subprocess choreography task add new appearance section baseelements allow change color line style etc attribute saved extension element __label__inline
+core multipletestcorrection bonferroni bh fdr ui mtc welcomeview mtc action command refactorings git svn id http bg upf edu svn gitools trunk b f e b ddf __label__pull-up
+remove unused event source code move part pb __label__move
+finish specify jira ticket follow limitation joo guess exclusion every identifier declare scope assume inherited member since situation might also miss declaration warn issue get rid write explicitly sure import everything window longer scope write window explicitly window predefined need declare joo type cast leave function assume type since also import package namespaced function support jangaroo could native javascript heuristic uppercase import declare type joo automatic binding work method declare file situation plan add bound annotation git p depot path coremedia jangaroo change __label__inline
+add float datetime index field definition introduce dependency jodatime iso datetime format adjust integer index field definition binary comparison integer compare integer value extend string index field definition various string byte conversion option related testcases update git svn id svn ssh dev outerthought org outerthought lilyproject project lily trunk b f e bd e dc __label__push-down
+hh move datasourcefactory nab datasource __label__move
+pc optimization refactoring unit test miss test refactoring __label__inline
+added example configurable fieldpopulators make work __label__extract
+refactoring towards generalize triplerelation use code noderelations __label__move
+code review websocket feature change note remove obviously unused faulty code rename clarified connection name recover async event handle review note change introduces componentupdate isprocessed feature still clue relate websocket feature general also change introduce case handle component without peer sure case relevant component require peer applicationinstance handle concurrent disposal case possible component introduces lastrenderid mysterious use case __label__rename
+small refactoring extract scope handling __label__extract
+additional change jira feature request sgf support gemfire new cluster base configuration service rename cacheusingsharedconfigurationintegrationtest class cacheclusterconfigurationintegrationtest add additional test case assert default non use cluster configuration behavior rename gemfire system property reference enable disable cluster config base revision r gemfire __label__rename
+rewrite queryresultparser fix issue __label__inline
+end end test replace functional test functional test test require hadoop splunk run replace end end test functional test need splunk hadoop integration test group remove __label__inline
+add miss entry web xml refactoring comment apiservlet __label__move
+fix introduced testmoderator test driver internal api __label__inline
+ashish sush add csv builder rename controller method refactored callback request retrn enum value operator instead string __label__rename
+try get rid janitor move day day logic inside importer multi step refactor need simplify code bit lose short term goal get back helper one central fast import stream stay long possible documentation state fast import live long let take advantage possible __label__move
+added simple rest like assessment runner __label__extract
+bval rename getvalue getinvalidvalue git svn id http svn jboss org repos hibernate validator trunk b cb b ca fae ebed b __label__rename
+cleanup snapshot api __label__pull-up
+refactor downsampler avoid mutabledatapoint class reduce methodcalls sign chris larsen __label__inline
+add mapdisplay getlocation x __label__extract
+refactored mappingbuilder back one impl class hierarchy interface distinguish local remote scenario __label__push-down
+move method bufferedrelayserver simplify buffered implementation __label__pull-up
+merge remote change __label__inline
+jenaconnects move truncate implementation jenaconnect since also activate listener __label__pull-up
+event wrapper enhancement event wrapper base wrapper __label__push-down
+big update move emphasis book updaing gui __label__pull-up
+whatever let move last listener stuff __label__move
+minor change value expression review __label__push-down
+inlined key method __label__inline
+create backend jvstm datagrid backend add support run jvstm top pluggable data grid also include implementation infinispan e g use infinispan data grid one provide follow configuration config class pt ist fenixframework backend jvstm datagrid infinispan datagridconfig datagridclassname pt ist fenixframework backend jvstm datagrid infinispan infinispandatagrid optionally datagridispnconfigfile __label__push-down
+merge duplicate solver abstract solver class repo move git merging screw rename commits earlier __label__move
+refactored tcpip include nio support code jgrp tcp nio longer extend class tcp connectiontablenio long extend connectiontable instead share common abstract class share method __label__pull-up
+refactor auction load code construct new auctioninfo object every time __label__extract
+add listener event system show download notification allow u set new filename table show information download also move new file name creation fileepisode add status enum field keep track fileepisode position timeline add download rename broken __label__move
+selection option implement see vim help selection detail add string option need work general add boolean option toggle like set ai break visualmodetests side effect probably difference real mock class real thing work fix em later __label__push-down
+refactoring move share code helper class git svn id http svn apache org repos asf maven plugins trunk f bb ffa edef __label__move
+add webstart entry point browser url file open option move zoom menu entry add warn first zoom move preview menu entry reorganize launch method little allow multiple entry point __label__move
+rest refactoring per bug http bug eclipse org bug show bug cgi id __label__inline
+rename collectioncontaining hasitem arraycontaining hasiteminarray __label__rename
+remove abstractmessage __label__push-down
+rename class variables new interpolator name __label__rename
+fix issue modify proxymap separate many map relate method proxy collection __label__push-down
+recordbuilder add special support filling record list field git svn id svn ssh dev outerthought org outerthought lilyproject trunk b f e bd e dc __label__extract
+move logindisabled property instructoruser __label__push-down
+move changeactiontest dotest vimtestcase method convenient test well __label__pull-up
+implement disabled adapter update configuration refine adapter idiom refactored response handler rename class relate package well reflect domain intent __label__move
+add debug set stage configs store stage configuration debug mode mean pick start hydra core still read remotepipeline getproperties allow start stage ide setting configure repository __label__extract
+pmd refactor pmd main class functional change refactor focus reduce amount responsibility pmd class therefore thread manbo jambo move separate subpackage algorithm associate mono thread multithreaded strategy also move two separate class share common signature code abstract class also add large amount code move pmd class rulesetsfactory utility class reduce couple scope responsibility last pmd class two field configuration object new object call sourcecodeprocessor charge process source code anyway change pure inner refactoring harmless project pmdeclipse maven plugin however good plan tend go boum minute state love plan come together please let know run issue thesis change best support git svn id http pmd svn sourceforge net svnroot pmd trunk baf c fc e __label__move
+even performance issue fix guarantee bug build status else need do assess later change every protection inside cache safe assume block cache database leverage fact heavily build give significant boost performance cache cache computation numerous cache add various place specific point bad performance locate cache generally store computationally expensive call overall also significant cache nice toasty module lwc module system would broadcast event every register module add overhead k nanosecond per module override method change detect runtime method override send event module overridden could modules register event use would break backwards compatibility plugins hook lwc us reflection do startup overhead minimal gain fairly large worthwhile still potential shave even precious cpu cycle assess initial result scope example value event time nanosecond event redstone k k interact k k __label__extract
+rename test __label__rename
+apply patch nutch remove static nutchconf submit marko bauhardt stefan groschupf jerome charron git svn id http svn apache org repos asf lucene nutch trunk f bb ffa edef __label__inline
+da cotentwriter contentreader move isolation support reader selectwithretry __label__move
+move protobuf support plugin module future work add module detector executor move proto class another maven module __label__move
+enhancement query bind value store internally send server previously allocate new string object entire final query send database big query especially large bind value end essentially two copy memory change reuse exist object therefore take memory today give query restructuring also allow future ability stream bytea data server instead current approach pull memory also fix test fail database also rename internal variable minor cleanup modify file jdbc org postgresql core queryexecutor java jdbc org postgresql jdbc abstractjdbc connection java jdbc org postgresql jdbc abstractjdbc statement java jdbc org postgresql jdbc abstractjdbc resultset java jdbc org postgresql jdbc abstractjdbc statement java jdbc org postgresql test jdbc databasemetadatatest java __label__rename
+move lifecyle package environment se remove unnecessary functionality deplyment import seam simplify __label__inline
+interface segregation write method move iususmodel iususmodelwriteaccess next step restrict visibility write access interface __label__move
+df qcadoomes move fill quantity beforerender listener __label__move
+extract file handle method listener new filechooser class modularized reader add support plug fileview module next revision modularize writer translator might wish wait update string git svn id http lateralgm svn sourceforge net svnroot lateralgm lateralgm trunk f f bc e cd __label__extract
+improve resource management __label__push-down
+mchanges support rest api jira begin process refactor jiradownloader class stack allow rest r probably quite right yet git svn id http svn apache org repos asf maven plugins trunk f bb ffa edef __label__push-down
+add super keyword main function generator __label__extract
+temporary commit keep modification notcompile modify queryoption mechanism lastversion extensible queryoptions inherit fromqueryoption declare type name field easierfor understand trace option require castsin code modify whole jdbcpersistencemanager accord newoption mechanism add specific queryoptionjdbccontext forstatement reuse __label__push-down
+add selector interpolation new style __label__extract
+dev dheeru add confirm adherence feature fix test multiple patient rename savedadherenceprompts getadherenceprompts add resetpatientindexoperation class operation add every node transition class confirmadherencetransition persist adherence input captureadherencetransition add input session use encodebase urlsafe instead encodebase __label__rename
+jfg session scope plot add webui follow feature test sort startime pause end previous test next test also consider __label__extract
+added dummysession change protocolcodecsession extend dummysession git svn id http svn apache org repos asf mina trunk f bb ffa edef __label__pull-up
+total refactoring village type autonomous subscription inertia __label__extract
+refactor bit help reduce redunancy __label__pull-up
+add snapshotacceptancetest mostly test move snapshottasktest test end uncover bug fix __label__inline
+eliminate deprecated class predef turn static method instance method move class specification __label__move
+extract method parse comment content __label__extract
+refactoring variable name collection __label__move
+refactor test execution method conflict src test cputests java __label__inline
+refactored test driver __label__pull-up
+b category refactoring pr maintains backward compatibility jdbc adapter add abstractjdbcsource abstractjdbcpublisher enable extend basic jdbc adapter function update searchtosqlconverter allow mapping specific category prefix specific sql column datastore __label__pull-up
+cut overall object instantiation half change fileheader generation algorithm percent performanceimprovement archive contains lot small file also extract two private method createlocalfileheaderand createcentralfileheader ziparchiveoutputstream may interest additional usage near future basically tactical refactoring scatter gather awonderful performance scatter algorithm spentan equal amount time gather phasegit svn id http svn apache org repos asf common proper compress trunk f bb ffa edef __label__extract
+start remove hardcoding road filename __label__inline
+test code refactoring __label__push-down
+sc qcadoo early detection hook inconsistency extract view hook class hierarchy improve type safety remove unnecessary componentcustomevent class __label__push-down
+mdep push artifactcollector listrepositoriesmojo one use also simplify unittests bit git svn id http svn apache org repos asf maven plugins trunk f bb ffa edef __label__push-down
+rename hashmapmapper mapmapper implementation detail please boy scout rule __label__rename
+integrate fieldscopelogic class new prototruthmessagedifferencer yet integrate actual subject code relnotes n create moe http github com google moe moe migrate revid __label__push-down
+refactored pdproadmodel system __label__push-down
+bpmn export add mechanism extend every element schema valid way e g see signavio extension element export link model add call element class git svn id http signavio core component googlecode com svn trunk ed b bb __label__pull-up
+csharp parserand csharp merge parser __label__inline
+launch hadoop mini mapreduce cluster make sure task node use valid host name useful link work web ui even though web ui work see git svn id svn ssh dev outerthought org outerthought lilyproject trunk b f e bd e dc __label__inline
+nrepl input area add hopefully work auto eval enter feature __label__extract
+rename ajaxseleniumcontext iscontextinitialized isinitialized __label__rename
+remove redundant function extgraph duplicate sesame graphutil movign implementation util method graph extgraph interface extgraphimpl implementation call jsut delegate graphs add two new graph extension extgraph implement iograph rio util method functionalgraph support guava functional class rename statementfunctions statement add additional functional utility method add testgraphs test main graph funcionality generally clean extgraph extgraphimpl __label__push-down
+refactor selectorparser __label__pull-up
+rename accelerationmodel longitudinalmodel __label__rename
+push array equality check subject main result assertthat array isequalto otherarray compare array content array identity even input statically know array failure message array look like standard failure message failure message type include index first mismatch also incidentally fixes tiny bug http github com google truth blob ca f b c e f ce b cd core src test java com google common truth objectarraysubjecttest java l new code subject copy primitivebytearraysubject base primitivedoublearraysubject doublearrayasstring primitivefloatarraysubject floatarrayasstring objectarraysubject stringableiterable stringify checkarrayequalsrecursive minor modification use double byte methodsbut change actualequals describedifference return string rather boolean use string display index array differ include format byte array add formatactualorexpected like actualcustomstringrepresentation apply expect value well actual add actualcustomstringrepresentationforpackagememberstocall realize float double subject iterablesubjectwithinheritedtostring call instead reimplementing fix https github com google truth issue fix https github com google truth pull relnotes make assertthat array isequalto otherarray compare array content array identity even input statically know array tweak format array failure message create moe http github com google moemoe migrate revid __label__pull-up
+nutch html redirections follow use parse tika extract meta refresh redirects dom tree normalized tika add unit test check whether meta refresh redirects extract parse status hold redirect target __label__extract
+update cpu plugins accord new emulib change __label__inline
+add membaseclient object membaseclient object use make connection membase cluster commit also include new membaseconnectionfactory add add coresponding builder code connectionfactorybuilder test support also add connection specific membase cluster change id da bff c f b f e review http review couchbase org review matt ingenthron test michael wiederhold __label__push-down
+review rename getprojectlistgeneral getjobs minor style change __label__rename
+added documentation feature __label__extract
+roi add cansetposition setposition method add cansetbounds setbounds method add contains roi intersects roi method add roi darea roi darea icycanvas canvas implement new support roi overlay rework roi panel well support yet complete sequencedataiterator imagedataiterator implement new support roi booleanmaskd add contains booleanmaskd intersects booleanmaskd method roi implement plugin roi class move fill sequence operation use roi property get region fill rectangled fix union intersection operation infinite dimension add dimensiond class __label__inline
+remove globalobject cache lexicalenvironment move dynjs __label__move
+fcrepo tidy fesl policy validation validation occur part object datastream validation old fesl validation remove method invalid policy result method fail change policy index see also fcrepo __label__inline
+block option server block option endpoint bugfix empty option last message component code cleanup __label__pull-up
+crsh line edition support leave right cursor move __label__pull-up
+extract common builder streammappingmethods iterablemappingmethod __label__extract
+refactoring commandline interface __label__inline
+rename jaxp base xmlreaderfactories jaxp part name jaxp default make complicate need __label__rename
+revise dsr script jdbcfetch rename comment __label__rename
+refactored optimized batch vertex cache impls commit pull common batch load vertex cache code abstractidvertexcache make string objectidvertexcache extend abstract base class longidvertexcache use colt primitive collection internally amenable share code java collection base implementation commit also apply optimization cf f c eaf f ac e object longidvertexcache however test stringidvertexcache __label__pull-up
+feature introduce modulevalidation follow constraint avoiddotandjaronbundlecpconstraint check bundle contain jar unjared class eclipsebundleshapeconstraint check bundle require unpacked contain manifest header eclipse bundleshape dir projectencodingconstraint check build encode project build sourceencoding equal eclipse project encode encode __label__push-down
+jcbc api prepare statement motivation n ql dp prepare statement bite different parametrized statement execute prepared statement require two step obtain query plan later execute query plan modification add class represent prepare statement one step allow obtain execution plan queryplan preparedquery us queryplan value parameter add method async bucket obtain queryplan preparestatement step use preparedquery exist method refactored various query class common base abstractquery fix unit test queryton qltest added integration test query work progress result user obtain queryplan statement execute say plan change id b cba adeeaf b b ec e f cc review http review couchbase org test simon baslé review michael nitschinger __label__pull-up
+rest view add __label__extract
+refactor parameterizable policy frontier default xml update bundle profile new chain refactoring crawlcontroller java move three processor chain rather one frontier java loadseeds remove toethread java delegate processing loop fetchchain dispositionchain abstractfrontier java workqueuefrontier java move policy calculation processor candidatesprocessor java new processor dispositionchain run every outlink candidatechain crawlstateupdater java dispositionprocessor java rename expand prep crawluri frontier frontierscheduler java delete use candidatesprocessor candidatechain linksscoper java deprecate use candidatesprocessor candidatechain candidatescoper temporarily retain ease comparison candidatescoper java simple single uri scope test candidatechain frontierpreparer java precalculate frontier policy candidatechain schedule preconditionenforcer java processoruri crawluri take prerequisite preparation previously defer elsewhere processorsreport java update chain processor sheetoverlaysmanager java applyoverridesto move broad use candidatechain java fetchchain java dispositionchain java role specific subclasses processorchain suitable type base autowiring crawluri java new field accessors use new chain frontier postprocessor java delete skip postprocessing skip end chain processorchain java take control loop formerly toethread processresult java absorb processstatus eliminate problematic stuck result __label__move
+dheeru refactored pull common transitional logic base transition class __label__pull-up
+work analysis example intogen biomart source configuration fix git svn id http bg upf edu svn gitools trunk b f e b ddf __label__push-down
+pipeline stuff move separate repository __label__push-down
+rename removeall reset __label__rename
+refactor basiccfindscp __label__pull-up
+move reference slf j classic subclasswhen concurrentserverrunner move core can not referencedirectly logger loggercontext object base classdelegates log subclass __label__push-down
+refactor code put current distro manager default plugin __label__extract
+mchanges remove redundant anchor set heading subtask mchanges move anchor location change xml header git svn id http svn apache org repos asf maven plugins trunk f bb ffa edef __label__inline
+mocdtw creation model relate place subsequent change wrapper __label__push-down
+wcet new improve implementation callgraph work fine receiver type analysis cleanup doc frontend package __label__pull-up
+lot refactoring safety check remove linkedtransferqueue move code around unit test coverage __label__move
+fix issue dirmina mark autoexpand make sure mark preserve expansion refactored bytebuffer implementation base implementation extract basebytebuffer remove code duplication add bytebuffer capacity git svn id http svn apache org repos asf directory trunk mina f bb ffa edef __label__pull-up
+remove primitivevaluetype merge functionality valuetype multivalue hierarchy flag remove listvaluetype pathvaluetype create instead listvaluetype pathvaluetype possible give extra typeparams valuetype put list path git svn id svn ssh dev outerthought org outerthought lilyproject branch complextypes b f e bd e dc __label__extract
+v ashok move valid call delivery failure record processing service handler __label__move
+code extract __label__extract
+rename ssl upgradetossl __label__rename
+move v associate method base class __label__pull-up
+simplify trafficsignal initalization __label__inline
+fix loop item inventory humanoid mob equip armour weapon make skript update change display version row instead one separately skript automatically generates config alias file example script first load updated mcstats invalid format string produce error message create maven repository http maven njol ch repo __label__push-down
+use localdatetime instead localdate transaction update ui element support localdatetime instead localdate adapted test line ending update onvista consorsbank extractor remove warning etc adapt consorsbank parser use date time transaction available issue sign andreas koch squash commits revert change api sign andreas buchen __label__push-down
+issue abstrahierung des createsearchgeometrylistener fuer allgemeine geom suche __label__push-down
+rename priodings boundingboxprioritytree massive cleanup allow use boundingboxprioritytree bot x lat lon coordinate nearest neighbor search __label__rename
+hv pull gettypeargumentconstraints constrainedelement __label__pull-up
+add generic interface tree randomforests use interchangeably add support bag random variable selection randomforest __label__inline
+rewrote consumerloop bit narrow scope try catch around poll split dispatch method processevent ack return event flush rudimentary exception handle deal possibility handler throw exception currently log continue merry way postpone figure happen concrete case help inform design decision __label__extract
+request payload serialization refactor move payload tojson logic client abstractaction generalize payload usage across action implementation __label__move
+fix bug buddy list view add ability handle iq set event properly __label__extract
+fix native source update __label__push-down
+partially complete change kernel package start improve rule validity checking add constraintkernel interface rename class predicateconstraint package implement groundall predicateconstraint package implement lazympeinference __label__rename
+rename responsetime time __label__rename
+additional fix url detection __label__extract
+refactorings new package cpd dataflow view new abstract superclass action command view loop conversion arraylist list reference change rearrange context menu icon still need unique one three entry dataflow npe fix post view close view always show first method default label method list new tab icon outline position node git svn id http pmd svn sourceforge net svnroot pmd trunk baf c fc e __label__pull-up
+constraint use create table move utility class __label__move
+add diversion option gendreau scenario __label__extract
+move prompt item del setting __label__push-down
+sdb far end change completely tests structure provide strong test process implement db step step __label__push-down
+remove unneeded class refactor improve population extraction add download neuroml add domain type work summary __label__extract
+clean refactored action subclass __label__pull-up
+refactor add simplejavatypenode base class typenode interface extract accessnode interface add base class simplejavaaccessnode simplejavaaccesstypenode need later one expand scope type resolution note please change usages accessnode usage simplejavaaccessnode class hierarchy compatibility preserve post git svn id http pmd svn sourceforge net svnroot pmd trunk baf c fc e __label__pull-up
+support european e identification merge master bootstrapping signature sign configuration none define support configure providername authnrequest extension guard null pointer exception authcontext define authncontextclassref mandatory add support set saml attribute principal id extract code block reduce internalinit method size __label__extract
+rename round robin selection name server rotateservers __label__rename
+create table clean code __label__inline
+refactoring introduce replcommand make easy add additional command __label__move
+removal suspend resume stopprocess startprocess publicly expose method preference use turnoff turnon latter safer use well control proper order former method execute __label__inline
+finalize add attribute filter control session attribute serialize memcached main implementation provide rainer jung commit add test filter map also concurrenthashmap attribute standardsession slight format change add warn sessionattributesfilter specify non sticky session __label__inline
+rename extend extension previous commit change reference extend extension since message pack spec call extension type convert miss reference extension __label__rename
+refactored listbucketsendpoint use new class listsbucketsfiltered endpoint much less logic since us logic wasextracted bucketthawer __label__extract
+extract logic method defaultcomparator improve readability __label__extract
+rename dumputils descriptorutils __label__rename
+add test retrieval tool add option specify store id add number attempt output file various small fix refactorings git svn id http svn duraspace org duracloud trunk ed cd f c b fe bcb __label__push-down
+major change add support multi level query plan measure time follow mode none storm throttle send wait manual batch __label__extract
+added foreachjsonschematransform rename json model method return map add method return collection easy use freemarker templates git svn id http svn codehaus org enunciate trunk enunciate c b b b e __label__rename
+hv rename misname method valueextractordescriptor __label__rename
+splashscreen dynamically fetch image file fix minor issue lut gui event metadatautil time interval field automatically calculate timestamp possible add getpositionx z gettimeposition method vtkcanvas good channel initialization fix crash __label__extract
+fix miss amendmentversions billsobiprocessor billactionanalyzer change fix bill action wrong amendment version create foerign key problem database fix write apply xmlbillstatprocessor unfortunatly sufficient sobi file also use billactionanalyzer could affect method fix problem move abstractdataprocessor accessed processor billsobiprocessor include method bill action logic __label__pull-up
+refactor ide test introduce testideaminibuffer __label__pull-up
+change grouprequest use completablefuture http issue jboss org browse jgrp remove grouprequest setanycasting already present requestoptions instance pass grouprequest async unicast rpcs without future lead creation unicastrequest send directly https issue jboss org browse jgrp rpc async create grouprequest instance remove nullfuture replace explicit message messagedispatcher sendmessage castmessage call buffer https issue jboss org browse jgrp unicastrequest receiveresponse consult rspfilter replace org jgroups timeoutexception java util concurrent timeoutexception change accessors requestoptions unicastrequest use completablefuture change rsplist subclass hashmap save byte plus few method unicastrequest get future remove request correlator table call empty destination set always return empty rsplist __label__push-down
+bit writelong bit writelongsequence use temp byte buffer anymore https issue jboss org browse jgrp move util read writelong sequence util bit https issue jboss org browse jgrp add description target build xml __label__move
+split doc save method move part script service __label__move
+feat implement coreinputlwjgl chore minor coreinput spi refactoring add coreinputlwjgl corekeyeventlwjgl coremouseeventlwjgl lwjglmouseeventdriver class implement lwjgl input backend remove several unnecessary method coreinputevent corekeyevent coremouseevent interface move enable disable default dispatcher method absractcoreinput add log coreinputjogl run auto format several incorrectly format source file __label__move
+rename method __label__rename
+backlog use isempty instead null several string property remove auto level create measure column correct summary message hierarchy empty __label__pull-up
+clean extend newick code test __label__inline
+make generic usage memorybackend related much saner mean remove much possible generic suck __label__pull-up
+minor change treenode fix bug compute leftw rightw treenode rewrite drawtree unionfindfind start work shiny thing tm unionfindfind rewritten find method unionfind refactored renamed variable enum type unionfindbuttons disable button algorithm run term tea tomorrow sign viktor tomkovič __label__rename
+add uuid array support rename arrayelementbuilder arrayassistant __label__rename
+bunch hook added network complete lot basemod cleanup move stuff registry area __label__move
+rename method consistent resource __label__rename
+fix bucket aggregation create common bucket class bucketting aggregation return rename termsaggregation bucket termsaggregation entry avoid name confusion well remain consistent termsfacet entry create two distinct type aggregation metricaggregation nest sub aggregation bucketaggregation can not nest sub aggregation getbuckets call return list bucket create rootaggregation object filler house empty metricaggregation use searchresult updated test reflect change __label__push-down
+refactored remove class need drop gdata change query builder depend resttemplate abstractgoogleoperations add javadoc __label__move
+rename throw match __label__rename
+refactoring matsim integration __label__push-down
+switchyard remove camelmessagecomposer implementation camel commit contains share code place core use camel exchange bus __label__pull-up
+fixups dry violation parse command line argument create stagecommandlinearguments class parse string args move logic stage creation abstractstage stagefactory misc refactoring additional comment __label__extract
+revert jwamp back strictly implementation wamp specification suppression binary message callmoreresult subscribe argument change back specification publish message __label__inline
+continued refactoring functional compiles __label__inline
+refactoring four new helper method codegeneratorbase clean code subclass lot idea structural replace rulez fly clean multiple declaration jswriter __label__inline
+extract archivebucketendpoint bucketarchiverrest bucketarchiverrest large henceth extraction begin __label__extract
+rsa addition simplification __label__inline
+surefire refactoring suppress print null exception getmessage return null __label__inline
+move cluster test clusteredeventbustestbase __label__push-down
+hv merge cascade constraint relate meta data aggregate propertymetadata work progress __label__inline
+refactor sign encryption jwt wip __label__inline
+patternlayoutbase setcontextforconverters method move converterutil minor edits __label__move
+refactor extract method objtojsonobject objtojsonarray __label__extract
+static method remove gremlinevaluator scriptengine implement console script exector move scriptengine library com tinkerpop gremlin compiler context package __label__move
+pinbit machinery extract separate class transition executor property constructor parameter __label__extract
+cotinued item author view add view item state render remove separate allowsource allowresult deliverysettings __label__extract
+refactored check hidden private method prepare shift jpa portletpreferences __label__extract
+many element move new mockito style __label__move
+add chunk encode response http server __label__extract
+fix npe xclassregexrule add configuration celements validation xclassregex ignoreinvalidkey __label__extract
+rework updateeventhandler dramatically increase performance large number pending update replace eventhierarchicalchecker collapsibleevent changelistener interface modify see impact __label__inline
+indexer handle record delete move create update handle code separate method git svn id svn ssh dev outerthought org outerthought lilyproject project lily trunk b f e bd e dc __label__move
+nodegroup refactoring almost complete __label__push-down
+added ability validatorresults validatorresult object return validation method associate result status git svn id http svn apache org repos asf jakarta common proper validator trunk f bb ffa edef __label__extract
+mcheckstyle start refactoring move rss generation dedicate component git svn id http svn apache org repos asf maven plugins trunk f bb ffa edef __label__move
+way ierxrestdelegates implement totally crazy get rid move model delegate always look introduce erxrestcontext go way json formatters configure date format per request write test case use several apps really coverage fix bunch weird edge case come __label__move
+tumble towards three pas compilation make scope structure immutable extract scope interface separate implementation label value scopes git p depot path coremedia jangaroo change __label__push-down
+refactored remain service add apis update code base refactoring check review comment main change include added apitype constructor change account specific apitypes generic one rename operation action serviceshelper change replace object generic type eliminates need cast well suppress warning service class implement suggestion static map replaces statement type collection refactored service use apidefintion servicehelper fix test case need added demotestintelligenceservice implement wrapper mambu api addition update maven pom build mambu apis java bin jar use mambu model v jar mbu developer like work custom view add get custom view api wrapper b add filtering client group loan saving custom view id mbu developer like filter list centre via api updated wrapper filter centreid client group loan saving service __label__rename
+extract class naming generator __label__extract
+hv rename method consistency __label__rename
+rename identifier test __label__rename
+hv extract two method __label__extract
+added date information change log line __label__extract
+move large data header message body https issue jboss org browse jgrp rename protocol name id set use offset length message buffer __label__move
+rename scopemanager create interface __label__rename
+refactor doctypereader inputstream __label__pull-up
+hv add documentation move message group payload constraintdef base class git svn id http svn jboss org repos hibernate validator trunk b cb b ca fae ebed b __label__pull-up
+move custom utf decoder subclass encode add support utf decoder unicode code point u ffff represent surrogate pair java value generatedby backend reverse path already handle jvm ownutf encoder add number unicode encode decode test make sure work __label__push-down
+refactorings get rid componentsuiteresolver componentsuiteregistry fill advance anyway idea plugin also simplify componentsuiteregistry accordingly split xmltojsonhandler use exml parse two handler one metadata exmltometadatahandler one ext component json exmltojsonhandler metadata need build xsd json need generate class open api generate single class remove exhaustive logging souts git p depot path coremedia jangaroo change __label__pull-up
+remove duplicate code extract method parse event line e __label__extract
+refactor common logic write stdout stderr xml attribute empty git svn id http svn apache org repos asf maven surefire trunk f bb ffa edef __label__extract
+renames __label__rename
+refactored extract writepottofile writepotofile method __label__extract
+added extraartifacts remove souts simplify getinitalgoals know thing seem impossible __label__extract
+change way exception handle something general clean api sometimes inconsistent refactored ermaildelivery introduction new class ermaildeliverycomponentbased __label__inline
+improve give command close __label__push-down
+fix jgrp change pingdata one physical addr instead list phys addrs change gossipdata one physical addr instead list phys addrs fix compile error jdk messagedispatcher add response test replace merge merge sample config file remove num initial member deprecate ignored xml config file merge merge use protocol implement view fetch depend discovery anymore allow u remove view fetch code discovery protocol replace server coord byte flag pingdata remove division zero exception uperf add keyset lazyremovalcache destroy window close first shot cloudbaseddiscovery txt use gms join timeout rather discovery timeout discovery set tcp use async discovery true tcp xml protocol setvalue log warn field set deprecate pingdata carry optional list member discovery request test modify pingdata change discovery findmembers accept member list populate response object https issue jboss org browse jgrp clientgmsimpl join use find initial mbrs event wait gms join timeout m return response object merge us find mbrs event wait discovery timeout m return response object merge us find mbrs event wait discovery timeout m return response object tcpgossip routerstub change signature findmembers pass async parameter findmembers case async discovery overwritten e g find mbrs tp use response return find mbrs evt send loop back target physical address local address target share loopback ping findmembers change new method file ping add shutdown hook remove info case crash file ping selectively read info list member findmembers jdbc ping findmembers add result response soon read rackspace ping findmembers add result response soon read swift ping findmembers add result response soon read ping findmembers add result response soon read ping read member selectively list set tunnel supportsmulticasting true remove timeout discovery protocols configs change gms join timeout udp xml tcp xml tp ip multicast available sending message n member look ip address member use send physical address cache waste send multicast n send member current cluster need take share transport account asciistring prevent npe ctor string null share loopback ping return empty response object first member cluster allow member become coordinator immediately rather wait gm join timeout m set gm max join attempt unicast sends close dest d still member tp remove warn incorrect destination might happen time correct added response contain address addr fixed discovery serializewithoutview add coord flag change version beta __label__push-down
+expands modified flag entity aspect node change serializer take consideration modify flags entity aspect clean serializer code add junit test perform network test test exist serialization tree __label__inline
+feat implement coreinputlwjgl chore minor coreinput spi refactoring add coreinputlwjgl corekeyeventlwjgl coremouseeventlwjgl lwjglmouseeventdriver class implement lwjgl input backend remove several unnecessary method coreinputevent corekeyevent coremouseevent interface move enable disable default dispatcher method absractcoreinput add log coreinputjogl run auto format several incorrectly format source file __label__pull-up
+arqgra page fragment implement webelement interface delegate interface invocation root page fragment declated asbtract implement webelement interface method invocation page fragment intercepted webelement interface delegate root page fragment locationenricher creation page object improve use method pageobjectenricher support declare page fragment abstract class add cause require change code __label__inline
+added support selection bind ajaxautocomplete pretty lame impl restrict displaystring support well nothing __label__extract
+xsd generation move extra mojo allow also skip test compilation recommend __label__move
+rename injectstatics requeststaticinjection git svn id http google guice googlecode com svn trunk f b b b aecad e __label__rename
+test move pmtabletest pageablecollectiontestbase __label__move
+imap move search test new file __label__move
+rename constant hive test better clarity resolve intermittent failure due use incorrect constant update hadoop sh template include configuration step x cdh version add script make test easy __label__rename
+clean acceptedontologies code ontology search get ontology work correctly __label__inline
+lot stuff add lot stuff change take care __label__extract
+rf add method define pagesize report __label__extract
+rename parse method parsefoo clarity avoid overload ambiguity __label__rename
+report refactoring git svn id http pmd svn sourceforge net svnroot pmd trunk baf c fc e __label__push-down
+add basic support twist coordinate conversion exponential format fix autocode __label__extract
+rename method __label__rename
+wonder move makeeditablesharedentitynamed erxutilities erxeoaccessutilities __label__move
+rename poorly name method __label__rename
+declaration type move __label__pull-up
+split layout two class make layout interface instead class move layout code default layout issue number obtain submit reviewed __label__push-down
+first huge step refactoring jbidwatcher use guice instead wildly connected set singleton __label__move
+hv rename containerelementindex typeargumentindex __label__rename
+add generic configfunction many upcoming resource bo actually resource resource extend generic configfunction __label__push-down
+face rename responsive attribute alloy inputdate alloy inputtime nativewhenmobile code review __label__rename
+border radius implementation heres full border radius support know issue patch prior release follow set px value shorthand border radius compute correctly declaration around cssname border radius clean organized logical return consistant type borderradiuscorner class borderradius side automatically fix total radius one side excedes width height need complete css parse issue resolve observe set border radius normailzed side can not note test use itext additional test do swing itext __label__inline
+code par sql expression move class __label__move
+updated conform ioos milestone schema remove hardcoded string throughout code __label__pull-up
+clean project user orm __label__inline
+refactored statistic record api __label__move
+rename test basename use getrenamedbasename test make expectation solely basename without suffix check suffix basename fileepisodetest change expect replacement include filename suffix e g instead expect filename modern family e pressure mp expect basename modern family e pressure change framework return basename match __label__rename
+rename class object objectutil consistency util class ditch exist objectutil class move method textutil __label__move
+push non abstract non static method abstractiobuffer add final modifier abstractiosessiongit svn id http svn apache org repos asf mina trunk f bb ffa edef __label__push-down
+frame parameter test set change buffer refactored bit remove notimplementedexception __label__move
+implement defaultattributebuilder addattribute __label__extract
+fix confusion getnumberofcomponents method rename getadjointdimension also add unit test __label__rename
+move renamed keyaction vimshortcutkeyaction __label__rename
+chunk support move remoting necessary need send command boundary __label__move
+rename textformat typeas __label__rename
+biome manage world addition pluginloader add biomegenbase wrapper might need implement nms yet rate pluginloader try look plugins disk enable allow enable newly add plugins world contain setbiometype getbiometype generally whole biome data array still obtain chunk __label__extract
+added unit test codewax patch fine tune patch __label__extract
+make configfunction code easy use instance state init method previously kinds complex state configfunction instance require argument provide constructor configfunction init method go error handle previously init method throw invalidconfigexception instance would keep invalid instance longer keep instance erroredfunction use instead geterror isvalid method remove reflection code still relfection code involve need way go example plantgen class plantgen instance would use java could use new plantgen new syntax get reference constructor plantgen makestring configfunction makestring method rename conventional tostring configfunction write wrapper method remove getholdertype method remove check holder type happen check constructor exist __label__rename
+star background task move back edt create specialized util method use intellij method thread management around ui fix deprecate method call __label__move
+move language certificate year film content pull language certificate year field film content along accessors mutators simple internal model primarily lovefilm csv ingest __label__pull-up
+refactoring remote service api rest api __label__inline
+add apache common net lib lao tftp lao tftp support untested added libinfo class version driver information add move junit test old stupid visicut add getdrivername method lasercutter interface change epilogcutter splittet epilogzing epiloghelix __label__push-down
+move db method dao __label__inline
+remove bpmn diagram type tool profile simplify __label__inline
+rename osgifydependenciespackager repackager add repackagertest __label__extract
+couple change separate covbuildcommand two different command one script source one compile source remove support compile language source cov build phase checkbox update unit test relate change __label__inline
+refactor rename getyaxisgroupposistion __label__rename
+dependencygraphs clean start remove remove project __label__pull-up
+really simplified starter remove starterset inferface compatibility lot useless method remove __label__push-down
+polish pr merge extract common typemirror extraction separate method remove need code test __label__extract
+hv rename getpayload getconstraintvalidatorpayload __label__rename
+replace java serialization streamable nakack unicast flowcontrol lock extendeduuid siteuuid http issue jboss org browse jgrp move rpcdispatcher marshaller interface marshaller de serializes rpc args return value incl exception __label__move
+build fix __label__push-down
+refactored integration test class slightly __label__pull-up
+java typeres move method typeresolution method helper class __label__move
+cditck move synchronousqueue applicationscoped bean __label__move
+xmlnode rename localname qticlassname __label__rename
+rename certtype keystoretype __label__rename
+create fully work handlesetter eclipse refactored handlegetter little mostly stuff common code pkg __label__extract
+rf move panel cdk __label__move
+minor refactoring strip api tokenstreamfactory __label__push-down
+refactored archivebuckettest test green make sure directory create remove __label__extract
+rename getcurrentrow getmasterrow __label__rename
+much api node type cleanup __label__push-down
+refactored customizable class add simple attribute work like patient attribute added base class attribute class updated instance attribute class use base class add simple attribute resource add base class attribute resource update instance attribute resource use base class refactored instance attribute generic type definition simpler __label__pull-up
+rf change api __label__push-down
+update notification preference ui construction b change getpersonmodelview oauth friendly clean __label__inline
+remove internalcall reduce internal stack usage little bit __label__inline
+open hudson allow view path view tag refactoring include cleartool command cleartool abstraction remove specific implementation cleartool centralize cleartoolexec git svn id http hudson dev java net svn hudson trunk hudson plugins c de ed b c __label__pull-up
+remove bulk service service plan longer function hadoop due lack support java resolve release issue http wiki duraspace org display dspint release task git svn id http svn duraspace org duracloud trunk ed cd f c b fe bcb __label__inline
+begin refactoring towards make war deployable __label__pull-up
+structural link bendpoints finish implementation source target movement __label__move
+fixed several issue html report force show iteration use linechart deviationrenderer test iteration barchart statisticalrenderer one without __label__push-down
+major refactoring remove deprecate jsonparser feature altogether __label__move
+first iteration searchengine change __label__push-down
+rf add unique copyable enforcement clean fieldtype hierarchy __label__pull-up
+update databukkit abstract config simplify improve loader __label__inline
+redid entire resource kind system use class instead modularized resource kind order relate string especially use egm character string fix recent file change jedit function appear red instead dark blue reflect change translation file git svn id http lateralgm svn sourceforge net svnroot lateralgm lateralgm trunk f f bc e cd __label__push-down
+first bit minor refactoring base type vals __label__push-down
+remove duplicate texthelper functionality move test format testelement __label__move
+cleanup fix several issue abstract resnode defaultnode use tree model add contitional checking resource change whenver close frame check change store resource global check change method iterate open frame resource resource map ask change number two lead back issue wrong refernces game info setting load identify cause apply temporary patch add foundation search resource also place event panel tab area interesting notice toolbar set floatable float take tab still redocked possibly menas raw docking framework could build jtoolbar __label__pull-up
+add apis modification improve query member __label__push-down
+internalnode interface introduce hg rename src main java org geolatte graph visitor java src main java org geolatte data visitor java __label__rename
+simplification sharding __label__push-down
+sonarjnkns move global configuration dedicate component __label__move
+extracted vimtestcase typetext __label__extract
+method rename __label__rename
+refactored mouse click __label__move
+add support share local list add disabled binding similar wotextfield __label__extract
+simple refactor __label__move
+simplify getdigest __label__inline
+removal deprecate draft remove draft draft draft draft __label__pull-up
+move regenerate make static __label__push-down
+extract method make method fit print page functional changesgit svn id http svn apache org repos asf maven surefire trunk f bb ffa edef __label__extract
+rename gettoplevelproject getexecutionrootproject avoid mislead top level different notion notion use getrootsite git svn id http svn apache org repos asf maven plugins trunk f bb ffa edef __label__rename
+merge late version passerelle google lab repository __label__inline
+complete refactoring compiler system __label__pull-up
+add function execution element gfe data namespace plus cleanup __label__extract
+refactoring change __label__push-down
+massive refactoring exception handle try simplify thing currently little bit complicate another round shortly main benefit change error handling flow one class error java take care manage current source line manage current injectionpoint building message tostrings refactoring use almost exactly code provisionexception creationexception consequence provisionexceptions include full error report class inject fail fast fast applies provide time well injector create time also make injectionpoint public class spi replaces dependency like change dependency abstract name whereas injectionpoint guicey guice injects stuff dependency consequence like api well expose core guice abstraction directly entire change need doc simplification cleanup todo git svn id http google guice googlecode com svn trunk f b b b aecad e __label__inline
+fix back end outputters revise mechanism output format independent output destination e g longer format logic outputters walker rearrange code structure take support class different package clean regular org jdom output package support package interest people override subclass customize default functionality put wiki page together new detail overriders customizers benefit structure __label__push-down
+nick interim commit thundr v abstract request introduce aop annotation base processing instance create injection context general clean refactor __label__push-down
+rename method __label__rename
+redesign fluentpipeline model __label__push-down
+add api action interface __label__extract
+pulled atom event framework need replace __label__pull-up
+addlibrarytoclasspath __label__extract
+refactoring extracted icontool deal info warn error icon reportsgit svn id http svn apache org repos asf maven plugins trunk f bb ffa edef __label__extract
+refactoring mainly push stuff md java client may end get push back think right thing git svn id http pmd svn sourceforge net svnroot pmd trunk baf c fc e __label__push-down
+reworked draggablenumber parameter view still lot issue margin __label__inline
+straightforward translation filemover use java nio file path part replace everything relate move file use nio equivalent mostly apply filemover fileutilities java make easy go back forth uistarter fileepisode still kind base java io file use file topath path tofile go back forth change try clean progress label matter happen previously would sometimes leave behind gray blotch change aresamedisk method use filestores add javadoc comment path need exist fileutilities movefile longer happily overwrite destination true already checked destination file exist uistarter build list move thing may change time movefile get around run especially two file source location map destination file create race condition still think truly guarantee race condition cause file loss far less likely use logger movefile rather gjt logger use try resource instead ioutilities closequietly eliminate canstop argument movefile since always pass true __label__extract
+remove reference stringbuffer use chararray speedup also rework else statement produce slightly efficient code __label__inline
+add jsonname jsonroottype annotation update test model account annotation change main isolated assignment double conditionals git svn id http svn codehaus org enunciate trunk enunciate c b b b e __label__inline
+first commit move timer thread pool protocolstack transport http jira jboss com jira browse jgrp merge thread factory one defaultthreadfactory change name thread slightly http jira jboss com jira browse jgrp __label__move
+shift method parent __label__pull-up
+create mini spi plugable test annotation package add spring annotation test harness plug test __label__push-down
+dsl compiler generate cleanup stage client __label__pull-up
+separate current state context contextimpl rest sharedcontext __label__push-down
+added messagebatch unit test change message list marshal write read length message list first add messagebatch protocol default impl add enable batching tp protocol include nakack unicast implement method message bundle pass cluster name move unmarshalling code tp receive jira http issue jboss org browse jgrp __label__move
+start create new layout toolbargroupdodckstation new version purpose main panel abstracttoolbardockstation define subclass abstracttoolbardockstation class __label__push-down
+scale use parsing refactored parser superclass __label__push-down
+rename easy class relax good match solution __label__rename
+rf class icon rename __label__rename
+fix problem vjournal popup __label__push-down
+move method calendarservice jsondaoutils addobservation method previously openlegcalendarreportservice method move jsonopenlegdaoutils resused openlegagendareportservice eliminate duplicate code __label__move
+write javadoc genepool rename size getsize __label__rename
+move splitstep splitstep package abstract predicatesplitstep create uniform splitter __label__pull-up
+update probably gon na move github permanently __label__move
+add full image support channel refactor persistence temporal field move persistence method channel channelgrouptranslators temporaltitle imagetranslator clean import several test __label__move
+refactor rasterprofile render code preview match actually send lasercutter preview calculate differently preview engrave calculated antialiasing actual lasercutter engrave calculate antialias seem effect rgb argb use __label__extract
+refactoring graphbase related class add meaningful error __label__pull-up
+refactoring move field reflabels mapobject polyline field use polyline waste memory class point also need public getter git svn id http svn mkgmap org uk mkgmap trunk f ee dfeeeb __label__push-down
+add accessor build shard dir __label__extract
+change design rest web service data flow controller service dao find issue transaction rest servlet aware tx configuration rest webservices work correctly __label__push-down
+refactor move image utility method class __label__move
+alex ian roy remove incomingpaymentprocessor move dao access tabcontroller plugincontroller __label__move
+resourcemenu open mouse position component correctly size still work progressgmobjectframe parent mask use resourcemenu fix size little still work progresslistener actionperformed shortened little make stringtores method consider extract another class actionperformed need shorteninggit svn id http lateralgm svn sourceforge net svnroot lateralgm f f bc e cd __label__extract
+rename h cupgrade option http cleartextupgrade __label__rename
+refactoring gipps krauss newell model parameter dt take directly simulation update timestep fix one simulation __label__move
+major change instantiation model every iteration get instance well support specification inheritance __label__inline
+mph add gav parameter calculate effective pom gav reactor add artifact parameter effective pom goal name consistent evaluate goal refactoring common code abstracthelpmojo git svn id http svn apache org repos asf maven plugins trunk f bb ffa edef __label__pull-up
+refactorings cleaner code __label__extract
+refactor support java generate scaladoc __label__pull-up
+duracloud move common code individual service baseamazonmapreduceservice git svn id http svn duraspace org duracloud trunk ed cd f c b fe bcb __label__pull-up
+minstall add installatend option multimodule project git svn id http svn apache org repos asf maven plugins trunk f bb ffa edef __label__extract
+create new class getter move appropriate get method __label__move
+fix extraction parameter description javadoc comment base parameter name annotation value __label__extract
+rename getec hostname getec hostaddress __label__rename
+editor layout customize experiment arraydesign __label__push-down
+refactor __label__move
+sc qcadoomes delivery location field move deliveriestomaterialflow plugin delivery plugin delivery require materialflow plugin __label__move
+factory instantation destination object added ability create translation target use factory particular allow substitution subclass implementation interface within translation particular merit translation parallel hierarchy although also value define class interface base property like close although may soon want thing collection property __label__push-down
+rename putobject retrieve update method cache facade also order unit test __label__rename
+update primarily modifies rackstorageprovider due issue surface work http jira duraspace org browse duracloud refactors retry pattern storageprovider storageproviderbase git svn id http svn duraspace org duracloud trunk ed cd f c b fe bcb __label__pull-up
+rename __label__rename
+added writerequestfilter help implementation data transformation filter change compressionfilter requestresponsefilter extend writerequestfilter note sslfilter protocolcodecfilter somewhat different usual data transformation filter generate two message git svn id http svn apache org repos asf mina trunk f bb ffa edef __label__pull-up
+added icon startup screen landscape ipad startup work bookmark icon work __label__extract
+major refactoring extension point api class address bug bug extension point allow use formalexpression type bug add support endpoint object define extension bug define target runtimes extension point preference page yet complete want save work __label__inline
+scj cleanup rtsj class __label__push-down
+code move splitdockstation splitlayoutmanager git svn id http svn javaforge com svn dockingframes trunk e b fefcacdf __label__move
+rename __label__rename
+hv add support non parameterized type value extraction __label__extract
+mrelease refactor use generate release descriptor instead release configuration class submit jeremy whitlock git svn id http svn apache org repos asf maven plugins trunk f bb ffa edef __label__pull-up
+major highlight move sim similarity package add new implementation streemer shindler k mean improved vector define common equal hashcode tweaked intset intcollection update bulk operation apis operate intcollections __label__pull-up
+rename test __label__rename
+massive refactors list complete give idea many thing lombok eclipse move lombok core enable reuse lombok javac b lombok javac work similarly eclipse model first make big asts bidirectionally traversable walk annotation c instead get annotation instance get object flexible e g give class value enum string instead class object may fail class classpath lombok source internal sun class javac add contrib __label__pull-up
+major refactoring propertydescriptors change include genericization propertydesciptors facilitate dry principle split multi value propertydesciptors separate class take full advantage generic remove simple string property accessors rule interface propertydescriptor support property define via rule definepropertydescriptor propertydescriptor interface normally call constructor ruleset xml enhance support propertydescriptor define rulesetfactory rulesetwriter account robust property definition ruleset xmls correct move definition java class need include necessary type information miss git svn id http pmd svn sourceforge net svnroot pmd trunk baf c fc e __label__inline
+many refactorings always use dyn getprop scope resolution extract hasownproperty helper remove dynjs scope proprietary call __label__extract
+simplify matlab controller work local machine implementation work debug mode deploy problem seem package reason eclipse want ot build unpacked plugin jar file hashmaputils accessible move code matlabclient respective node improve sintleton implementation matlabcontroller matlabconnector __label__inline
+rename method jsset __label__rename
+rename query haspaginating haspagination __label__rename
+minor update extract spring cxf plugingit svn id http svn codehaus org enunciate trunk enunciate c b b b e __label__extract
+start fix problem docx header footer use master page manager __label__push-down
+reorganize support transport client __label__pull-up
+start refactoring roadmodels create spatialregistry encapsulate positional information relate road user __label__extract
+drop configroot interface intend make resolve typesafe allow root object however practice safe easy create aroot merge non root object root object fix dhave prohibit root object merge root seem simple document resolve subtreeswill wrong thing hopefully issue practice __label__inline
+big clean remove modular update copyright quality pas __label__push-down
+introduce failuremetadata start associate renames subjectfactory subject factory customsubjectbuilderfactory customsubjectbuilder factory create moe http github com google moe moe migrate revid __label__rename
+artif extend redefine coremodel xsd add artificer comment element baseartifacttype split xjc generation script __label__pull-up
+refactor symbol table pmd symboltable pmd lang java symboltable symbol table currently java remove bogus jsp symbol table git svn id http pmd svn sourceforge net svnroot pmd trunk baf c fc e __label__push-down
+code cleanup format move implementation internal class __label__move
+improvement assessmentresult generation item generate full assessmentresult add support record context sessionidentifier __label__extract
+implement shift lock clean last commits remove commented updateinstance code refer r r need extracted different mouse part method remove extra repaint call mouseedit remove wip text object tab downgrade cursorinstance instancecomponent cursoric swap id object roomframe status bar opposite gm logical way remove edit mode editinstancesobject editinstancesdeleteunderlying hard keep date use swing directly add fixme tag object tab probably take git svn id http lateralgm svn sourceforge net svnroot lateralgm f f bc e cd __label__extract
+open hudson ucm implement scm new poll logic support rebases well bit refactoring refine edge case load rule git svn id http svn dev java net svn hudson trunk hudson plugins clearcase c de ed b c __label__pull-up
+close connection close database exception fix also cleanup __label__inline
+change nio implementation implementation gossiprouter routerstub add pubserver pubclient add send null send add gossiprouternio add static creator method nioserver tcpserver add code create client server tcpgossip tunnel choose block non block connection gossiprouter use nio request response type routerstubs gossiprouters separate enum gossiptype remove gossiprouternio non block io implement gossiprouter use nioserver tcpserver add util buffertoarray move connectionlistener baseserver remove server added list gossipdata receiveradapter us util buffertoarray tcpgossip implement routerstub membersnotification callback routerstub use baseserver connect gosiprouter gossiprouter use baseserver implement connection management add tcpclient nioclient move client server related class org jgroups block cs added tcpclient nioclient move client server related class org jgroups block cs de genericized baseserver et al move package org jgroups block cs reconnects routerstubmanager work use peer connection make unit test pas add suspect handle gossiprouter connection p close suspect p send member group make marshallinf gossipdata type message efficient remove copying message gossiprouter set parameter socket channel connect tcpconnection isopen return true socket create rewrote serverunittest get rid issue dataprovider upgrade testng dep x __label__inline
+initial remove support __label__inline
+hv fix value extraction resolution logic force implicitunwrapping __label__extract
+refactoring inlining method prepare wrapper class defaultmutabletreenodegit svn id http pmd svn sourceforge net svnroot pmd trunk baf c fc e __label__inline
+scenario generator improvement __label__push-down
+remove useless static initialization git svn id http svn apache org repos asf mina trunk f bb ffa edef __label__inline
+remove unused method add couple miss license header git svn id http svn apache org repos asf maven surefire trunk f bb ffa edef __label__inline
+add method allow request parameter __label__extract
+indexupdater fix record change different rule indexerconf match different set vtags might become active case delete must do solr remove entry correspond old vtags indexupdater able need know rule match hence need old new record state exactly need evaluate indexrecordfilter indexawaremqfeeder put recordevent indexselectionrecordupdatehook therefore information provide hook also useful indexupdater additionally update denormalized data work record index access dereference expression also need match indexrecordfilter able express need support include rule empty vtags basically say include record index could achieve rule exclude record index expensive recordfilter decision make without even load record currently help much dynamic field either solve brought couple change refactored vtaggedrecord move thing dependend recordevent load record recordeventhelper probably could use refactoring completely split two vtaggedrecord also use case recordevent maybe reintroduce third party combine indexer integration drop merge engine due circular dependency test engine test need indexrecordfilterhook could solve also split indexer integration two different project decide ok together engine rename recordevent indexselection recordevent indexrecordfilterdata rename indexselectionrecordupdatehook indexrecordfilterhook fix npe indexrecordfilterhook case record update record type specify pulled code create record information store recordevent new utility class indexrecordfilterutil reuse indexupdater indexertest need indexrecordfilterhook depend indexermodel previously use test __label__move
+refactoring make nexusurl non need mess change clean bit strategy defer direct strategy tamper rest able work without specify nexusurl plugin configuration hand image staging strategy use rest former close latter fully use v rest api stag class hierarchy clean non client user extend abstractdeploystrategy client user extend abstractstagingdeploystrategy __label__pull-up
+refactoring move private method linescuteachother multipolygonrelation utils functional change git svn id http svn mkgmap org uk mkgmap branch split shape f ee dfeeeb __label__move
+rename storage storagedisk introduce storage interface __label__push-down
+refactor trace feature base class __label__pull-up
+aesh rename fileresource resource defaultfileresource fileresource add readattributes resource __label__rename
+rename gm file stuff gmfile longer specifically refactored reference update reference message extract gmstreamencoder writetree gmfilewriter match prior extraction readtree git svn id http lateralgm svn sourceforge net svnroot lateralgm f f bc e cd __label__rename
+wip refactor candidate service use new authentication filter convert exist session token idea work like xsrf token need test tidy next __label__pull-up
+rename peerfilter peermapfilter __label__rename
+added functionality remove repeal law document __label__extract
+core pipline codecs move tho new repository http github com rfqu pipeline __label__push-down
+rename equality method separation java consistency dart implemention __label__rename
+refactored optimized batch vertex cache implsthis commit pull common batch load vertex cache code intoabstractidvertexcache make string objectidvertexcache extendthat abstract base class longidvertexcache use colt primitivecollections internally amenable share code theother java collection base implementation commit also apply optimization froma cf f c eaf f ac e object andlongidvertexcache however test forstringidvertexcache __label__pull-up
+tokenperpageprecreate create token advance fix npe trim issue protect method property parse tokenperpageprecreate allows use per page token first access rather use session token first access work conjunction jstl tag design mainly well back button support default value false __label__extract
+move add user agent header httputils class __label__move
+rename distinctall distinct __label__rename
+rename getrootsite gettoplevelsite since method nothing reactor execution root git svn id http svn apache org repos asf maven plugins trunk f bb ffa edef __label__rename
+implement default abstractdomainobject core close fix getdomainclassroot pt ist fenixframework dml pojocodegenerator return string refer coredomainobject __label__push-down
+add checkbox hide show non numeric excel header __label__extract
+nxp refactor route import test explode zip source fix test __label__extract
+refactoring extract reusable outputsinkitem helper class collect refresh compilation result git p depot path coremedia jangaroo change __label__extract
+wip valiation read hopefully final stab load validation construct fix object contain resolution detail item test change make validation match refactoring tidying require __label__extract
+remove instance variable reduce visibility __label__inline
+add rule component dependency distribution __label__extract
+refactored input adapt __label__inline
+remove failurestrategytest failurestrategy fully abstract class behavior test move singular test class logical location create moe http github com google moe moe migrate revid __label__move
+hearbeat method rename __label__rename
+refactoring upversioned __label__pull-up
+add iremoteenvironmentinfo service remove concat service __label__extract
+recorddecoder move remain result record decode relate code recorddecoder remove unncessary scope collection code readcontext small cleanup git svn id svn ssh dev outerthought org outerthought lilyproject branch scanner b f e bd e dc __label__move
+refactoring replace deprecated treenode constructor treenodeservicetest __label__extract
+refactored clientfactory opensamplehandler separate interceptor chain within clientfactory clientpersister plain xmlserialization remove factory method progressmonitorinputstream clientfactory use alternative constructor instead add tag ignore non translate string move tokenreplacingreader name abuchen portfolio util package add paragraph html tokenreplacingreader add mwhesse contributor aboutdialog format translation file resource bundle editor issue __label__move
+split javaqualifiedname type operation specific subclass __label__push-down
+improve multicommand review precisely handle displayui correctly __label__push-down
+rename parmeterholder getparams getsetparams __label__rename
+rename iosession getmanager iosession getservice git svn id http svn apache org repos asf directory trunk mina f bb ffa edef __label__rename
+road def push mapline can not apply pointgit svn id http svn mkgmap org uk mkgmap branch nod f ee dfeeeb __label__push-down
+add support unquoted string value __label__extract
+change inheritance move stuff erxcomponent __label__move
+create generic experiment extend scalabilityexperiment andother minor refactoring __label__push-down
+tidied exception candidate service api rename candidateforbiddenexception candidateexception candidateprivilege candidateexceptionreason also update name various reason make clearer add javadoc __label__rename
+component refactorings include allow puppy run without avalon optional accord cdi git svn id http svn apache org repos asf incubator ftpserver trunk f bb ffa edef __label__pull-up
+rename part membase couchbase __label__rename
+modify dynamiccomposite handle non dynamic composite well rename dynamiccomposite composite fix typo dynamiccompositeserializer add change comparatortype let reuse composite __label__rename
+merge late luna change __label__push-down
+v ashish refactoring subscription request handler __label__move
+remove ugly selector factory prepare udp server git svn id http svn apache org repos asf mina trunk f bb ffa edef __label__push-down
+cde add unit test __label__extract
+aesh move mask prompt __label__inline
+clean version tokenstreamfactory upwards compatible one __label__push-down
+remove util __label__pull-up
+change __label__inline
+fix file name jtl result file major internal refactoring writer structure add separate test __label__pull-up
+move setunit setscalefactor simplestatenode avalue add setparent avalue class update test new output __label__push-down
+remove unused change pr __label__inline
+change add clarity fix low zoom render git svn id http svn mkgmap org uk mkgmap trunk f ee dfeeeb __label__extract
+jenaconnects move truncate implementation jenaconnect since also activate listener __label__move
+refactored codegenerators work new architecture add skeletal implementation withtransaction allow basic test __label__push-down
+minor change __label__push-down
+hama add system yarn git svn id http svn apache org repos asf incubator hama trunk f bb ffa edef __label__extract
+refactor math definereadonlyproperty math definenonenumerableproperty use json __label__pull-up
+fix sequence name type __label__push-down
+general bug hunt point listing work one actionfactory dont need tool tip top level menu finish make bookdatadisplay central interface view bookdata menubar tidy unfinished move list blur delete option list button much clear cancel button progress bar dm search make moses aaron moses aaron search general tidyup __label__inline
+remove boolean parameter hllp mergetemplist simplify code best always resize temp set small __label__inline
+rewrote contextselector html chapter chapter rename loggingseparation html logback use slf j version contextjndiselector refactored config file name new logger context base convention logback contextname xml obviate need set logback configuration resource jndi env entry __label__rename
+move checkperiodicboundary method algorithm use __label__push-down
+refactoring preparation hotspot yellow count __label__move
+remove non fill bar chart style rename method __label__push-down
+fcrepo allow fesl relationship resolver use resource indexrefactor exist code prep implement ri base resolver movecommon code abstract base class remove unused method __label__pull-up
+upgrade jetty tomcat refactoring jetty relate test case __label__pull-up
+memory improvement optimize chararray internals copy string charbuffers delete load unused code remove tag text getcontents always use efficient writeto instead remove support textfilters one unused regexreplacetextfilter implementation add overhead rarely use may replace something efficient later base user demand chararray implement appendable use appendable place instead sm specific chararray propagate ioexception around api __label__inline
+improvement n testpart render testpart feedback xslt tidy bit renamed xslt testpart feedback updated simple ni example bit __label__rename
+fix build launch button remain enabled problem building crawljob java rename iscontainerok hasapplicationcontext increase granularity islaunchable offer launch button jobresource java coarse check hasapplicationcontext disable build button __label__rename
+finish replication refactoring __label__move
+balajin refactoring adherence model capture tb id part adherence log adherence class represent weeklyadherence rename accordingly reflect upstream change tb adherence moudle fix fail test __label__rename
+extract code additional function __label__extract
+ashok aravind introduce valid state transition push logic service subscription module __label__push-down
+change httpclientrequest implementation concurrency synchronize instead lazy connection __label__inline
+refactor extract unwrap method __label__extract
+getdeclaringtype move reused git svn id http pmd svn sourceforge net svnroot pmd trunk baf c fc e __label__pull-up
+refactoring load create bw instance test __label__move
+refactored remain service add apis update code base refactoring check review comment main change include added apitype constructor change account specific apitypes generic one rename operation action serviceshelper change replace object generic type eliminates need cast well suppress warning service class implement suggestion static map replaces statement type collection refactored service use apidefintion servicehelper fix test case need added demotestintelligenceservice implement wrapper mambu api addition update maven pom build mambu apis java bin jar use mambu model v jar mbu developer like work custom view add get custom view api wrapper b add filtering client group loan saving custom view id mbu developer like filter list centre via api updated wrapper filter centreid client group loan saving service __label__inline
+rename qualifiedsrcdocname unqualifiedsrcdocname qualified doc name already mean client document name module prefix unqualified doc name document within module maven multi module use qualify unqualified doc name __label__rename
+seperated ftprequest pure request dedicate session class th make seperation duty clear move u closer pattern use mina git svn id http svn apache org repos asf incubator ftpserver trunk f bb ffa edef __label__move
+add servicesview extension point support future support http bug eclipse org bug show bug cgi id change id cbe dfaa b ab e c f __label__inline
+ngrinder clean thread rampup code __label__push-down
+redo substitution resolve well handle complex case main idea patch introduce partial resolution mean resolve minimum branch object tree get desire value use partial resolution whenever possible interdependency substitution permit configdelayedmergeobject big problem lot code abstractconfigobject really work assume resolve object much code move simpleconfigobject __label__push-down
+new visitor interface api change docs keep classgen synchronize method field structure __label__inline
+rois panel layout modify change much table support much columns selectable xls export always take column account others improvement notice layer panel edit layer name directly table accept delete command table others minor tweaks add actionmanager class allow access command action centralize way improved future add generalpreferences getresultfolder setresultfolder method get set default application result folder internals command accessible search bar replace xlsmanager xlsutil use later one improve colorchooserbutton render icybutton fix minor issue improvement exception handler engine bugfixes refactoring __label__pull-up
+rename callrealmethodwith callrealmethodwitharguments add javadoc __label__rename
+split session close boolean method two method __label__extract
+fix optional protocol dialog refactored code __label__move
+lib refactor configuration heavy update map support __label__inline
+renames __label__rename
+icon move drag drop interface update dockables drop left right single tab git svn id http svn javaforge com svn dockingframes trunk e b fefcacdf __label__inline
+post httpclient cleanup multipart entity generation logic move multipartentitybuilder git svn id http svn apache org repos asf httpcomponents httpclient trunk f bb ffa edef __label__move
+refactor routine package provide localize pattern support provide currency percent support numeric type improve junit test case git svn id http svn apache org repos asf jakarta common proper validator trunk f bb ffa edef __label__push-down
+apply laurent patch correct handle multiply type individual lazy load collection fix __label__push-down
+refactoring simulation specification class __label__push-down
+refactored typemapping hierarchy remove obsolete method __label__push-down
+sc qcadoo prioritization data access refactoring __label__pull-up
+extract booterserializer surefirebooter extract interface directory scanner minor refactorings functional change initial footwork get surefire move look like go quite journey git svn id http svn apache org repos asf maven surefire trunk f bb ffa edef __label__move
+rename replaceableformatter replaceableformatwriter __label__rename
+cleanup __label__push-down
+observer observable pattern ui view interface moveable moveablecontainer refactoring mega commit due problem remote branch __label__move
+jcbc join nest key clause use key syntax motivation n ql correct syntax key clause nest join key expression key expression currently implement also clause use key keyword differently reference primary key document id use key syntax use syntax expect string array string token could implement usekeys method next current key method modification keyselement take enum denote type key clause keyspath key method join side thing rename onkeys add usekeys side thing reference primary key onkeys usekeys accept array string usekeys array size produce string query json array refactored unit test key expect modified unit test use key mean instead key result unit test pass one clause primary key use usekeys method syntax join key clause fix onkeys method change id da c b c afe fb dd dcd review http review couchbase org test simon baslé review michael nitschinger __label__rename
+updated session handle code add remove listener __label__inline
+refactored rosterview pull rosterview inner class viewcontentprovider support class __label__inline
+introduce call call adapter response type call mechanism request execution encapsulate single request action either synchronously asynchronously support cancel calladapter mean support method return type call like rxjava observable adapt call instance another instance change move rxjava support sibling module use adapter support observable type response represent http response along side deserialized body allow access convert body lower level item header response code underlie okhttp request response object __label__inline
+refactorings translator move duplicated code super class __label__move
+jvm test rename getname tostring __label__rename
+refactor creation title summary report couple common method parent git svn id http svn apache org repos asf maven plugins trunk f bb ffa edef __label__pull-up
+player chunknetcache instance also move code common class __label__move
+refactoring pmd java reduce confuse jumble interconnected methodsgit svn id http pmd svn sourceforge net svnroot pmd trunk baf c fc e __label__inline
+update accurev plugin remove non recommende advance setting include reftree usage remove workspace usage use port name call add display depot stream clean ui allow user build change particular directory __label__extract
+move seteditingcontext setobject lock erd wpage __label__pull-up
+twitterupdate 리펙토링 move method git svn id svn okjsp pe kr okjsp trunk okjsp e ab cc c daca c f __label__move
+rename stringcontains containsstring __label__rename
+wire first sqs enable test refactored non vendor specific logic nevadomessage abstractmessage add string serialization able put entire nevadomessages sqs body create send receive delete functionality wire simple message acknowledgement logic __label__pull-up
+addition remote service admin endpoint listener notification via ecf discovery __label__extract
+df esilco fix problem override record give pallet number instead select one move storage location __label__pull-up
+add miss javadoc move getprocessor method back super class add constructor initialize ioprocessor member minor refactoring git svn id http svn apache org repos asf mina trunk f bb ffa edef __label__pull-up
+nativefunctiontest modification nativefunction var use gremlinscriptcontext instead variablelibrary method getvariablebyname move gremlinscriptcontext import optimization __label__move
+refactor avoid duplicate code __label__extract
+rename treemap setall treemap union make leave bias instead right bias __label__rename
+added list import theory prolog output seem work yet __label__extract
+add mdr write break send device probably need associated x section git svn id http svn mkgmap org uk mkgmap branch index f ee dfeeeb __label__extract
+change eventdrivers extend eventdrivers abstract eventdrivers place use underlie event parameter improve speed reliability also simplify logic eventdriver aware event __label__pull-up
+tool microcode time analysis version refactoring support processor cmp support io write monitorenter monitorexit __label__push-down
+implement hilite functionality gui add action listener action menus move hilite filtering trellis menu since concern single plate add necessairy field heatmapmodel implement getplatestodisplay method trellis hiliting adapt found belongs model add condition rederers heatwell heattrellis pick right color change screencolorscheme use knime color selection hiliting __label__push-down
+java deprecate commentutil move part ast comment fix formalcomment __label__push-down
+pull typetextinfile vimtestcase __label__pull-up
+rename bankaccount property valid validate bump version __label__rename
+extract well name method remove commentgit svn id http svn apache org repos asf maven surefire trunk f bb ffa edef __label__extract
+simplify code __label__inline
+enable directio text number format additionally decimal format rename decimal output style __label__rename
+rtweaver move classvisitor functionality inner visitor class __label__move
+extract large end end test functional test __label__extract
+replace area intersect sutherlandhodgmanpolygonclipper advantage allow move shape merger chain need want optimize wrong angle shape img size increase bite compare r filter yet work properly git svn id http svn mkgmap org uk mkgmap branch high prec coord f ee dfeeeb __label__pull-up
+support create ordinary index currently frontbase mysql support use default index name none provide erxmigrationtable addindex adduniqueindex __label__extract
+fix issue dw would move backwards cursor whitespace begin line __label__move
+added additionaljmxobjects interface remove protocol printstats move number stats related attribute tp msgstats https issue jboss org browse jgrp __label__move
+httpclient refactored negotiatescheme separate spnegoscheme kerberosscheme implementation deprecate negotiatescheme related class git svn id http svn apache org repos asf httpcomponents httpclient trunk f bb ffa edef __label__pull-up
+rename node getasxml node getasdocument accurate name git svn id http pmd svn sourceforge net svnroot pmd trunk baf c fc e __label__rename
+massive rework add test clean implementation __label__inline
+rename bigfilemode bignumbermode compress git svn id http svn apache org repos asf common proper compress trunk f bb ffa edef __label__rename
+refactor fix pst processing __label__push-down
+source update lpoppush rename rpoplpush test redis commit e b eb f c f e f e __label__rename
+add intercept containerbuilder hid constructionproxy proxyfactory etc remove intercept package add query package start strut plugin example git svn id http google guice googlecode com svn trunk f b b b aecad e __label__extract
+demo cleanup __label__pull-up
+simplify servlet logic improvement servlet jsp code __label__inline
+squash commit follow commit eb f aed ab fedfdce author bela ban date tue jul ns commit f c dea ef b f c author bela ban date tue jul conflict src org jgroups jchannel java src org jgroups protocol barrier java src org jgroups util blockinginputstream java squash commit follow commit fee efe c f b bc c f dc author bela ban date tue jul ns commit ae cd c bed ad author bela ban date tue jul change stream state transfer state stream state transfer socket state sock commit b aa aad b c bf ca b e author bela ban date tue jul change stream state transfer state stream state transfer socket state sock commit e db cba e b author bela ban date tue jul ns commit e f e c ec f ea author bela ban date mon jul ns commit bbfd c fdbad de dfee b e author bela ban date mon jul ns commit df b de e c ca author bela ban date mon jul ns commit b db eb c author bela ban date mon jul remove channelexception channelclosedexception channelnotconnectedexception commit c fb b c b c ed author bela ban date fri jul replace setstate byte byte getstate callback implementation correspond stream version commit ef ef f e eb e dca fede author bela ban date fri jul convert byte getstate setstate method use input output stream commit c ceb f f author bela ban date fri jul ns commit ba eccdf b bca e f e author bela ban date thu jul ns commit bde b dadb ffd fd e dc c author bela ban date wed jul remove meaningless inheritdoc commit c b af b cd dad c b fa e author bela ban date wed jul ns commit baa cf b cde author bela ban date wed jul ns commit ed ca b ca author bela ban date tue jul change statetransfertest test state transfer protocols commit e fab fe dbbcaf f e ef author bela ban date mon jul add exception getstate setstate callback impls commit c bf abdb f f e b e cbe ef author bela ban date mon jul ns commit caf cdd c dccf f f e author bela ban date fri jul ns commit c ee e bc e c f e aa ab author bela ban date thu jul ns commit bb ef f e ab f c bb author bela ban date thu jul stream state transfer socket work work exception handling need though commit c aea b ba e b author bela ban date wed jul first cut impl stream state transfer socket work still do exception handle client server crash commit f f ed eb bb f dd f fd cd ea author bela ban date wed jul add new test commit bef ce f aa ddefe ead e f f author bela ban date wed jul first cut jgrp stream default transport stream state transfer work stream state transfer socket commit e ed dbb f b f cfc ccf author bela ban date tue jul expose suspend jmx attr commit ce b c eee bb f author bela ban date mon jul make openbarrier public manage op commit f fab feb b ab ff author bela ban date fri jul cherry pick change barrier http issue jboss org browse jgrp master commit ae aeaf c ed c e fd bc cea author bela ban date thu jun cherry pick addition blockinginputstream unit test change coordgmsimpl master commit f cef b af e cb b author bela ban date tue jun change loopback false tcp xml commit fd c edd bbc b ed b author bela ban date mon jun first shot statetransfertest merge jgrp merge merge jgrp master __label__push-down
+added fine grain rule base html processor htmlpageparser collection simple rule easily change __label__inline
+easy way generate link contract address graph __label__extract
+merge nperrier addition extract cover art id tag index collection fix __label__extract
+refactoring separate big little endian stuff class instead switch __label__push-down
+rename room property generic resource __label__rename
+fix window delete change tab __label__inline
+stash change switch branch maintenance __label__inline
+first step update instrument comparison refactored action activation originally activate tune enable moved validation pair instrument data model activation logic __label__move
+refactoring move private method linescuteachother multipolygonrelation utils functional change __label__move
+move sharedloglogic specific getcheckedoperations superclass move operation resolve abstractloglogic __label__move
+backlog change utilhtmlsanitizer function params move name sanitization connectionservice connectionserviceimpl __label__move
+major refactoring dropwizard kafka new consumer api kafkaconsumer parameterized message type consumption begin kafkaconsumer start call initialization decoder streamprocessor need register kafkaconsumer construct make construction type safe possible create kafkaconsumer via kafkaconsumerfactory valid scala support update simplify remove cumbersome errorpolicy configuration favour automatic handling error instead treat error attempt recover transient error still todo error handle mechanism decoder instance currently exception throw decoder treat recoverable error create infinite loop message invalid __label__inline
+test rename __label__rename
+move sharedloglogic specific getcheckedoperations superclass move operation resolve abstractloglogic __label__push-down
+webui fix jfg pixel size control elements css file sessionpager sessiondatagrid back end time column sessiondatagrid remove use method service cause new conseption control add depricated service dtos use seletes yet sort metric table tree select link processing __label__extract
+create unit test leavetest http issue jboss org browse jgrp replace base conversion via javax xml bind base method move gmsimpl leave gmsserverimpl leave promise gm add setxmitinterval unicast fix ccme fd sock change suspect mbrs concurrent set add single test target build xml remove bind addr viewdemo draw remove set system property external port bind addr test change log format message exchange nakack https issue jboss org browse jgrp change log format message exchange unicast https issue jboss org browse jgrp __label__move
+remove share transport http issue jboss org browse jgrp remove deprecated class method field https issue jboss org browse jgrp ant jar work update manual buffer reuse send junitxmlreporter print method name correctly __label__inline
+jvstm lf rename remotecommit commitrequest commitrequest sent every write transaction need commit contains read set write set transaction commit every node locally continue commits start queue __label__rename
+fix page number pad empty private group minor item __label__extract
+refactoring util source directory move sdktestcase util test directory remove unused class invalidurlschemeexception inline class noseparatorfindableinpathexception rephrase reference app collection use phrase test data __label__inline
+proceed create new layout toolbargroupdodckstation new version purpose preparedrop method generate dropinfo class drop method use defined subclass abstracttoolbardockstation class __label__push-down
+rename querycount attribute __label__rename
+part way tree implementation refactoring __label__push-down
+simplification generalization code addition activemq product also move product configuration file product directory __label__move
+check method parameter move compilationunit containermanager __label__move
+refactor role validation configuration validation __label__push-down
+move bucketformat logic bucketformat enum bucket guarantee format never change could change move perform bucket __label__inline
+refactor parameterizable policy frontier default xml update bundle profile new chain refactoring crawlcontroller java move three processor chain rather one frontier java loadseeds remove toethread java delegate processing loop fetchchain dispositionchain abstractfrontier java workqueuefrontier java move policy calculation processor candidatesprocessor java new processor dispositionchain run every outlink candidatechain crawlstateupdater java dispositionprocessor java rename expand prep crawluri frontier frontierscheduler java delete use candidatesprocessor candidatechain linksscoper java deprecate use candidatesprocessor candidatechain candidatescoper temporarily retain ease comparison candidatescoper java simple single uri scope test candidatechain frontierpreparer java precalculate frontier policy candidatechain schedule preconditionenforcer java processoruri crawluri take prerequisite preparation previously defer elsewhere processorsreport java update chain processor sheetoverlaysmanager java applyoverridesto move broad use candidatechain java fetchchain java dispositionchain java role specific subclasses processorchain suitable type base autowiring crawluri java new field accessors use new chain frontier postprocessor java delete skip postprocessing skip end chain processorchain java take control loop formerly toethread processresult java absorb processstatus eliminate problematic stuck result __label__rename
+minor change abstracttransaction longer provide txintrospector __label__push-down
+common move loopbound getter setter methodcode __label__move
+fix bug history manager add cursor support link listener issue number obtain submit reviewed __label__extract
+fix javadoc parse remove use reference migration fix __label__pull-up
+minor change value expression review __label__inline
+source map clean ups remove findbug dependency __label__inline
+vishal move display logic patient class __label__move
+rename config toobject config root clearer object represent relate config name root might imply relationship configroot since configroot go toobject nicer name root __label__rename
+fix api network registration register without reference whole networkcontroller object requiresregistration interface defines register function network component require networkregistrationrequest able deal message networkcontroller implement requiresregistration registerconnector function rename register networkcontroller constructor type check networkchannel give see need register test update change __label__rename
+extract function default homedir calculation __label__extract
+greatly simplify implementation pipe find general pattern exist pipe exist far create abstractpipe implement method instantiable pipe two method constructor setnext method concise simple clean test case pass __label__pull-up
+roi add cansetposition setposition method add cansetbounds setbounds method add contains roi intersects roi method add roi darea roi darea icycanvas canvas implement new support roi overlay rework roi panel well support yet complete sequencedataiterator imagedataiterator implement new support roi booleanmaskd add contains booleanmaskd intersects booleanmaskd method roi implement plugin roi class move fill sequence operation use roi property get region fill rectangled fix union intersection operation infinite dimension add dimensiond class __label__move
+add spout notification battle match end well monument capture tweak flag capture one turn chatcolors work great ootb genericlabel yay war message fee top left notification look awesome __label__extract
+added unit test move class name check central place __label__move
+change phase four add orthology information move exist phase four kam building phase five phase four merges relevant orthologous relationship __label__move
+refactor test centralize annotation dsl equivalency test main dao module move test functional test module sub package split separate file relate test create mongo hibernate subclass appropriate test class extend hibernate coverage __label__inline
+first major move generic filter get generified core jdom class get fix error warning come org jdom warn free eclipse __label__move
+refactored criterionview well structure use profilesview __label__inline
+push non abstract non static method abstractiobuffer add final modifier abstractiosessiongit svn id http svn apache org repos asf mina trunk f bb ffa edef __label__push-down
+move sendpdulength receivepdulength maxopsinvoked maxopsperformed packpdv applicationentity connection replace connection dimsersptimeout cstorersptimeout cfindrsptimeout cechorsptimeout neventreportrsptimeout ngetrsptimeout nsetrsptimeout nactionrsptimeout ncreatersptimeout ndeletersptimeout rename association nevent neventreport __label__inline
+remove configuration singleton inject relevant value directly proxyresponserenderer rename config attribute __label__rename
+refactoring extracted common code __label__extract
+documentlisteners cleanup documentlisteners set instead map add protected hasdocumentlisteners method use foreach documentlisteners iteration move adddocumentlistener removedocumentlistener basicpanel rootpanel fix null handling adddocumentlistener removedocumentlistener accord javadoc documentlisteners private final __label__pull-up
+convert generation j listener compiles test green need cleanup __label__pull-up
+major refactoring move jelly script around __label__move
+big refactoring add ioprocessor thin layer similar reactor pattern rename abstractiofilterchain defaultiofilterchain abstract method abstractiofilterchain move ioprocessor interface move common part various iofilterchain implementation defaultiofilterchain removed unnecessary iofilterchain implementation add iosession getprocessor defaultiofilterchain access associate ioprocessor extract interface serialsession implementation go serialsessionimpl git svn id http svn apache org repos asf mina trunk f bb ffa edef __label__move
+datacomposer initialization move initlistener __label__move
+upadated surefire snapshot build remove dead code leave surefire can not currently isolate git svn id http svn apache org repos asf maven surefire trunk f bb ffa edef __label__push-down
+hold ctrl identifier sourcecodeview identifier underlined mouse pointer change indicate click jump symbol definition __label__inline
+refactoring creator use request response another step round trip test work push many default value archetype creation request make thing work fully embed mode git svn id http svn apache org repos asf maven sandbox trunk archetypeng f bb ffa edef __label__inline
+attach patch follow improves performance commit rollback reduce number round trip server use functionality set transaction isolation level back patch day ago code fail compile jdk detail old code follow commit commit begin set transaction isolation level xxx thus call commit perform three round trip database new code one round trip commit begin set transaction isolation level xxx simple test program performs transaction transaction one simple select inside transaction follow timing client server machine old new sec sec improvement client server different machine old new sec sec improvement timing average four different run driver use set transaction isolation level xxx begin transaction instead use new syntax set session characteristic transaction isolation level xxx need do instead transaction do conditionally e server old old behaviour else new behaviour break backward compatibility also require movement code check test database version number databasemetadata object connection object finally test discover code check day ago actually compile code patch connection setcatalog use property setproperty exists jdk high thus compile jdbc driver fail method exist thus back patch barry lind __label__move
+add bindable boundsetter cleanup __label__inline
+fix reduce result index size base store filename dfilename display index lowercase variant store original one do filename path well remove dpath dfilename field little refactoring extract method toget good overview less long method git svn id http svn serverix supose trunk f b ba ce b __label__extract
+rename requestpathmapping routeregistry __label__rename
+face develop alloy selectoneradio extend generate base class consistency __label__pull-up
+enhanced tool palette composition functionality add morph activity gateway feature __label__extract
+working permission extract interface permissionprovider allow multiple eventually plugin level exchangable permission provider implementation refine permission lookup haspath take account asterisk possibly cause derplings rewrite addpath algo bit effective __label__push-down
+extract interpolation method __label__extract
+ashok ashish move validation utils service refactored obd succesful call request web domain request __label__move
+katta create separate kilkari service handle call detail obd inbox move away campaign service __label__move
+extract duplicate error response creation __label__extract
+moved common render stuff render __label__pull-up
+code cleanup vjsobject __label__pull-up
+doc refactoring hg rename src site apt configuration templates apt beanstalk maven plugin src site apt configuration templates apt rename src site apt continuous integration apt beanstalk maven plugin src site apt continuous integration apt rename src site apt index apt beanstalk maven plugin src site apt index apt rename src site apt usage apt beanstalk maven plugin src site apt usage apt __label__pull-up
+rename internal variable method __label__rename
+big id bible getbible refactor __label__push-down
+support nest list longs eval pipeline add binary eval command pipeline apply nested list longs eval evalsha pipeline add binary eval evalsha command pipeline define interface binary eval command binaryscriptingcommandspipeline scriptingcommandspipeline add unit test binary eval evalsha pipeline fix warning scriptingcommandstest __label__push-down
+rename response renderable __label__rename
+inline account initialization __label__inline
+parsetree rename length numleaves clearer way also add numnodes method count internal node parse tree __label__rename
+refactored statistic record api __label__extract
+begin remove multireporter multireporter java deprecate toepool toethread workqueue workqueuefrontier precedenceprovider crawluri fetchstats java remove multireporter getreports reportto string printwriter use multireporter specifies multireporter go away anyhow __label__inline
+refactoring etc __label__pull-up
+meclipse connect exist workspace artifact projectspatch submit richard van nieuwenhovenpush abstractidesupportmojo eclipse mojo everything relate eclipse workspacegit svn id http svn apache org repos asf maven plugins trunk f bb ffa edef __label__push-down
+added quote provider extract quote html table fee provider try detect table html load feed url base column header determine type extract value table issue __label__extract
+move render example example module temporary package call dave move qtiworks code example slightly tidy __label__move
+refactoring notification __label__extract
+test add gettranslation exists __label__extract
+enable creation retrieval org webhooks make ghhook abstract create two concrete subclass org repo hook create utility class ghhooks manage creation retrieval org repo hook minimal code duplication invoke ghorganization ghrepository respectively __label__push-down
+add timebasedrollovertest list exclude test pom xml take much second execute modify modified consoleappendertest output nothing console relate change teeoutputstream admit null parameter constructor move delay method delayerutil class silent test beautiful __label__move
+create per project cert key use fetch metric move zk standardize approach __label__move
+pr mpmd refactor exclude work pmd cpd git svn id http svn apache org repos asf maven plugins trunk f bb ffa edef __label__pull-up
+remove unecessary context check connectionbase startread always call executeio already inline handleread directly __label__inline
+tfj move oauthauthorization encode httpparameter __label__move
+merge late core refactor branch __label__push-down
+use scheduledexecutorservice reconnecting simplification __label__inline
+complete rewrite pojobuilder migrate stringtemplates javawriter __label__push-down
+wip merge master renamed class around implicit explicit property building add additional extension extension pom extension depend current project version work name typemaps remove unused test __label__rename
+import tool allow inline field declarationsextend json import format allow declare field type embed record type thus longer require declare field type front fieldtypes section inline field type declaration recognize prescence valuetype attribute record type import happen two pass first inline field type declaration extract checked conflict record type import record type import __label__extract
+add support android refactored property load write osgi service base extensible actual android support supply plugin __label__pull-up
+isqreader rename long method name __label__rename
+refactor scp sftp wagon common base class git svn id http svn apache org repos asf maven wagon trunk f bb ffa edef __label__pull-up
+bugfix jenkins vsphere respect per slave instance cap bugfix jenkins npe bug vsphere gettemplate enhancement vsphere java distributes load match template satisfies jenkins jenkins configure template correction jenkins ui long offer facility manually create cloud provision slave cloud provision normal vsphere slave still manually provisionable clean log vsphere java typo vspherecloudslavetemplate getnumberofexceutors getnumberofexecutors __label__inline
+extract method __label__extract
+implement alternatingbundler removequeuebundler http issue jboss org browse jgrp add drainto method ringbuffer attribute jmxadditionalobjects set __label__extract
+refactor change build queue general move lib __label__push-down
+tried incorporate gojomo suggestion engine java remove error warning string rely flash class log jobsdir check failure severe return early collapse error handle considerasjobpath log severe rename considerasjobdirectory addjobdirectory remove catch rethrow leavejobpathfile write instead log severe rename leavejobpathfile writejobpathfile add boolean userrequest arg addjobdirectory move call writejobpathfile inside addjobdirectory change void considerasjobpath file string getjobpathfromfile remove call addjobdirectory make seperate call addjobdirectory findjobconfigs engineresource java restructure create logic clarity eliminate style code rely flash class remove limit addpath input change createpath remove cap bang error message remove platform specific path separator call engine addjobdirectory userrequest true form action add __label__rename
+refactor create abstractxmldataset __label__pull-up
+update pax log dependency version clean pax wicket service dependency scope declaration add paxwicketintegrationtest base class pax wicket user integration test update lifecycle test case accordingly git svn id http scm ops j org repos ops j project pax wicket b c ae bc bd __label__pull-up
+manual merge refactor geoip __label__inline
+package class name refactoring part __label__inline
+clean treecontextbuilder get random forest random forest builder implement __label__push-down
+split build hit list __label__extract
+move rexpro session monitor rexprorexsterserver java extract start shutdown listener __label__extract
+move gaugemodelevent gaugemodel stylemodelevent stylemodel addition add new radialrange range degree also postsvisible rename knobsvisible __label__rename
+fix wrong save replace setting fix error use terrain mode default move many terrain setting world config biome old setting world config move biome __label__move
+remove params body get delete request __label__push-down
+refactor jelisp test todo fix load stack __label__pull-up
+refactoring content heirarchy remove htmlcontent move process logic htmlcontentprocessor merge contentstub basecontent inmemorycontent use everywhere instead hg rename src main java com opensymphony sitemesh basecontent java src main java com opensymphony sitemesh inmemorycontent java __label__move
+support retention time calibration call mprcextractraw __label__extract
+rename confuse usagesummarydto field show daily average __label__rename
+various change support dao interface require spring transaction management __label__push-down
+misc improvement hbase lily solr test fw cleanuputils add clone hbaseadmin flush method leak connection chd u trunk fix lilylauncher protect resetlilystate method concurrent execution clean hbase connection use cleanuputil delete obsolete lilytestutility lilytestutilitytest hbaseconnectiondisposer remove lily hbase deleteconnections system property delete connection associate one configuration object lilyproxy hbaseproxy solrproxy lilyserverproxy embed mode improve temp dir creation assignment solrlauncherservice remove obsolete lily solrlauncher war property upgrade new kauri snapshot stop filesystemalterationmonitor otherwise increase number thread repeatidly stop start kauriruntime vm give name thread especially create executor mainly use netty netty actually rename thread much right though behavior change leave solrproxy lilyproxy make variant start method without schemalocation arg use default solr schema solrproxy close http connection manager stop solrproxy added method change solr schema startup write schema restarts solr lilyserverproxy move method add index manage lifecycle indexermodel zookeeper lilyclient git svn id svn ssh dev outerthought org outerthought lilyproject trunk b f e bd e dc __label__move
+expand beanshellprocessor beanshelldeciderule every jvm friendly scripting language javascript jython groovy jruby beanshellprocessor java scriptedprocessor java beanshelldeciderule java scripteddeciderule java update use present jsr script engine request free text name update allow script come inline string file seed module pom xml include groovy jsr capable jar classpath add new jar classpath beanshellprocessortest java scriptedprocessortest java rename empty test class __label__rename
+rename rectangle add inclusive upper extent point contain rectangle box contain added function compute bound rectangle point __label__rename
+rename filter type __label__rename
+combine processing primary sponsorsxml billstat ldspon file specify primary sponsor sobifiles also need specify primary sponsor new method beencreated abstractdataprocessor combine processingat one point reduce code duplication __label__pull-up
+updated support mambu api change mbu create group apis also include code mbu edit group api note mbu support mambu add todos test ready clientservice mbu get group role get detail group role apis clientservice mbu get client type api client group api clientservice mbu mbu client profile picture signature apis store retrieve delete clientservice documentservice servicehelper note move makeparamsfordocumentjson servicehelper demoutil move encodefileintobase string demoutil demotestdocuments mbu mbu get repayment schedule preview loan product api loanservice servicehelper mbu patch loan account term api loanservice servicehelper mbu update loan account repayment api repaymentsservice mbu undo loan account disbursement api loanservice mbu custom field refactoring support client type update demo program demotestorganizationservice mbu update comment allow username key id use place username get task mbu updated comment allow user key id update custom field user enhance demoutil provide helper method test run automation create helper run api test specific account product create helper create new account consistent test product type create helper create custom field new account valid test product client role rearrange test case allow high probability successful end end run update demo program test new apis use new generic helper method arrange test call allow good test automation less test data dependency miscellaneous updated pom file use model jar build mambu java bin jar add miss wrapper delete document api available since see mbu documentsservice update apidefinition serviceexecutor support new apis add new definition get own entity patch own entity patch json remove unused class util apiexceptiondata java class never use need mambus returncode enum class use instead remove unused constructor mambuapiresponsemessage reference class deprecate account type enum apidata class mambus existent account type class model use instead updated saving service use mambus account type deprecate original method use account type apidata savingsservice taskserice correction rename gettasks gettask requestexecutorimpl java update log json data well handle encode content profile picture signature api updated raedme file __label__rename
+exojcr rename dbcreator dbscriptexecutor __label__rename
+use abstract class interface anytypedeclaration hierarchy remove one break api change __label__push-down
+cleanup snapshot api __label__push-down
+added bugfix nsmutablearray limit test far someone please add javadocs remove list method erxmutabearray superclass __label__pull-up

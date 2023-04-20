@@ -1,0 +1,1002 @@
+Commit message,Class,predicted
+refactoring xobjectpagetypeprovider remove deprecate pagetypecommand,inline,inline
+java typeres fix pr comment,push down,push down
+move readonly command clustercommands move binary jedis jedis since binaryjedis implement clustercommands,push down,move
+score constructor cleanup,inline,inline
+sgf modify gemfiredatasourcepostprocessor basis assume gemfire server configure bootstrapped spring subsequently sdg listregionsonserverfunction register add unit test gemfiredatasourcepostprocessor class,extract,extract
+refactor main cpd class migration command line arg handle separate cpdconfiguration class similar pmd eventually formalize parameter way git svn id baf c fc e,pull up,pull up
+move reference slf j classic subclasswhen concurrentserverrunner move core can not referencedirectly logger loggercontext object base classdelegates log subclass,push down,push down
+sc qcadoomes rename metod name,rename,rename
+attach patch remove redundant code jdbc driver merge identical code org postgresql jdbc statement intoorg postgresql statement move escapesql method connection statement placeit use minor cleanup new isolation level stuff minor cleanup version string handle anders bengtsson,pull up,inline
+refactor fileobject fix test,inline,push down
+rename field key key,rename,rename
+wonder move makeeditablesharedentitynamed erxutilities erxeoaccessutilities,move,move
+proper recursion limiter code cleanup,extract,inline
+clean acceptedontologies code ontology search get ontology work correctly,inline,inline
+frag use fragtest test frag frag frag move locking fragentry,move,move
+rename quantized sample summarize summarizable,rename,rename
+issue sock proxy handler netclient add sock proxy support netclient change proxy option proxyobject class add small sock proxy test move proxyoptions property clientoptionsbase add unit test add miss ctx firexxx vertxhandler move proxychannelprovider package add classnotfound check netclientimpl add documentation proxy config sign alexlehm,pull up,extract
+added support include excludes filter configuration,extract,extract
+prepare release revert change return release,inline,inline
+rename usage description match name use commanddefinition,rename,rename
+lot change beginning persistence framework svdb add good preference page configure project path,inline,extract
+fix kind small ui bug update tool window let visually inline rest application,inline,inline
+merge htreemap htree single class htree implement map interface need wrapper,inline,inline
+separate current state context contextimpl rest sharedcontext,push down,push down
+node attribute editor correct functionality functionality complete everything seem work correctly add parameter change type set min max value etc also require change parameter good handle type migration also view change node port control inherit abstract control use addnotify removenotify listen change parameter value,pull up,inline
+refactor lispminibuffer,move,extract
+minor update extract spring cxf plugingit svn id c b b b e,extract,extract
+remove stylecontext split customcodearea two,push down,inline
+fix javadoc parse remove use reference migration fix,pull up,push down
+refactor createorupdate method mongochannelstore extract method make code readable,extract,extract
+change grouprequest use completablefuture remove grouprequest setanycasting already present requestoptions instance pass grouprequest async unicast rpcs without future lead creation unicastrequest send directly rpc async create grouprequest instance remove nullfuture replace explicit message messagedispatcher sendmessage castmessage call buffer unicastrequest receiveresponse consult rspfilter replace org jgroups timeoutexception java util concurrent timeoutexception change accessors requestoptions unicastrequest use completablefuture change rsplist subclass hashmap save byte plus few method unicastrequest get future remove request correlator table call empty destination set always return empty rsplist,push down,inline
+add vob path manually enter path vobs add dynamic view support use exist dynamic view add dynamic snapshot clear tool instance git svn id c de ed b c,extract,extract
+dataarray api refactoring,inline,pull up
+pulled common functionality gl text helper implementation,pull up,pull up
+post release refactor move almost everything package private com google inject internal package motivation simplify thing previous setup extremely awkward c g could call internal reverse similarly spi package refactoring reduces visibility many symbol internal make code hygeine change check much easy add toconstructor bind type previously difficult constructorbindingimpl class package private intertwined package git svn id f b b b aecad e,move,move
+reorganize test prepare port tokenizer spec rb,push down,pull up
+refactor jogltarget interface jogltargetfixedfunction current implementation prepares jogltargetshader,push down,push down
+minor refactoring,inline,push down
+extract method,extract,extract
+tweak clean ups,pull up,inline
+hv merge cascade constraint relate meta data aggregate propertymetadata work progress,inline,inline
+add specialvaluespinner component rework roi panel yet complete fix infamous jtextfield margin error roi add icon property roi panel internal overlay mouse position add getnumberofedgepoints getnumberofpoints method use perimeter area calculation move getperimeter getarea roi booleanmask x add getpointsasintarray method well gc work add getedgepointsasintarray method well gc work well error handle plugin class loader dynamicarray support variable block size granularity parameter add typeutil topoint int method point x add topoint x todoublearray conversion method severals bug fix,move,extract
+add change avoid delete problem,extract,extract
+refactor pull abstract base class deploy mojosgit svn id f bb ffa edef,pull up,pull up
+little refactor,inline,pull up
+hh move statsdsender common config,move,move
+implement defaultattributebuilder addattribute,extract,push down
+update java date time change refactor daos back core java,pull up,inline
+minor canidate controller refactoring add abstract superclass house common functionality fix previously nasty cut paste code,pull up,pull up
+code cleanup,inline,pull up
+pull spunk restart base class clean restart usage,pull up,pull up
+view handle well fragment clear member leave add manage operation clear frag table,extract,extract
+fcrepo tidy fesl policy validation validation occur part object datastream validation old fesl validation remove method invalid policy result method fail change policy index see also fcrepo,inline,inline
+rename sortdir sortdirection update relate accessor method,rename,rename
+update primarily modifies rackstorageprovider due issue surface work refactors retry pattern storageprovider storageproviderbase git svn id ed cd f c b fe bcb,pull up,pull up
+refactoring interface,push down,push down
+sgf move heap redis adapter security annotation config apache geode sdg x,move,move
+springbox layout usable base class old graphstream springbox graph layout cut abarneshutlayout class serve base several force base layoutalgorithms new layout implementation package contain springboxclass inherit barneshutlayout nothing change layout except possible tocreate new force base layout easily use barneshutlayout abase,push down,push down
+refactoring pmd java reduce confuse jumble interconnected methodsgit svn id baf c fc e,inline,pull up
+fix memory leak color cache push calculatedstyle field derive valueswhich need remove others remove inheritedlength class whichoriginally result misinterpretation spec,push down,push down
+dheeru refactored pull common transitional logic base transition class,pull up,pull up
+refactor parameterizable policy frontier default xml update bundle profile new chain refactoring crawlcontroller java move three processor chain rather one frontier java loadseeds remove toethread java delegate processing loop fetchchain dispositionchain abstractfrontier java workqueuefrontier java move policy calculation processor candidatesprocessor java new processor dispositionchain run every outlink candidatechain crawlstateupdater java dispositionprocessor java rename expand prep crawluri frontier frontierscheduler java delete use candidatesprocessor candidatechain linksscoper java deprecate use candidatesprocessor candidatechain candidatescoper temporarily retain ease comparison candidatescoper java simple single uri scope test candidatechain frontierpreparer java precalculate frontier policy candidatechain schedule preconditionenforcer java processoruri crawluri take prerequisite preparation previously defer elsewhere processorsreport java update chain processor sheetoverlaysmanager java applyoverridesto move broad use candidatechain java fetchchain java dispositionchain java role specific subclasses processorchain suitable type base autowiring crawluri java new field accessors use new chain frontier postprocessor java delete skip postprocessing skip end chain processorchain java take control loop formerly toethread processresult java absorb processstatus eliminate problematic stuck result,inline,move
+face move face config processing liferay face bridge impl liferay face util,move,move
+canvas mouse canvas position move base icycanvas class mouse image position move icycanvas class icytextfield remove consumecharkeypressevent property icyframe add getinputmap getactionmap method roi general performance improvement draw mouse event remove useless mouse position information fix shift combination shortcuts accidently enable text field well headless support fix wrong null sequence report limit maximum memory mb bit jvm reduce can not create native thread error minor others fix,pull up,move
+change implement enhancement code review,push down,push down
+extract minimizer interface rewrite everything use fmincghardcoded interface,extract,extract
+rename min max round mode bigdecimal double,rename,rename
+pr mng submit johnny r ruiz iii review brett porter add parameter printsummary reportformat usefile configure report format git svn id plugins f bb ffa edef,extract,extract
+paxrunner improve daemon shutdown file creation move pax home add script jdk improve synchronize block stop waitforexit pending issue stop operation window git svn id b c ae bc bd,move,move
+rename removeoobmessages,rename,rename
+move mouse related code subclass mouseovermousemanager class defaultmousemanager use optionally,push down,push down
+refactored admin route make instance rather static add new mapping resource pagination,pull up,extract
+reorganize termapi move list function prologlists,move,move
+revert fix bug revert commit f f da ba f c ae e,push down,inline
+generified extraction current view filter type,extract,extract
+check graphical update change svn branch change later bulk update conflict miss api dvrimain need call function current trunk miss,push down,inline
+filter create anon user well filter api,push down,push down
+rename test method sign jonas berlin,rename,rename
+add several method eogenericrecordclazz support ec argument move lot stuff erxxxutilities ec come first argument remove xxxeditingcontext method name name like one eoutilities add eocontrolutils clearsnapshotforrelationshipnamed add eocontrolutils clearsnapshotforrelationshipnamed add fixed pkstring generation useful urls da non trivial pks add stringforprimarykey helper prevent duplication pk generation still mess added erxeoaccessutilities modelgroup ec support null ec add erxeoaccessutilities entitynamed ec name support null ec hopefully eomodelgroup defaultgroup eoutilities entitynamed etc convert erxeoaccessutilities modelgroup ec entitynamed fixmes direction fix test anything far please check something break way one thing might reorder argument want deprecate pretty new anyway use lot outside erx,move,extract
+fix bunch issue add metric use yammer metric,extract,extract
+rename accelerationmodel longitudinalmodel,rename,rename
+rename class variables new interpolator name,rename,rename
+rename capture detail view acquisition detail view timeline chainges,rename,rename
+aesh remove old tostring rename getasstring tostring work well printwriter,rename,rename
+arqgra can not use relative location use standalone junit integration change grapheneextension setup resourceprovider url depend framework integration option container framework integration option use containercustomizableurlresourceprovider choose first delegate urlresourceprovider arquillian stand alone framework inegration option use customizableurlresourceprovider choose return graphene custom url present,push down,inline
+small refactoring method rename,rename,rename
+mapsubject containskey show type name tostring equal note static method move iterablesubject subjectutils completely unchanged create moe moe migrate revid,move,move
+rename getcurrentrow getmasterrow,rename,rename
+variable reference refactoring start need accommodate recent double dot notation remove current artificial refusal handle identifier dot,push down,inline
+jfg refactoring dao add testenvironment model dao service add test dao disable pmd check,push down,extract
+refactoring gipps krauss newell model parameter dt take directly simulation update timestep fix one simulation,move,extract
+refactored connection management code defaultclientrequestdirector execute prepare implement authentication handle tunnel request via authenticate proxy git svn id f bb ffa edef,inline,pull up
+small tweak work add miss nullability annotation inline single use utility method remove redundant throw inline method call,inline,inline
+add support sign commits add support require number review,extract,extract
+remove gdata related code integration gdata contact api remove favor portable contact api merge poco google apis upgrade spring dependency late version,pull up,inline
+plfed adapt formauthenticator change happen due servlet spec change git svn id cbddccc e eb e b,push down,inline
+hv introduce proper implementation propertydescriptor refactored code also make javadoc change api git svn id b cb b ca fae ebed b,push down,inline
+change brian remedios refactored useindexofchar extract common functionality abstractpoormethodcall git svn id baf c fc e,pull up,pull up
+added query return rename excluded sourceconsumer source tracing add performance check index set version rc git svn id guice googlecode com svn trunk f b b b aecad e,rename,rename
+rename qualifiedsrcdocname unqualifiedsrcdocname qualified doc name already mean client document name module prefix unqualified doc name document within module maven multi module use qualify unqualified doc name,rename,rename
+classutil move findpublicmethod beanattraccessor classutil,move,move
+fix reduce result index size base store filename dfilename display index lowercase variant store original one do filename path well remove dpath dfilename field little refactoring extract method toget good overview less long method git svn id f b ba ce b,extract,extract
+updated conform ioos milestone schema remove hardcoded string throughout code,pull up,inline
+add pow method groupelement class unit test su implement,extract,extract
+add package definition,extract,extract
+rename,rename,rename
+fix allow combine field single level hierarchy return separated import test facet hierarchy generation,push down,push down
+refactored memorystubs write ssem cpu test,pull up,pull up
+wagon refactor wagon wagon webdav merge wagon branch r git svn id f bb ffa edef,pull up,pull up
+move language certificate year film content pull language certificate year field film content along accessors mutators simple internal model primarily lovefilm csv ingest,pull up,pull up
+rename thing use slice instead partition less overloaded term,rename,rename
+hv move constraintvalidatorpayload constraintvalidatorcontext,move,move
+add support short syntax two type definition make sure rule inside else block least dummy expression like know new rule start b x resolution x resolution short form b x resolution continue b x resolution longer work expression name x resolution end clear mean one ot two rule use expreession name x resolution end one rule meant expression name x resolution end two rule course make sense expression complex term git svn id f ee dfeeeb,extract,extract
+nxp refactor test introduce base class,pull up,pull up
+tighten javascript extraction base real world analysis address uriutils javanew method isverylikelyuri tight heuristic islikelyuri extractorjs javause uriutils isverylikelyuri change order operation fixup call isverylikelyuri since expect string javascript escape stuff stringextractortestbase javahandle test data expect value null mean outlinks expect extractorhtmltest javaavoid redundancy use extractor create contentextractortestbase setup extractorjstest javasome new test,extract,extract
+refactor modularize jsonopenlegbill test jsonopenlegbillspotcheck previously name jsonopenlegdevtests mislead variety reason clearer additionally two method use process bill move jsonopenlegdaoutils remove duplicate code another openleg spot check create,move,move
+stash change switch branch maintenance,inline,inline
+implement tab gamesettingframe fix loading resource jar add event replace colorselect basic colour choose panel indexbuttongroup make possible decimal indexed group rather bitwise add basic actionlistener functionality listener add line save code commit change lgm gameset open gm file correct default icon code work within jar change coloroutsideroom color rather int gm filereader writer modify read write coloroutsideroom correctly gmstreamdecoder added alternate constructor gmstreamencoder added alternate constructor rename writei write add write writestr function prefs add string defaultlibs use jar dynamic detection plan util modify getvalidimage display error message method throw exception move adddim method remove convenience version make thread safe constant overrode equal hashcode hashcode checkstyle make comparable sorting add copy function libmanager correct autoload work within jar backgroundframe modify use new version adddim remove try catch image load code eventframe modify use new version adddim small correction link frame selector frame select well put top gamesettingframe implement resolution load constant tabs fully functional modify tab use indexbuttongroup modify graphic tab add scale factor field change background colour selector colorselect component gmobjectframe implement dnd event replace resourceframe remove adddim method spriteframe modify use new version adddim remove try catch image load code timelineframe make frame icon final checkstyle xml change ignore line trail line comment git svn id f f bc e cd,rename,move
+move checkperiodicboundary method algorithm use,push down,move
+improve coherence support refactored cachewrapper,inline,push down
+enable temporary queue rename getsession createsession test,rename,rename
+face develop alloy inputdate component remove alloy pickdate refactor alloy inputdate add dateselect event inputdate face develop alloy pickodate component remove alloy pickdate refactor alloy inputdate,move,pull up
+rf view api improvments,push down,push down
+rename method,rename,rename
+change make client level refactoring lucene search relate bug fix,pull up,push down
+packer add netstream protocol,extract,extract
+fix option,push down,push down
+add lastchangedservicetest,extract,extract
+aesh completion work good value need change optioncompleter api bit,inline,inline
+many change improvement image loader group importer stitch abstractimageprovider replace getimagebytile getpixelsbytile method support region load array dutil add copyrect method easy rectangular copy classutil add getjarpath class method icycolormap minor fix copyfrom method icyexceptionhandler error report use webinterface method imageutil add gettilelist rectangle region method loader rework getsequencefileimporters method generic move file group separate class rework sequence load building multiple file minor tweak preview panel lociimporterplugin add automatic stitching need add metadata level selection use flag open method revert groupfiles property back true default implement getpixelsbytile method region load support add region load support getimagebytile method add sub resolution support getimage iformatreader method add sub resolution support getpixelsinternal iformatreader method add sub resolution support getimageinternal iformatreader method sequence tweak getoverlays class method add getselectedroiset class method add getselectedrois class roiclass sort wantreadonly method seriesselectiondialog use sequenceidimporter instead sequencefileimporter importer systemutil getjavaversionasnumber return java version major number xx xx xx xx lut minor fix setalphatoopaque method omeutil add getnonnegativeinteger int method plugindescriptor well information recover bundle plugin documentation fix,move,extract
+bug reconcile bpmn element creation mechanism start movin bpmn element factory bpmn modelerfactory miscellaneous bug fix,move,push down
+hh remove jdebug timing guava rename property file,inline,rename
+qr code fix gui camera file management relate stuff takephotothread add possibility get late raw image avoid stretch image scale aspect ratio mismatch fileutils fix logic temporary file creator avoid add temp marker multiple time qr code highlight qr code preview load object green red use default material gui qr code webcam add support load qr code webcam gui camera ask reload camera qr code location laser job finish gui camera combine deactivate camera camera ignore already bit confusing original version qr code gui fix issue gui lock remove permanent ui element camera projector automatically turn make sense still reachable view menu qr code gui implement edit gui lock qr code edit progress,extract,extract
+move test springmvc specific ut suite since jax r suite produce uriparameters markup case,push down,move
+added create itemdeliveryoptions mvc,extract,extract
+refactoring simulation specification class,push down,move
+refactored improved modularity extensibility general cleanup update unit test correspondingly,pull up,pull up
+issue global require interaction either verify disallow improved stack trace filter several small fix improvement,push down,push down
+move last bendpoint structural link work time improve opd visualization add square bendpoints structural link current state option move last bendpoint link object state many change do since number problem find management refresh diagram,move,move
+clean code around patient enter date renaming remove convert enter dob timestamp dob already exist,inline,inline
+df qcadoomes qcadoomes refactored operational task operational task order plugin fix npe problem miss operation name,extract,push down
+rename process attribute remove type suffix update dependent class,rename,rename
+snapshot refactoring,move,pull up
+tiny change resultstable check table disposed time around create combo box change setcolumndesttext take argument get column change updateuserpreferences take userpreferences since singleton already static variable two signature setcellimage one take image take status rename one take status setcellstatus add javadoc three method,rename,rename
+clearcase plugin remove vob path ucm replace value value load rule git svn id c de ed b c,push down,pull up
+get rid local write spool buffer proxyoutputstream historically bytearrayoutputstream data get spooled get connect used underneath pipe write local read remotely emulate build buffer pipe get connect buffer unbounded observe wild buffer grow mb cause oome exception thread remoteinputstream greedy pump thread hudson remoting remoteinputstream greedy hudson remoting remoteinputstream remoteinputstream java hudson remoting remoteinputstream remoteinputstream java hudson filepath untar filepath java hudson plugins cloneworkspace cloneworkspacepublisher workspacesnapshottar restoreto cloneworkspacepublisher java hudson plugins cloneworkspace cloneworkspacescm snapshot restoreto cloneworkspacescm java hudson plugins cloneworkspace cloneworkspacescm checkout cloneworkspacescm java hudson model abstractproject checkout abstractproject java hudson model abstractbuild abstractbuildexecution defaultcheckout abstractbuild java jenkins scm scmcheckoutstrategy checkout scmcheckoutstrategy java hudson model abstractbuild abstractbuildexecution run abstractbuild java hudson model run execute run java hudson model freestylebuild run freestylebuild java hudson model resourcecontroller execute resourcecontroller java hudson model executor run executor java java lang outofmemoryerror java heap space info tom integration test abort java lang interruptedexception java lang object wait native method hudson remoting request call request java hudson remoting channel call channel java hudson filepath act filepath java hudson filepath act filepath java hudson filepath untar filepath java hudson plugins cloneworkspace cloneworkspacepublisher workspacesnapshottar restoreto cloneworkspacepublisher java hudson plugins cloneworkspace cloneworkspacescm snapshot restoreto cloneworkspacescm java hudson plugins cloneworkspace cloneworkspacescm checkout cloneworkspacescm java hudson model abstractproject checkout abstractproject java hudson model abstractbuild abstractbuildexecution defaultcheckout abstractbuild java jenkins scm scmcheckoutstrategy checkout scmcheckoutstrategy java hudson model abstractbuild abstractbuildexecution run abstractbuild java hudson model run execute run java hudson model freestylebuild run freestylebuild java hudson model resourcecontroller execute resourcecontroller java hudson model executor run executor java suspect channel go unresponsive first someone create local remote pipe start fill local end case pipe never get connect write fill local temporary buffer change get rid local temporary buffer altogether suppose increase latency specific pipe operation fix bound buffer size add complexity seem worth see,inline,pull up
+raketask stoppedexception raketask run monitor raketask makejob pull runtask,pull up,pull up
+added fine grain rule base html processor htmlpageparser collection simple rule easily change,inline,push down
+major index change updates implementation different pojo indexing strategy see javadoc code comment detail add autocomplete indexer index search phrase take search frequency account searched one display first pojo linkedin full indexing set run periodically configured spring task scheduler,push down,inline
+add api prevent replacement exist file copy,extract,extract
+start work update match cr release jsonld context processing algorithm do do expansion algorithm value expansion algorithm core expansion test pass keep track change thought compact algorithm implement compact test pass flatten algorithms complete framing algorithm do rdf conversion algorithms complete add old normalization code error handle clean error handle test pass updated implementation report fix program error integration module fix implementation reporting issue,inline,push down
+update codegenerator atomic handle new transactionmanager withtransaction callable atomic allows atomic configuration pass backend specific implementation transactional workflow add new backendid getatomiccontextfactoryclass enable configuration atomic context factory backend codegenerator abstract class instead interface move common code abstractcodegenerator codegenerator rename abstractcodegenerator defaultcodegenerator make sense class abstract eliminate need call generatebackendid require call generatecode previously,move,move
+refactored filtercontrols move logic superclass,pull up,move
+class hierarchy clean,pull up,pull up
+refactored typemapping hierarchy remove obsolete method,push down,inline
+pr mpir replace requiresdependencyresolution manual resolution listener pass create dependency tree git svn id f bb ffa edef,extract,push down
+refactor clean duplicate code cacheentry validation regular variant reuse negotation byextracting code share method git svn id f bb ffa edef,extract,extract
+redo tile system work room tile pane tile replace ints point dimension handle id rather roomframe added autoupdate field efficiently modify several field fire update point rename pathpoint easily distinguish two updated path pathframe reflect change instance replace x point listener fix bug click load cancelling open file anyways roomeditor update reflect change instance tile support tileselector tile add tab roomcomponent us rectangle instead ints gmfilereader gmfilewriter update instance tile room temporarily remove addtile method since tile handle id update reflect change instance tile roomframe rename field update reflect change instance tile tile add tab usable tweak tile edit tab git svn id f f bc e cd,rename,rename
+added google drive file permission add update remove operation,pull up,extract
+extend code iconio package add read support new style icon embed pngs add write support icofile case output match input do lgm streamdecoder encoder gmfile store version represent moment use determine whether game icon need modifying game version easy debug end inflater restores original file position read byte int int guarantee request number byte read unless eof reach bufferedinputstream guarantee inflaterinputstream streamencoder subclass outputstream convenience git svn id f f bc e cd,push down,pull up
+add type conversion constant optimize referencecache remove null check containerimpl getinstance add container hasbindingfor provide comparable functionality make key public git svn id guice googlecode com svn trunk f b b b aecad e,extract,pull up
+reorganize package structure,pull up,push down
+refactorings cleaner code,extract,pull up
+doublechest support valid inventory various inventory relate cleanup,inline,push down
+move bytesread test sign farid zakaria,pull up,move
+refactor edgeextractor also take inedges account,extract,pull up
+extract error handle method,extract,extract
+redesign index state split three different state general state update state batch build state split allow independently control whether subscription listener enable whether index rebuild rename build job batch build job since target group test identify confusion term build job start use terminology queue subscription rather message consumer git svn id svn ssh dev outerthought org outerthought lilyproject trunk b f e bd e dc,rename,rename
+get rid shell test target move rest test slow test since need hadoop,move,move
+cleanup abstractnode,extract,pull up
+mchanges allow override announcement email address submit alexander schwartz review dennis lundberg addition patch add expression new parameter use command line also make parameter readonly nobody try override git svn id f bb ffa edef,inline,extract
+refactor move image utility method class,move,move
+java typres make methodtype immutable remove getapplicablemethods overload,inline,inline
+refactoring method extractiongit svn id f bb ffa edef,extract,pull up
+refactored typemapping hierarchy remove obsolete method,push down,inline
+table digitalization rename digitization table subject group map dao object create git svn id database trunk f c aaa da e aacc,rename,rename
+imap move append test imapappendtest class,move,move
+consistency predicate minor change rename method write javadoc semantic preserving,rename,rename
+refactored loadstage loadstage base loaddatastage jit avoidance move blackhole,pull up,move
+refactor use interface core model easy gwt replacement,pull up,push down
+major rule datatype overhauli completely rewrote internals rule make easy use withchris dyer dot item extraction scheme also someidea profile think take less space withthe rewrite also hell lot easy understand also change feature function reflect since look atrule internals also make first attempt write extractionlogic,extract,inline
+refactored audio scrobbler class reduce method length,extract,inline
+move bunch setter getters base class git svn id f bb ffa edef,pull up,move
+refactor mapreducer interface make sure infinispan mapreduce infinispanmapreduce setcombiner reference thanks radim call statistic begin end maptask execution update mapreducestage put result cache task support,push down,push down
+change make analysis endpoint mainly analyze parameter change associate supporting class,inline,inline
+karaf rename sync property usage,rename,rename
+selection option implement see vim help selection detail add string option need work general add boolean option toggle like set ai break visualmodetests side effect probably difference real mock class real thing work fix em later,push down,extract
+remove synopsis description object move short medium long description top level,move,move
+fix issue dw would move backwards cursor whitespace begin line,move,move
+rename imockinvocationresponder imockresponse rename implementation accordingly rename mockconfiguration responder accordingly,rename,rename
+request payload serialization refactor move payload tojson logic client abstractaction generalize payload usage across action implementation,move,move
+modify tree storetree write tree definition return boolean modify treebuilder processtimeseriesmeta call collision match flush call tree instead storetree since process never modify tree metadata add copy constructor tree rework treebuilder processalltrees cache tree definition thread safe manner keep scanner call refresh list every minute process real time tsmeta entry remove spurious system println testtree java add root branch cache treebuilder speed real time tree generation call fetch root every call rename treebuilder loadroot loadorinitializeroot make static call modify load set cache return root branch sign chris larsen,rename,inline
+extract statusupdateservice timelineservice,extract,extract
+hv extract two method,extract,extract
+bring back noadditions option useful running constrain crawls complete list urls know advance git svn id f bb ffa edef,extract,extract
+service api refactoring,inline,inline
+remove idea warning,inline,inline
+move checkdestinationdirectory uistarter resultstable call uistarter call ready method resultstable also make method synchronize probably mistake move resultstable first break resultstable file reason uistarter anything userpreferences fact anything model move code uistarter depend model besides constant generic small change could use startup file graphic application also plan use result checkdestinationdirectory specifically change result table still do,move,move
+refactor code simplify resource handling,pull up,inline
+hv hv pull constraint origin adaption metadetabuilder order adapt method constraint,pull up,pull up
+refactored remain service add apis update code base refactoring check review comment main change include added apitype constructor change account specific apitypes generic one rename operation action serviceshelper change replace object generic type eliminates need cast well suppress warning service class implement suggestion static map replaces statement type collection refactored service use apidefintion servicehelper fix test case need added demotestintelligenceservice implement wrapper mambu api addition update maven pom build mambu apis java bin jar use mambu model v jar mbu developer like work custom view add get custom view api wrapper b add filtering client group loan saving custom view id mbu developer like filter list centre via api updated wrapper filter centreid client group loan saving service,inline,rename
+add move animation growl fall,pull up,move
+df rename view,rename,rename
+refactored slightly split inprocess fork creation also try move reporting fork area code still need lot work git svn id f bb ffa edef,move,move
+minor refactoring move noise pmd java clean import git svn id baf c fc e,move,move
+hv move constraintannotationvisitor reporterror new class messageradapter move constraintannotationvisitor initdiagnostickind constraintvalidationprocessor git svn id b cb b ca fae ebed b,move,move
+star background task move back edt create specialized util method use intellij method thread management around ui fix deprecate method call,move,move
+pull method getrecorder makecrawluri string moduletestbase move moduletestbase heritrix module crawluri available,move,move
+extend map display shader mechanism invert shader call logic instead mapdisplay call shader mapdisplay pass shader allows complex shade behaviour e g two pas gaussian blur create super class mapdisplayshader two shade method implement shadewithmarker shadewithoutmarker call different position postdraw mapdisplay enhance maskedmapdisplayshader two option use dynamic mask canvas b use mask image add blur deform shader add shading example,pull up,extract
+text edit rewritten,inline,push down
+refactor swftest fix broken storescu mppsscu stgcmtscu,inline,push down
+relocate method classfor asmtype type single responsibility code reusability move method classfor asmtype internal util class type,move,move
+start refactoring roadmodels create spatialregistry encapsulate positional information relate road user,move,inline
+move method getserializerclass asyncproducerconfigshared syncproducerconfigshared,pull up,move
+refactored test prepare run ecj well delombok,pull up,pull up
+fix ant test pmdtasktest move partly java javascript xml,move,move
+resourceframe provide default code revertresource since generic safe every child use exact code cut duplicate code inheritor may override method custom behavior need need exist resource frame yet git svn id f f bc e cd,pull up,pull up
+fix miss version globale key list,push down,push down
+multicast change notification,push down,inline
+implement spawn tp tphere back warp module fix minor glitch chat module fix problem tnt would ignite place next redstone despite config setting change version,inline,push down
+refactored calculation use interval instead reportingperiod motivation interval concrete interval start end date calculation do concrete interval reportingperiod defines calculate interval e g last year might might relative current date issue,push down,inline
+face develop jsf jsf compatibility layer move jsf relate method compatimpl,push down,pull up
+modelextension element always add check standard emf ecore data type modelextension attribute remove tns jbpm globaltype name add miss custom jbpm attribute element show hide tab accord modelenablement preference set default name catch minor refactoring,push down,extract
+create asyncrequestwrapper,push down,push down
+code cleanup activity,extract,pull up
+extract class,extract,extract
+rename treemap setall treemap union make leave bias instead right bias,rename,rename
+schema cache avoid take many fieldtypes snapshot e create update fieldtype git svn id svn ssh dev outerthought org outerthought lilyproject trunk b f e bd e dc,push down,move
+cleanup,pull up,pull up
+fix major bug custom event add command reload config config default apply save,extract,extract
+shadowloader add cache jarfile content lookup,extract,extract
+fix recoverycoordinatortest use new instance recoverycoordinator test otherwise timestamp next call istoosoon could happen well backoff threshold slow machine small node cloudbees jenkins cause false test failure also rename refines individual test,rename,rename
+move cap management entitymapping,push down,move
+remove instance variable reduce visibility,inline,inline
+split calculation cohort definition regular date base calculation add unit test evaluator move report unit test correct package,pull up,move
+huge change multiworld implementation commit contain break code world management must refactored suit new api,inline,inline
+rename comap contramap,rename,rename
+rename internal compiler package token,rename,rename
+api change rename command execute command perform fix,rename,rename
+move lotsa stuff erxutilities erxxxxutlitities add fix accompaniying deprecation,move,move
+bit test refactoring,move,pull up
+move template implement profile activity,pull up,move
+java typeres move method typeresolution method helper class,move,move
+commit code v new feature custom command use parser added entity data e g one use angry wolf power creeper different villager etc added skript reload command reload main config script add expression last spawned entity line whereas latter currently read clear set change trigger file call script end sk locate script folder main config also end sk variable store csv file merge right leftclick one event one use click entity player etc can not use damage event anymore one use attacker victim respectively several change api e g remove loopexpr expression loop block loop loop bottom top left right whatever left right argument also access argument argument e g arg player player argument target block store event result fast execution unexpected result change block player los current target block still access future target block target block etc fix fix checkediterator blocksphereiterator aabb matter skript throw error reload plugin manager reload plugin like craftbukkit fix inventory handle e g hold change inventory anymore improve handle item multiple id e g cauldron block item redstone torch parser exit anymore expression init method print error allow complex pattern fix expression state expression even others inherit others fix furnace slot fix clickint air check cancelled plugins correctly fix click entity cause click event one entity one air fix ambiguity variable expression name fix able heal damage entity heart fix expression conflict itemtype many small fix draft add draft unit test know issue default location many block event entity vice versa know cause fix tidily damage damage event still raw damage e without armour critical enchantment modifidicators apply,inline,push down
+cod mdi functionality lot gui code gmltextarea lead space convert tabs tab width set initialisation add gettextcompat convert newlines tabs back resave see prefs tabwidth see util convertindents string gmmenu extract gmmenubar allow subclassinggmmenubar add window menugmtreegraphics background node show correctly treemdimanager implement resizedesktop mdimenu window menu update frames add remove offer common command subclasses gmmenumdipane modify call resizedesktop certain case add function close etc vtexticon fix generic warninglgm mdi instance mdipane modify createtree add jtogglebutton eventframe reorder gui initialisation code work extra toolbar button overload makebutton kind abstractbuttonresource modified argument copy two version modify subclass use new argument resourceframe add javadoc comment field clarify purpose modify resourcechanged subclass compare resoriginalscriptframe modify use gmltextarea gettextcompat eventframe add support toggle buttoncheckstyle xml todo comment ignore eclipse already good functionality thatabstractbitmap remove fixme commentgit svn id f f bc e cd,extract,extract
+rename parameterint commandint,rename,rename
+module module module module module multiple fix dependency graph rearchitecture,push down,move
+improve biomegenerator biomecache handle biomecache class implementation move common cache efficient need mojang cache well handle virtual biome cache similar api mojang cache previously biome generator call vanillabiomegenerator special case implementation tc common either tc bukkit tc forge register vanilla biome generator properly implement biomegenerator one area leave vanillabiomegenerator still special cased bukkit forge vanillabiomegenerator get information mojang worldchunkmanager biome gen base arrays convert int array would use tcworldchunkmanager extends worldchunkmanager get information biomegenerator would get infinite recursion make code maintainable check add forge bukkit vanillabiomegenerator class well documentation class,push down,move
+added support custom java base editor custom java base editor add jvsthost object view modify parameter program setting vst well send midi message jvsthost modify public method synchronize help coordinate automation ui thread may try access plugin simultaneously,inline,extract
+fix background image bug cache image browser enhance linklistener house clean play idea code inspection utility,inline,inline
+rename getrootsite gettoplevelsite since method nothing reactor execution root git svn id f bb ffa edef,rename,rename
+extract static assertxyz method null safe unknown type safe check,extract,extract
+rename requestresponsemapping stubmapping,rename,rename
+inline finishandinjectsingularmethod generatesingularmethod,inline,inline
+rename castbuffer numberbuffer clarify usage buffer,rename,rename
+additional change jira feature request sgf support gemfire new cluster base configuration service rename cacheusingsharedconfigurationintegrationtest class cacheclusterconfigurationintegrationtest add additional test case assert default non use cluster configuration behavior rename gemfire system property reference enable disable cluster config base revision r gemfire,rename,rename
+extract method localize responsibility,extract,extract
+restore ability add new variable xpath rule dialog raw tweak need modify rule interface pmd property able drop upcoming git svn id baf c fc e,push down,extract
+rename method jsonreader,rename,rename
+remove utils move initmdc sentryappender,move,move
+change schema relay first version parse complete,push down,inline
+refactor move thrifttypeinferringcolumnquery thrift package rename internal member hectortemplatefactory,rename,rename
+minor change value expression review,push down,push down
+doc reorg bean utility javadoc refdoc rename class accurately reflect purpose move injectable method reflection flesh builder package info,rename,move
+add global preference page stub include wsil browser support schemaimportdialog fixed new file wizard unable edit file name,extract,extract
+move abstractlazylayout addcompoenteagerly lazylayout,push down,move
+hv implement group conversion unify handle cascade validation bean parameter return value validation also remove type name executable name line spec,inline,move
+rename atomiccontextfactory newcontext atomiccontextfactory newatomiccontext,rename,rename
+modifed repl allow turn autorun add ability explitly run program use run command modify rollback rollback last successful run add support execute multiple repl command single line separate semi colon additional work need work desire rollback functionality,extract,extract
+face develop alloy inputtext component extend generate base class consistency,pull up,pull up
+enhanced dependency resolve understand dark upset code,inline,inline
+refactored extract writepottofile writepotofile method,extract,extract
+major highlight move sim similarity package add new implementation streemer shindler k mean improved vector define common equal hashcode tweaked intset intcollection update bulk operation apis operate intcollections,pull up,pull up
+remove duplicate method implementation,pull up,pull up
+varenc remove unnecessary subtree rewriter class,inline,inline
+refactored tcpip include nio support code jgrp tcp nio longer extend class tcp connectiontablenio long extend connectiontable instead share common abstract class share method,pull up,pull up
+version fix appropriate jangaroo facet detection add facet packaging type jangaroo compile goal call explicitly jangaroo facet war module contain jangaroo code longer need copy transitive jangaroo dependency already contain war overlay git p depot path coremedia jangaroo change,extract,extract
+rename valuemetric gaugemetric inline exist metric terminology,rename,rename
+bug move test junit port security test change id c ceb b f sign sopot cela sign thomas watson,move,move
+added button reset process logo default clean code little,inline,inline
+code cleanup preparation release simplify protocol structure move configlocator logic hibernateconnection split large hibernatedatabase class multiple implementation add javadoc test test data reorganization remove slf j dependency,push down,move
+add image roster handle roster entry remove,inline,extract
+move spi package processor module simplify accessornamingstrategy contract,move,move
+cleanup old code useless thing code cleanup,inline,inline
+refactored servlet standalone prepare eventual non servlet base ninja,pull up,pull up
+hv style change move setter getter approach validationbootstrapparameters,move,move
+face remove portletcontainer create url string method face clarify contract bridgeurl move uri functionality new bridgeuri class face simplify class hierarchy bridge urls remove marker interface,move,move
+rename key field control file match terminology debian policy,rename,rename
+improve traceobject function,push down,push down
+hh sync embeddedpgdsfactory fix test,push down,push down
+rewrite current lock implemention solve ticket,inline,inline
+fix miss amendmentversions billsobiprocessor billactionanalyzer change fix bill action wrong amendment version create foerign key problem database fix write apply xmlbillstatprocessor unfortunatly sufficient sobi file also use billactionanalyzer could affect method fix problem move abstractdataprocessor accessed processor billsobiprocessor include method bill action logic,pull up,push down
+new actor restore old actor org dawb passerelle actor flow move new dynamic port actor org dawb passerelle actor ifdynaport,move,move
+create new class getter move appropriate get method,move,move
+refactoring add outrankingcriterion,pull up,extract
+refactored atom bind layer generic horizontal jax r service handle different artifact type rather duplicate resource per artifact type,pull up,push down
+remove dependency treenode,pull up,inline
+hacker weekend compiler plugin rename deepstatementrewriter deepblockrewriter rewrote always process whole block heavy refactoring ast transform related code make easy understand extensible add support declare mock interaction right create mock list implement specification declare condition interaction context object,rename,inline
+expands modified flag entity aspect node change serializer take consideration modify flags entity aspect clean serializer code add junit test perform network test test exist serialization tree,inline,extract
+extract duplicate error response creation,extract,extract
+introduce attributebuilder interface,push down,push down
+refactor maven config params push pullcommandsallow mojo run without maven project ie pom xml switch requiresonline annotation disable mojos offline change projectconfig param string file extract common option common code push pullmojo push pullcommand add module relate params pushpullmojo,push down,pull up
+start clean common module,inline,pull up
+wip refactor candidate service use new authentication filter convert exist session token idea work like xsrf token need test tidy next,inline,pull up
+simplification generalization code addition activemq product also move product configuration file product directory,move,move
+update upload tool split display panel display succession first accept connection info second select content upload third show status fourth indicate process completion git svn id ed cd f c b fe bcb,extract,pull up
+refactoring inlining method prepare wrapper class defaultmutabletreenodegit svn id baf c fc e,inline,pull up
+sc esilco refactors,pull up,push down
+rename clusterwidemaptest key entry test method name sign thomas segismont,rename,rename
+rename bigfilemode bignumbermode compress git svn id f bb ffa edef,rename,rename
+refactoring abstract duplicate behaviour create comment edit comment page comment panel issue document milestone abstract class issue,pull up,pull up
+fix bug stop would work,push down,push down
+df esilco fix problem override record give pallet number instead select one move storage location,pull up,move
+rename wrong method,rename,rename
+scale use parsing refactored parser superclass,push down,pull up
+inlining,inline,inline
+rsa refactoring new test case,pull up,pull up
+refactor rename wechatappservice wechatsmallappservice,rename,rename
+jcbc fix fts error handle parse querystring highlight motivation review phase follow problem identify ft rfc affect implementation stringquery querystringquery additional plaintext error case consistency request can not fulfil within timeout highlight style actually optional error array object present hit null modification stringquery rename querystringquery static factory method string querystring highlight several overload omit style use style actually set new special enum server default case lead responsestatus failure interpret ftsconsistencytimeoutexception execution error parse jsonarray jsonobject case hit null also handle added unit test integration test notably error handle case result error handling ft correct bug fixed comment rfc review take account change id iefd e f cc c b review review sergey avseyev test simon baslé,rename,extract
+add bindable boundsetter cleanup,inline,extract
+refactor variable resolve allow custom variable parser implementation update test case sign,pull up,pull up
+refactorings get rid componentsuiteresolver componentsuiteregistry fill advance anyway idea plugin also simplify componentsuiteregistry accordingly split xmltojsonhandler use exml parse two handler one metadata exmltometadatahandler one ext component json exmltojsonhandler metadata need build xsd json need generate class open api generate single class remove exhaustive logging souts git p depot path coremedia jangaroo change,pull up,move
+refactored tcpip include nio support code jgrp tcp nio longer extend class tcp connectiontablenio long extend connectiontable instead share common abstract class share method,pull up,pull up
+cotinued item author view add view item state render remove separate allowsource allowresult deliverysettings,extract,pull up
+mostly work add edit remove maven runtime wizard wip also get rid global setting nonesense use calculate local repository location afaict make much sense significanly complicate maven installation preference page change id edcbb cd ddbf c ceeccc aa sign igor fedorenko,inline,inline
+move bundler impls tp org jgroups protocol tp bundler string type allow change bunder runtime e g probe sh op udp bundler sender sends change nobundler use pool output stream,pull up,move
+remove metric visitor,inline,inline
+conversion openssl rfc dns move opensslnameutils,move,move
+extract test run builder style object,extract,extract
+api simplification,inline,inline
+fix string assembly stringbuilder buy u anything rename wrap quote,rename,rename
+move build variable logic package add teamcity bamboo support,inline,move
+push non abstract non static method abstractiobuffer add final modifier abstractiosessiongit svn id f bb ffa edef,push down,push down
+fix message id topicsadded method inheritance testrefactored nevadoqueueconnection nevadotopicconnection,push down,inline
+rename sentry sentryclient rename android sentry sentryandroid rename sentry class sentryclient rename sentryfactory class sentryclientfactory rename subclass end clientfactory remove breadcrumbs class add new sentry class static client access usage rename android sentry android androidsentry make unambiguous use code rename sentryfactory option factory environment variable configuration sentry factory java system property sentry factory,rename,rename
+think credential support do upgraded maven project dependancy generting error try test move file aorund make sense lot minor stuff,inline,move
+refactor move webclientproperties databaseservice,move,move
+refactored rosterview pull rosterview inner class viewcontentprovider support class,inline,pull up
+ivy buildout manage project couple test code change reflect new layout remove cyclic dependency b w test jena sesame core fix drop sdb support keep code around case anyone want revive jena module anymore,pull up,inline
+h need ui quit shutdown option engineresource java add exit control area bottom page allow jvm exit confirm box check either job build run extra confirm box build job check flash java fix allow multiple flash per page load jobresource java crawljob java move useful status string method crawljob,move,move
+rename latesttreatment latesttherapy therapy domain logic start add phase object therapy encapsulate phase information viz date dos ip cp eip therapy,rename,rename
+refactors git svn id b e ab bb b,pull up,push down
+remove unused field,inline,inline
+remove builder query,inline,inline
+calendarservice calspacecache move executioncontext,inline,move
+lilylauncher implement lily service rudimentary e g conf plugins etc still need thought us build conf added resetlilystate wipe lily state expose via jmx actually work since code stop avro class avroserver comment activate work though look later move clean code hbaseproxy new cleanuputil class git svn id svn ssh dev outerthought org outerthought lilyproject trunk b f e bd e dc,move,move
+added documentation feature,extract,extract
+tfj rename follow method onuserlistsubscrbe onuserlistsbsucription onuserlistcreated onuserlistcreation onuserlistupdated onuserlistupdate onuserlistdestroyed onuserlistdeletion onuserprofileupdated onuserprofileupdate,rename,rename
+nishi abhi move patient detail show page action patientdetailscontroller sign abhishek,move,move
+rename callrealmethodwith callrealmethodwitharguments add javadoc,rename,rename
+write item change,inline,inline
+shift method parent,pull up,pull up
+kill buffer fixed,push down,push down
+common web account service method move userservice class providerservice add resetpassword method userservice,move,move
+minor refactoring service layer assessmentmanagementservice focus specifically assessment management functionality move assessmentcandidateserivce new bottom layer service call entitygraphservice,move,move
+reuse tostring method oauth oauth move getlocalefromstring helper method,move,pull up
+add errorreportframe easier generic report major change roi class warn roi class method well roi support well booleanmask integration roi many others change relate roi booleanmask general base kernel roi plugins point point point class improvement rectangle rectangle rectangle class improvement colormap tab color reflect channel colormap prelemenary bio format automatic error report add many color conversion method tool colorutil class add overlay isattached sequence method add bytearrayconvert read writexxx method handy serialization rewrite sequencechooser class cleaner update new method remove useless roi tooltips severals fix tweak refactoring,pull up,push down
+extract code additional function,extract,extract
+exploit new sourcepath option remove guess guess member class type cast remove correspond compiler option downside import must accessible parseable compile time mean also need something like classpath use inside maven plugin resolve dependency jangaroo library upside jooc warning take seriously splitted analyze phase scope analyze change parser parse dot identifier sequence qalifiedide increase priority new operator high dot new b c correctly parse dot new ideexpr qide b c handle code generation qualify unqualified ide expression ide qualifiedide generatecodeasexpr tree rewrite dotexpr elsewhere think remove parent node slot astnodes change return type analyze void code generation add package prefix import identifier private prefix private static member efficient less magical access via able remove statement rename methoddeclaration functiondeclaration use add ast node expression git p depot path coremedia jangaroo change,push down,inline
+wagon simplification get call git svn id f bb ffa edef,push down,inline
+refactored last test use common base class,pull up,pull up
+simplify servlet logic improvement servlet jsp code,inline,inline
+rename errortype errorkind,rename,rename
+create fully work handlesetter eclipse refactored handlegetter little mostly stuff common code pkg,move,inline
+biome manage world addition pluginloader add biomegenbase wrapper might need implement nms yet rate pluginloader try look plugins disk enable allow enable newly add plugins world contain setbiometype getbiometype generally whole biome data array still obtain chunk,extract,extract
+rename people friend,rename,rename
+added messagebatch unit test change message list marshal write read length message list first add messagebatch protocol default impl add enable batching tp protocol include nakack unicast implement method message bundle pass cluster name move unmarshalling code tp receive jira,move,extract
+refactor output format cluster list,extract,pull up
+remove obsolete invenio search handler,inline,inline
+various bugfixes restore formsservlet version commit date remove debug output link implement readonly mip output render link dialog remove action break form bfrequiredfull add miss dependency betterform ui range slider inlinealert fix render inline alert xformsfeatureexplorer add bfrequiredxformsfeatureexplorer add addtional j dijits,inline,extract
+rename generateparameter generatecommand,rename,rename
+postgres impl complete add queryoptionpostgresqlsearch represent postgres search option language move function jdbcdbutils jdbcpersistencemanager order able override postgresqlpersistencemanager,move,move
+refactoring extract timelinerepository userlinerepository,move,extract
+enhancement query bind value store internally send server previously allocate new string object entire final query send database big query especially large bind value end essentially two copy memory change reuse exist object therefore take memory today give query restructuring also allow future ability stream bytea data server instead current approach pull memory also fix test fail database also rename internal variable minor cleanup modify file jdbc org postgresql core queryexecutor java jdbc org postgresql jdbc abstractjdbc connection java jdbc org postgresql jdbc abstractjdbc statement java jdbc org postgresql jdbc abstractjdbc resultset java jdbc org postgresql jdbc abstractjdbc statement java jdbc org postgresql test jdbc databasemetadatatest java,rename,inline
+eventframe related tweak rename gm class gm eventframe key selector grab focus key event select tree collapse frame close gmfilereader rename gm filecontext gmfilecontext eventkeyselector tweak empty box let add git svn id f f bc e cd,rename,rename
+progress use massivecraftcore allman indentation style minor refactoring,move,pull up
+fix window size bug download sit editor add ability download beta module crosswire,extract,extract
+replace ref weakreference fix group deletion weakreference give special treatment garbage collector make less prone memory leak easier use also advantage know class time create ref would use resourcemenu remove getselectedref setrefselected method make get set select take weakreferences argument listener correct deleteresource properly delete child group util add static utility method weakreference deref refsareequal resource move node field ref git svn id f f bc e cd,move,move
+new feature rework database persistence layer remove lock new multi component,inline,inline
+handle redirect correct create gem dependency hull,extract,push down
+clearcase plugin add option set time window merge change log entry git svn id c de ed b c,extract,extract
+rename boolean ishasxxx method hasxxx expose xxx attribute xpath git svn id baf c fc e,rename,rename
+documentlisteners cleanup documentlisteners set instead map add protected hasdocumentlisteners method use foreach documentlisteners iteration move adddocumentlistener removedocumentlistener basicpanel rootpanel fix null handling adddocumentlistener removedocumentlistener accord javadoc documentlisteners private final,pull up,move
+refactoring four new helper method codegeneratorbase clean code subclass lot idea structural replace rulez fly clean multiple declaration jswriter,inline,inline
+merge infosigns itemdisplays shop database make sureplayer shop stock affect economy player shop part,inline,inline
+pull generatesingularmethod implementation javacsingularizer,pull up,pull up
+cleanup log stuff simpler coherent default verbosity level,inline,pull up
+renames method encoder also move encodequeryparameters method encoder class,rename,move
+cod popup menu resnode listener extract method listener actionperformed delegation need revision mouse handle add insertresource method copyresource still need coded correct credit readmeadded javadocs resnode status resnode kind get confuse lot even though coin termstemporary tile paint roomeditor use transparency cache need replace tilecomponent git svn id f f bc e cd,extract,extract
+test add gettranslation exists,extract,extract
+rewrite,push down,inline
+add datetime utility class move date parsing feature graphhandler cliquery share api tool add millsecond absolute timestamp parse add month relative time option n character work day period refactor date time specific call graphhandler modify cliquery use new date time parse folk enter relative timestamps via command line add unit test class datetime java allow override local timezone via config file sign chris larsen,move,extract
+rename classtag qticlassname similar,rename,rename
+rename add noop dispatcher cleanup,rename,rename
+mjavadoc refactor base class make jar aggregate git svn id f bb ffa edef,pull up,pull up
+allow direct write channel without pass select pas writerequest chain store original message remove lastwriterequest field abstractiosession need anymore renamed highlevelmessage field originalmessage defaultwriterequest add setter defaultwriterequest add writedirect message iosession todo check good idea interface fixed test accordingly change git svn id f bb ffa edef,rename,extract
+align system runtimemetricevent rename core change id e b c ab bd efdb review tested michael nitschinger review simon baslé,rename,rename
+added test case bidirectional,extract,extract
+balajin refactoring adherence model capture tb id part adherence log adherence class represent weeklyadherence rename accordingly reflect upstream change tb adherence moudle fix fail test,rename,rename
+ngrinder support concurrent multiple test add green ball change default log directory grinder log default fix test finish determine logic safe thread count also process status count modify sample test creation logic run base runcount duration well run test slow machine change current test pertftest retrival logic get status,inline,extract
+pr mng make repository metadata behave like snapshot daily update next step move version check use instead fallback old file git svn id f bb ffa edef,move,move
+remove ccd test extracted transitiveparentcount test thus reduce test addition removal classdescriptors,extract,pull up
+finish replication refactoring,move,extract
+fix gscoverageencoder fix integration test todo run integration test,push down,pull up
+rename repository readrecords repository readversions git svn id svn ssh dev outerthought org outerthought lilyproject trunk b f e bd e dc,rename,rename
+replace area intersect sutherlandhodgmanpolygonclipper advantage allow move shape merger chain need want optimize wrong angle shape img size increase bite compare r filter yet work properly git svn id prec coord f ee dfeeeb,pull up,inline
+make hover listener add xhtml panel default also improve box search code test parent deep box hoverable case deep box issue number obtain submit reviewed,extract,push down
+move isnull abstract,pull up,move
+save work add default width height preference fix shapestyle preference persistence fix lane move algorithms factor stuff modelhandler use movelanefeature start add context menu outline viewer,pull up,extract
+clean profusion method orientdb implementation remove exists open create put functionality constructor try keep implementation specific blueprint possible allow user depend non interface base method transactionstestsuite still cause problem concurrent modification hashmap,pull up,pull up
+checkplugincommand refactoring,extract,pull up
+move wait method new class move goback robotiumutils,move,move
+fixups dry violation parse command line argument create stagecommandlinearguments class parse string args move logic stage creation abstractstage stagefactory misc refactoring additional comment,extract,move
+refactored querystage functionality move reusable class,move,move
+move asyncweb codec mina filter codec rewrote exist client codec protocolcodecfactory getencoder getdecoder provide iosession parameter git svn id f bb ffa edef,move,move
+introduce brandingpluginsinterpolator,inline,push down
+face move implementation bridgecontext dispatch string externalcontext,move,move
+fix visitor jjtaccept method concrete subclass,push down,push down
+refactoring,pull up,pull up
+initial historics implementation add onstatus event bump version,extract,extract
+jdbc add batch insertion jdbc client binding,extract,extract
+introduce model concept variable,push down,push down
+vishal move display logic patient class,move,move
+refactoring task command stuff,push down,push down
+create builder encfsvolume,extract,push down
+small fix javadoc improvement,push down,push down
+finish costing variance detail aid group id atid cost variance calculate order close mo reevaluation end period need do new code work ad client isusebetafunctions activate refactored doc costcollector break createfacts much small method costdimension introduces resource id property git svn id f ce ac b f,extract,pull up
+added command line option stic,extract,extract
+minor change value expression review,inline,push down
+cleanup error handle assembly plugin git svn id plugins f bb ffa edef,inline,inline
+face prepare osgi move impl class internal sub package order clearly distinguish api implementation remove bridge api dependency liferay face util streamine factory apis,move,move
+rename updateattributes update,rename,rename
+face refactor bridgeflashfactory wrap like factorywrapper,push down,pull up
+refactor pull locale handling,pull up,pull up
+big update move emphasis book updaing gui,move,move
+rename method,rename,rename
+fix bug user read user search regard placement metadata lead several transparent notable change main one rework respond abstraction userrequest request request contain one respond add already complete jsonobject result success key value pair userrequest contain multiple respond abstraction end call single respond function refreshes user authentication token cookie call parent respond also new respond abstraction add allows user pas jsonobject represent metadata along jsonobject represent actual data,inline,extract
+added support keep cursor across multiple capture api cleanup mostly tool moved property anonymous project todo somehow tool get incorrect parent frame null cause property destroy,push down,move
+test cleanup rearrange,pull up,pull up
+deva preethi move therapy patient patient currenttherapy list therapy treatment therapyuid instead therapydocid alltherapies remove move therapymapper functionality patientmapper,move,move
+change add clarity fix low zoom render git svn id f ee dfeeeb,extract,push down
+filewithtype getname return name without extension keyword completion match simplify,inline,inline
+remove additionalcheck whose functionality replace syntaxcheck system also move one additionalcheck lone try new class,move,move
+introduce call call adapter response type call mechanism request execution encapsulate single request action either synchronously asynchronously support cancel calladapter mean support method return type call like rxjava observable adapt call instance another instance change move rxjava support sibling module use adapter support observable type response represent response along side deserialized body allow access convert body lower level item header response code underlie ok request response object,move,move
+rename method termadapter interface toterm fromterm tostruct,rename,rename
+pr plx check kind line ending manifest entry get corrupt rewrote writevalue method use stringtokenizer improve readability robustness add testcase mixed line ending,extract,extract
+move duration root move callto awaitility,move,move
+remove redundant function extgraph duplicate sesame graphutil movign implementation util method graph extgraph interface extgraphimpl implementation call jsut delegate graphs add two new graph extension extgraph implement iograph rio util method functionalgraph support guava functional class rename statementfunctions statement add additional functional utility method add testgraphs test main graph funcionality generally clean extgraph extgraphimpl,push down,push down
+fix manage show view hide view annotation useful pefix change,push down,push down
+rename test archiveindexeslistertest make sense,rename,rename
+ashish ashok refactoring campaignmessagealert move service obd,move,move
+rpcdispatcher merge request response marshaller one,inline,inline
+clean,inline,inline
+pull property base type,pull up,pull up
+refactor scope updater share common put method executor,pull up,pull up
+new activation manager book inheritance tidy,push down,inline
+switch positive formulation e nonneutral relevant also rename sumcategoryvaluates sumcategoryvaluations,rename,rename
+introduce seleniumtestfilesfinder interface add ability set default seleniumtestfilesfinder via erselenium static method,push down,extract
+create jack test submodule replace usages databaseconnection,push down,push down
+shruthi vishal create recordadherenceoperation rename transition,rename,rename
+refactored g dglcanvas simple implementation render canvas entire jcomponent hierarchy,push down,pull up
+reworked report builder display description tag define report rather base class,push down,push down
+fcrepo tidy fesl policy validation validation occur part standard object datastream validation fesl specific policy validation remove method invalid policy result method failing change make policy index,inline,inline
+rename bugfix set,rename,rename
+face develop alloy pickdate component document type maximumdate minimumdate attribute move tojavascriptdate logic pickdateutil new encodedate method pickdaterenderer face develop alloy inputdate component document type maximumdate minimumdate attribute move getdateatmidnight pickdateutil inputdate conflict alloy src main java com liferay face alloy component pickdate pickdateutil java,move,move
+cve integrate fallback sort rest add test fix bug bucket boundary calculation git svn id f bb ffa edef,extract,extract
+hv avoid non final field synchronize map validatorfactoryimpl xmlmetadataprovider need nulled refactoring structure make apparent state hold replace synchronized map chm make sure one beanmetadatamanager build per parameter name provider,inline,move
+remove internal interface name,push down,inline
+lot refactoring support multiple connection,inline,move
+cleanup well thread name javadocs,push down,pull up
+make abstracttraversal bit testable self contain resultobjectcache interface change logic around abstractraversal would contain logic expose rather force implementers know gut flow add unit test,push down,extract
+rewrote contextselector html chapter chapter rename loggingseparation html logback use slf j version contextjndiselector refactored config file name new logger context base convention logback contextname xml obviate need set logback configuration resource jndi env entry,rename,rename
+hv move map property method meta model beanmetadataimpl beanmetadatamanager,move,move
+getnavigationdetails getpagingnavigation move calendarnavigationservice,move,move
+fix build launch button remain enabled problem building crawljob java rename iscontainerok hasapplicationcontext increase granularity islaunchable offer launch button jobresource java coarse check hasapplicationcontext disable build button,rename,rename
+refactor cpd filefinder pmd util filefinder old class deprecate unused within pmd git svn id baf c fc e,pull up,pull up
+add mina base listener also contain lot change need implementation mina listener still default due yet support ssl tl fully git svn id f bb ffa edef,push down,extract
+enunciate add option override subcontext git svn id c b b b e,extract,extract
+toby allow null value iterators iterators package fix remove behaviour predicatediterator filterediterator mappediterator,inline,push down
+improve biomegenerator biomecache handle biomecache class implementation move common cache efficient need mojang cache well handle virtual biome cache similar api mojang cache previously biome generator call vanillabiomegenerator special case implementation tc common either tc bukkit tc forge register vanilla biome generator properly implement biomegenerator one area leave vanillabiomegenerator still special cased bukkit forge vanillabiomegenerator get information mojang worldchunkmanager biome gen base arrays convert int array would use tcworldchunkmanager extends worldchunkmanager get information biomegenerator would get infinite recursion make code maintainable check add forge bukkit vanillabiomegenerator class well documentation class,push down,move
+added support server side sort much improve paging move query stuff separate class couchqueryresolver,move,move
+refactor redis cluster connection handler add jedisaskdataexception handle,push down,extract
+add parse text compliment append text,extract,extract
+simplify jnlpprotocolhandlertest similar simplification networklayertest e c af test also hit sporadic hang failure primarily certain os etc mostly occur preclose also similar test part solution eliminate repetition exact test part understand clean test also make major effort remove duplication improve name clarity individual test method lengthy lot duplicate code make hard understand indeed test actually match name intention extract commonality try make clear variation test test continue test old version jnlp protocol todos mark remove test deprecate long time implementation quite behave properly particularly come close cause contamination test currently support protocol oracle deprecate jnlp entirely time remove protocol test,extract,inline
+refactored listbucketsendpoint use new class listsbucketsfiltered endpoint much less logic since us logic wasextracted bucketthawer,extract,move
+introduce call call adapter response type call mechanism request execution encapsulate single request action either synchronously asynchronously support cancel calladapter mean support method return type call like rxjava observable adapt call instance another instance change move rxjava support sibling module use adapter support observable type response represent response along side deserialized body allow access convert body lower level item header response code underlie ok request response object,inline,move
+refactoring ermemoryentitystore simple come heavy lifting handle erentitystore move elsewhere eventually leveraged non relational adaptor populate derive attribute key null prevent npe inside eodatabasecontext ideal break code expect able use qualifier well completely obscure failure inside eof,move,move
+end end test replace functional test functional test test require hadoop splunk run replace end end test functional test need splunk hadoop integration test group remove,inline,inline
+update late feed api removal event type,inline,inline
+extract file handle method listener new filechooser class modularized reader add support plug fileview module next revision modularize writer translator might wish wait update string git svn id f f bc e cd,extract,extract
+add lazy allocation per suggestion patrick dowler attribute content list element java also clean format mistake tabs uggh lot method still take name uri instead name namespace object,inline,extract
+move connection pool construction logic separate builder class git svn id f bb ffa edef,inline,move
+move c ast cpd lang cpp ast add lang ast abstracttokenmanager common tokenmanager capability ie generalize stuff java c use jjt file move tokenmgrerror lang ast enhance filename capability c general use git svn id baf c fc e,pull up,move
+code cleanup comment add git svn id luebeck de fallstudie source f c e cba ef e,inline,extract
+cssname fs id public final allow direct access id bypass getassignedid micro optimization getassignedid setassignedid remove identvalue string property also final,inline,inline
+bug fix split interface swiftsearchercaller class final yet mock,push down,push down
+add set option nbt utility,extract,extract
+tfj make pagableresponselist mock test friendly introduce pagableresponseimpl pagableresponselistimpl final class,push down,push down
+rename part membase couchbase,rename,rename
+misc log cleanup refactoring crawlerjournal javaimprove exception loggingcombine writeline method use varargs frontierjournal javaimprove exception log archiveutils javareplace ignore count parameter meaingful boolean one crawluri javause update archiveutils method,inline,inline
+drop configroot interface intend make resolve typesafe allow root object however practice safe easy create aroot merge non root object root object fix dhave prohibit root object merge root seem simple document resolve subtreeswill wrong thing hopefully issue practice,inline,inline
+bit refactoring add depend multiverse core,extract,extract
+issue add multiple attachment remove work partially resolve issue issue press add button retain previously select file listview work document,extract,extract
+sc qcadoomes refactored material flow,inline,push down
+parsetree rename length numleaves clearer way also add numnodes method count internal node parse tree,rename,rename
+face move backported portal class new package com liferay face util portal,move,move
+refactored composite abstractcomposite composite dynamiccomposite disambiguate usage,move,pull up
+surefire fix sonar findbug issue,push down,push down
+rename sample reservoir follow joewilliams lead ago folsom,rename,rename
+extract wsdl soap functionality external library generic soap client need compilation,extract,extract
+refactor service activator,pull up,pull up
+rename poorly name method requestjournal,rename,rename
+refactoring soapui mock feature usage creation request dispatcher,pull up,push down
+refactored jms appender,pull up,pull up
+move calculatevisualoffsets method stringutils also move test code really belong together block code,move,move
+pr minstall add test case add test remove installartifactstub java git svn id f bb ffa edef,extract,extract
+refactor extract write send method,pull up,extract
+move bucketformat logic bucketformat enum bucket guarantee format never change could change move perform bucket,inline,move
+refactored namenode class,push down,pull up
+refactoring move download ticket trac class git svn id f bb ffa edef,move,move
+move getbufferedreader ioutils crawlerjournal java ioutils java move getbufferedreader ioutils frontierjournal java add new include tag log line fi others update relocate method,move,move
+refactor long method createarchitecture,extract,pull up
+simplification generalization code addition activemq product also move product configuration file product directory,move,move
+updated encryption generate cek cik key derivation also fix signer use afterpropertiesset,push down,push down
+face develop alloy selectoneradio extend generate base class consistency,pull up,pull up
+refactor error handle exception report site without circular class reference git svn id svn svn jbidwatcher com jbidwatcher trunk b acfa eb db b cd b e,move,extract
+face move creation actionurls renderurls resourceurls portletcontainer mimeresponse,move,move
+rename method eventservice findxxx,rename,rename
+introduce unresolved stop event,push down,push down
+rename field fact relnotes n create moe moe migrate revid,rename,rename
+added checkstyle extension rule start cleanup format document code base rule,extract,pull up
+rename generator updated tool logger processor model,rename,rename
+refactoring extract abstract super class git svn id f bb ffa edef,pull up,pull up
+improve population extraction connection extraction draft refactor clean,extract,extract
+implement conversationdate property also remove duplicated code implementation conversationmodel,pull up,pull up
+post cleanup multipart entity generation logic move multipartentitybuilder git svn id f bb ffa edef,push down,move
+simple refactoring code create column duplicate unnecessarily git svn id svn svn jbidwatcher com jbidwatcher trunk b acfa eb db b cd b e,extract,push down
+clean path refactoring know method need available overridden,inline,inline
+rename update merge pojo update pojo,rename,rename
+added timeservice test add timeservice gettimeservice tp update tcp use timeservice tcpconnectionmap tcpconnection send receives unicast us timeservice fd us timeservice configure use time service default true move send discovery request synchronize scope implement closeable tp transferqueuebundler stop clear queue make sure subsequent start use current bundler thread interrupt terminate discovery use oob dont bundle internal send discovery request response ensure request response get stick middle messagebatch,move,move
+refactor rename securesession method,rename,rename
+added support set content id payload id ebxml attachment via jms,extract,extract
+preparatory change qti sample rename qtisampleresource qtisampleassessment include information additional resource e g file update sample include information get class ready import qtiworks domain model,rename,rename
+rename writeparamsentryforsinglepreparedentry writeparamsforsinglepreparedentry,rename,rename
+rename transporttype ioservicemetadata add ioservicemetadata hasfragmentation add defaultioservicemetadata remove static field ioservicemetadata cause bad coupling remove iosession gettransporttype ioservicemetadata retrieve via iosession getservice getmetadata remove transport socket nio support package move class transport socket nio datagram transport use wrapper anymore fix freeze socketbindtest git svn id f bb ffa edef,move,move
+resolve issue dirmina abstractiofilterchain dowrite slows outstanding writes increase dirmina iosession getscheduledwritebytes slow size queue dirmina deadlock vmpipe mode resolve applied fix datagram transport backported fix move common method baseiosession abstractiosession git svn id f bb ffa edef,move,pull up
+refactored tcpip include nio support code jgrp tcp nio longer extend class tcp connectiontablenio long extend connectiontable instead share common abstract class share method,pull up,pull up
+refactored pipelinebase usable implement sharedjedispipeline well,push down,push down
+fix equality configobject different typesby pull equal hashcode abstractconfigobject,pull up,pull up
+refactor rename get update row count method,rename,rename
+fix remain reference report builder vs manager move excel template load reportbuilder base class,move,move
+jcbc factory method query motivation consistency rest api centralization query creation use factory method query rather public constructor modification xxxquery constructor make package protected instanciation move query abstract class change id c e c review review michael nitschinger tested simon baslé,move,move
+oozie support drop hcat dataset coord rerun cleanup option ryota,extract,extract
+bval rename getvalidatedproperties getpropertieswithconstraints git svn id b cb b ca fae ebed b,rename,rename
+change launch api use generic,push down,inline
+cleanup lock key path work expect,extract,inline
+big heap change git svn id svn ssh svn internal sanger ac uk repos svn pathsoft psu trunk genlib java crawl ee ac c ac e b aa f,inline,pull up
+rename test,rename,rename
+remove deprecate method rename findfirst el,rename,rename
+move methodretrievalprocessor allenclosingelementsincludesuper executables getallenclosingexecutableelements replace element getallmembers call create fix order property mapping,move,move
+simplify typemanager getvaluetype string string typemanager getvaluetype string value type params include string list need anymore typemanager getvaluetype string datainput git svn id svn ssh dev outerthought org outerthought lilyproject branch complextypes b f e bd e dc,inline,inline
+refactored optimized batch vertex cache implsthis commit pull common batch load vertex cache code intoabstractidvertexcache make string objectidvertexcache extendthat abstract base class longidvertexcache use colt primitivecollections internally amenable share code theother java collection base implementation commit also apply optimization froma cf f c eaf f ac e object andlongidvertexcache however test forstringidvertexcache,pull up,pull up
+move newnumber confignumber rather abstractconfigvalue,push down,move
+clean refactored action subclass,pull up,pull up
+lib rename idwithissuer frompatientidwithissuer attrs pidof attrs,rename,rename
+refactor rename method firereceivemessage onreceivingmessage,rename,rename
+added preference move support add initial preference system currently store move destination season prefix string back xml file persist use xstream file setting xml locate launch dir tv renamer ui need configure preferences add move support file move directory set preference automatically ui also need show progress move crossing boundary well show source destination directory bump version b,move,move
+refactoring create package logic,move,push down
+lot refactoring safety check remove linkedtransferqueue move code around unit test coverage,move,move
+renew slot move occured request cluster suggest antirez redis rb cluster implementation since redis beta introduces cluster slot becomes easy fixme fully synchronize hurt performance somewhat poor implementation try reader writer strategy make lock wait make shorter,move,push down
+mwar request enhancement pattern match packagingincludes packagingexcludes functionality regular expression submit nicolas marcotte review dennis lundberg minor adjustment code style add page site example git svn id f bb ffa edef,extract,extract
+redo tile system work room tile pane tile replace ints point dimension handle id rather roomframe added autoupdate field efficiently modify several field fire update point rename pathpoint easily distinguish two updated path pathframe reflect change instance replace x point listener fix bug click load cancelling open file anyways roomeditor update reflect change instance tile support tileselector tile add tab roomcomponent us rectangle instead ints gmfilereader gmfilewriter update instance tile room temporarily remove addtile method since tile handle id update reflect change instance tile roomframe rename field update reflect change instance tile tile add tab usable tweak tile edit tab git svn id f f bc e cd,inline,rename
+report refactoring git svn id baf c fc e,push down,pull up
+refactoring bugfixes,inline,pull up
+finish initial refactoring database package,push down,pull up
+update add message queue listener servicemonitor detect run service undeployed undeploy previously start servicepoller stop additionally update refactors duplicate code across serviceadvice test git svn id ed cd f c b fe bcb,pull up,pull up
+refactored well reuse move stuff around good reuse,pull up,move
+morphology implementation text display remove apache common,pull up,pull up
+extract large end end test functional test,extract,extract
+rename save concern opts ignore concern test,rename,rename
+cleanup html report mostly cosmetic consistency minor javadoc update code cleanup,extract,inline
+refactor extract write send method,extract,extract
+hppc rename remove first last occurrence remove first last key,rename,rename
+start reorganize dynamicentity family line ensure consistent clear behavior also lot varaible class renmaing consitency,push down,move
+add uuid support change permission register cleaned part permission system,push down,extract
+support retention time calibration call mprcextractraw,extract,extract
+work mng move release property management helper class create helper class cache prompt project version create helper class manage scm info update release prepare process move many share field abstractreleasemojo possible give refactor reactorized processing refactored preparereleasemojo process list project resolve inter dependency transform etc refactored performreleasemojo adjust new helper class remove old transformer since mavenproject writeoriginalmodel use instead use modello writer bump maven scm version alpha snapshot add maven scm manager plexus git svn id f bb ffa edef,move,move
+next round implementation also add number comment,inline,extract
+rename samepropertyvaluesas,rename,rename
+rename identifier test,rename,rename
+extracted test conserning move bucket movesbucketstest,move,move
+consistent file output redundany remove,inline,inline
+slowly beef method symbol tablegit svn id baf c fc e,pull up,push down
+nxp cleanup pull isconnectserverreachable remove useless override,pull up,pull up
+much api node type cleanup,push down,pull up
+extract helper method separate class refactored towards compose method,move,extract
+push getvisualmotionstate abstractvisualmodethis use abstract method different visual modescould pas right selection factory handledthrough fixselection method move implementation superclass mean visual mode usethe motion,pull up,pull up
+add logic protect writequeue concurrent modification write message add code handle future ssl processing yet implement rename session getwritequeue session acquirewritequeue add session releasewritequeue method git svn id f bb ffa edef,rename,extract
+rename distinctall distinct,rename,rename
+webui fix jfg pixel size control elements css file sessionpager sessiondatagrid back end time column sessiondatagrid remove use method service cause new conseption control add depricated service dtos use seletes yet sort metric table tree select link processing,extract,extract
+application entirely rework sequence image operation band new sequence resize feature new c z operation new color conversion feature general improvement well plugin error report well colormap preservation switch canvas well icy imagej roi conversion minor improvement modify roi dpoint intersects point contain consistent roi fix minor bug roi getbooleanmask method fix minor bug roi contain roi intersects method others bug fix developer loader add method hide progress bar add getmetadata file file method retrieve metadata image file add loadimage file file int z int method load single image multi image file add icybufferedimage copydata src int srcchannel int dstchannel copy data specify channel add exceltable component display excel type table add abstract method getviewcomponent icycanvas always retrieve display component canvas improvement sequencepreviewpanel sequencerangepreviewpanel component add icybufferedimageutil class general icybufferedimage tool add method sequenceutil class fix cursor preservation canvas add maininterface getsequences string name retrieve sequence name fix bug imagedataiterator add command line option remove splash screen lot refactoring source reorganisation check deprecation,move,extract
+remove unnecessary method,inline,inline
+refactored separate sqlite domain jdbc,inline,pull up
+improvement manager action add explicit reimport update sample category add resetuser datadeletionservice,extract,extract
+sensible renames,rename,rename
+change behavior create update user group avoid create updating entity another one already exist identifier,inline,inline
+refactoring move utility method eclipseutils confusion project use use executedproject everywhere except acquire artifact list executedproject miss list deps resolve forked lifecycle execution delay plugin encounter requiresdependencyresolution see added flag declipse downloadsources true false skip source download git svn id f bb ffa edef,move,move
+katta move call detail include inbox kilkaricalldetailsservice,move,move
+move functionality stringfilter abstract textfilter,pull up,move
+rename method indio specific name getconfigurationserviceindio getdefectsindio getstreamindio matchesindio,rename,rename
+refactor menu creation,extract,pull up
+add support unquoted string value,extract,extract
+remove unnecessary code,inline,inline
+way ierxrestdelegates implement totally crazy get rid move model delegate always look introduce erxrestcontext go way json formatters configure date format per request write test case use several apps really coverage fix bunch weird edge case come,move,move
+vishal vishnu rename patient method,rename,rename
+simplify code,inline,inline
+lot change,push down,inline
+updated support mambu api change mbu create group apis also include code mbu edit group api note mbu support mambu add todos test ready clientservice mbu get group role get detail group role apis clientservice mbu get client type api client group api clientservice mbu mbu client profile picture signature apis store retrieve delete clientservice documentservice servicehelper note move makeparamsfordocumentjson servicehelper demoutil move encodefileintobase string demoutil demotestdocuments mbu mbu get repayment schedule preview loan product api loanservice servicehelper mbu patch loan account term api loanservice servicehelper mbu update loan account repayment api repaymentsservice mbu undo loan account disbursement api loanservice mbu custom field refactoring support client type update demo program demotestorganizationservice mbu update comment allow username key id use place username get task mbu updated comment allow user key id update custom field user enhance demoutil provide helper method test run automation create helper run api test specific account product create helper create new account consistent test product type create helper create custom field new account valid test product client role rearrange test case allow high probability successful end end run update demo program test new apis use new generic helper method arrange test call allow good test automation less test data dependency miscellaneous updated pom file use model jar build mambu java bin jar add miss wrapper delete document api available since see mbu documentsservice update apidefinition serviceexecutor support new apis add new definition get own entity patch own entity patch json remove unused class util apiexceptiondata java class never use need mambus returncode enum class use instead remove unused constructor mambuapiresponsemessage reference class deprecate account type enum apidata class mambus existent account type class model use instead updated saving service use mambus account type deprecate original method use account type apidata savingsservice taskserice correction rename gettasks gettask requestexecutorimpl java update log json data well handle encode content profile picture signature api updated raedme file,rename,inline
+remove share transport remove deprecated class method field ant jar work update manual buffer reuse send junitxmlreporter print method name correctly,inline,inline
+extract method,extract,extract
+assertfact rename assertclause,rename,rename
+big rename finally happen,rename,rename
+minor change abstracttransaction longer provide txintrospector,push down,inline
+add function execution element gfe data namespace plus cleanup,pull up,extract
+improve osgi test simplify code,push down,inline
+rename method getpluginproperty return null,rename,rename
+refactored abstractexpression support index new sublcass majority functional expression helper evaluate child value,push down,extract
+pull functionality forceelevationcalculator abstract superclass,pull up,pull up
+hearbeat method rename,rename,rename
+add clipboard class easy copy paste operation icy searchbar detach search engine gui well performance display complete list result bug fix add roiactions class centralize action roi roi control panel load save copy paste operation roi add new method swimmingpool class manipulate object depend name improve plugin detection plugin exception occur minor change user panel arrangement chat minor fix pluginlauncher start method minor fix,inline,push down
+fix subimagepreview clean ref code roomeditor realise wip notice couple change could make add null background check move graphic setting outside two loop subimagepreview fix origin preview draw straight line fix bound box preview draw rectangle correctly union rectangle can not use case icoreader remove fixme comment meaningless u clutter task list event remove hashcode method ref add static convenience method deref make deal null bit cleaner though static import take away convenience bit updated occurences getres check twice null use deref instead git svn id f f bc e cd,move,inline
+extract wotask handle extra class use separately,extract,extract
+sc qcadoo early detection hook inconsistency extract view hook class hierarchy improve type safety remove unnecessary componentcustomevent class,extract,push down
+add general test case lck j detection include functionality handle project contain multiple file also refactored test make small easy maintain,move,pull up
+remove instance paramatized type displayable component,pull up,inline
+patch add support callable statement jdbc driver patch submit paul bethe pmbethe yahoo com,extract,extract
+refactoring move xml code epubprocessor move epub cleaner code epubcleaner,move,move
+new file file move location,pull up,move
+address remain comment earlier change rename test case consistency add test nullable non transparent provider use boundfieldinfo allowsnull consolidate get field value getfieldvalue regardless whether field type simple field transparent provider create moe moe migrate revid,rename,rename
+rework modify class pipeline adjust exist class change modify plugin version class different exist one place pipeline package exist class might adjust compatible pipeline yet clear achieve,push down,push down
+tfj rename twitterlistener lookedupfriendships lookedupfriendships,rename,rename
+add method,extract,extract
+refactored optimized batch vertex cache impls commit pull common batch load vertex cache code abstractidvertexcache make string objectidvertexcache extend abstract base class longidvertexcache use colt primitive collection internally amenable share code java collection base implementation commit also apply optimization cf f c eaf f ac e object longidvertexcache however test stringidvertexcache,pull up,pull up
+refactored encryption handle added documentation switch option encrypt dedicate agent commad encrypt switch marker consistency jmx perl encryption marker simplify cypher sufficient need especially salt generation,inline,extract
+use uistarter constructor instead init use default explicitly define constructor uistarter immediately create launcher would call run would call init instead make previously init constructor make three instance variable uistarter final initialize constructor run method nothing leave except call launch inline launch run alternatively rename launch run get rid run,inline,inline
+add debug set stage configs store stage configuration debug mode mean pick start hydra core still read remotepipeline getproperties allow start stage ide setting configure repository,extract,extract
+support menu bar document visible nodebox menu move separate file instantiate hidden jframe nodeboxdocument,move,move
+cluster fix refactorization git svn id b f e b ddf,move,push down
+face refactor icefaces chat portlet make look like liferay chat portlet,push down,move
+jvstm lf rename remotecommit commitrequest commitrequest sent every write transaction need commit contains read set write set transaction commit every node locally continue commits start queue,rename,rename
+initial commit inline content refactoring,pull up,inline
+add importer exporter interface class importer base importer class fileimporter base interface resource import file sequenceimporter base interface sequence import sequencefileimporter base interface sequence import file sequenceexporter base interface sequence export yet fully support sequencefileexporter base interface sequence export file yet fully support pluginimporter plugin abstract class import interface pluginfileimporter plugin abstract class file import interface pluginsequenceimporter plugin abstract class sequence import interface pluginsequencefileimporter plugin abstract class sequence import interface pluginsequencefileexporter plugin abstract class sequence export yet support interface add imageprovider interface abstractimageprovider class describe flexible image access use base sequenceimport interface add lociimporter lociimporterplugin class bioformat library implementation new importer interface loader major rewrite use new importer interface change serieselectiondialog use new importer interface saver minor change yet adapt new exporter interface imagesaverdialog accept select file destination file name lose change directory roi add basic implementation contains roi intersects roi severals bug fixes boolean operation roiutil add getmasscenter method icybufferedimageutil sequenceutil add rotate method sequence fix metadata load save multi serie image define serie attach sequence use persistent data file taskframemanager complete rewrote old code lazely do hopefully fix issue actiondialog add iscanceled method know operation cancel add editrepositorydialog replace old one contain bug fileaction fix new image create add save metadata action roiaction roi subtraction produce possible result xls export always export rois minor issue fix roipanel fix issue refresh data action rectangle severals fix infinite dimension fileutil add tofiles topaths file string conversion method several improvement exception error catcher report plugin cause exception anchor add anchor dpositionlistener replace old deprecate anchor dlistener add support local plugin repository others fix cleanup refactoring,inline,pull up
+move currentsolution abstractsolver write javadoc abstractlocalsearchsolver complete,push down,move
+inline account initialization,inline,inline
+implement alternatingbundler removequeuebundler add drainto method ringbuffer attribute jmxadditionalobjects set,extract,extract
+big refactor commit class longer necessary either remove longer usable mark deprecate usable legacy modify class use new headerresponse implementation jquery back library wicket use library compiles guarenteed work,pull up,inline
+extractorjs javarefactor considerstrings static allow overridden subclass extractorhtml java extractorjs javaadd autowired parameter extractorjs use process inline javascript instead call static extractorjs considerstrings,extract,inline
+initial commit reduce iparticle interface bare minimum refactored old particle class yangmillsparticle replace old field algebraelements remove old code force class need updated algebrafields well,inline,inline
+cor rename test testpreventremoveuser,rename,rename
+ngrinder add runtime controller annotation change scuprtconsole runtimeonly controller,extract,extract
+extend functionality resourcemanager able handle ipv ipv multicast address,push down,push down
+add parameter migrate create subscription call,extract,extract
+remove ugly selector factory prepare udp server git svn id f bb ffa edef,push down,inline
+hv rename pathimpl getpathwithoutleafnode createcopywithoutleafnode make static consistent createcopy,rename,rename
+rename mapwithkey haskey mapwithvalue hasvalue mapcontaining hasentry,rename,rename
+refactor reload implementation abstractthis also fix reload spigot reduce amount ofimplementation specific code,inline,push down
+epe refactor esp helper eclipse plugin sign gordon smith,push down,pull up
+refactored recvar rename name disamb protocoldef inlining recvar rename internal,push down,rename
+hv move runwithcustomvalidationxml separate helper class,move,move
+refactoring timestamps add general refactoring,pull up,extract
+remove last piece old non work clip region check push handful field box blockbox,push down,push down
+rename nothrow acceptunknownoption,rename,rename
+refactored pull error log class,pull up,pull up
+branch javabot clean api relate admin command introduce common cli begin rework around new approach,pull up,inline
+refactored mappingbuilder back one impl class hierarchy interface distinguish local remote scenario,push down,push down
+clean code extract method,extract,extract
+change json format importer rest interface list multivalue path hierarchy value type define value type field type longer booleans multivalue hierarchical instead type field also allow list path append another valuetype bracket example list git svn id svn ssh dev outerthought org outerthought lilyproject branch complextypes b f e bd e dc,inline,inline
+add backnavigation listener event refactoring package structure,move,extract
+fix jgrp change pingdata one physical addr instead list phys addrs change gossipdata one physical addr instead list phys addrs fix compile error jdk messagedispatcher add response test replace merge merge sample config file remove num initial member deprecate ignored xml config file merge merge use protocol implement view fetch depend discovery anymore allow u remove view fetch code discovery protocol replace server coord byte flag pingdata remove division zero exception uperf add keyset lazyremovalcache destroy window close first shot cloudbaseddiscovery txt use gms join timeout rather discovery timeout discovery set tcp use async discovery true tcp xml protocol setvalue log warn field set deprecate pingdata carry optional list member discovery request test modify pingdata change discovery findmembers accept member list populate response object clientgmsimpl join use find initial mbrs event wait gms join timeout m return response object merge us find mbrs event wait discovery timeout m return response object merge us find mbrs event wait discovery timeout m return response object tcpgossip routerstub change signature findmembers pass async parameter findmembers case async discovery overwritten e g find mbrs tp use response return find mbrs evt send loop back target physical address local address target share loopback ping findmembers change new method file ping add shutdown hook remove info case crash file ping selectively read info list member findmembers jdbc ping findmembers add result response soon read rackspace ping findmembers add result response soon read swift ping findmembers add result response soon read ping findmembers add result response soon read ping read member selectively list set tunnel supportsmulticasting true remove timeout discovery protocols configs change gms join timeout udp xml tcp xml tp ip multicast available sending message n member look ip address member use send physical address cache waste send multicast n send member current cluster need take share transport account asciistring prevent npe ctor string null share loopback ping return empty response object first member cluster allow member become coordinator immediately rather wait gm join timeout m set gm max join attempt unicast sends close dest d still member tp remove warn incorrect destination might happen time correct added response contain address addr fixed discovery serializewithoutview add coord flag change version beta,push down,inline
+split lifecycle map analysis project import lifecycle map analysis run project import make selection project import much much faster,move,push down
+mrelease abstract rewrite code implement development pom rewrite git svn id f bb ffa edef,inline,pull up
+refactored old node class node interface abstractnode class category node type create also do typemember also add class interface declaration,push down,push down
+tumble towards three pas compilation make scope structure immutable extract scope interface separate implementation label value scopes git p depot path coremedia jangaroo change,push down,extract
+make taskhandleractioncontext interface use inlineexecutionstrategyexecutor testcontextcreator isolate code action context b,push down,push down
+sharvani aravind add functionality check status obd scheduler,extract,extract
+refactored backend specific method consistency predicate module abstract method consistencypredicatesupport move implementation method jvstm ojb implementation consistencypredicatesupport,move,move
+aesh clean consolecommand interface two method easier use,push down,inline
+concurrency bug getnexttask solve wip compile java timer handle edge case change spsc mpsc queue,inline,inline
+name,push down,rename
+refactored routesolver class,move,pull up
+classpath add back since log level solve log config filejdbcfetch handle wrong cap table namesjdbcrecordhandler merge checktableexists checkmetatableexists checktableexists string tablename jdbcfetchtest add test catch miss column bugnlmjournalfetch pubmedfetchtest pubmed move nih sub test package,inline,extract
+various refactorings remove duplication,pull up,inline
+clean build processing test,inline,pull up
+katta ashish refactored subscriptionservice separate method separate action,move,extract
+start purge cmd move queued cmds cmdmgr,move,move
+refactored handle indexed field retrieval suggest pr git svn id f bb ffa edef,inline,pull up
+first step update instrument comparison refactored action activation originally activate tune enable moved validation pair instrument data model activation logic,move,push down
+rhbz refactor rename move class method add javadoc,rename,rename
+refactoring structure comparison implement option option class create,inline,push down
+moved common code common module git svn id f bb ffa edef,move,pull up
+close chunk region file read write min rename api call add utility method spoutblock,rename,rename
+launch hadoop mini mapreduce cluster make sure task node use valid host name useful link work web ui even though web ui work see git svn id svn ssh dev outerthought org outerthought lilyproject trunk b f e bd e dc,inline,move
+refactored css package allow clean separation core,push down,push down
+add two new test refactorings pull class level push method level,pull up,pull up
+refactor testindirectbasicauthclientthere several test similar structure code extract helper method make intent code clear andavoid repetition,extract,extract
+face develop alloy pickdate component refactored alloy pickdate remove unnecessary attribute face develop alloy inputdate component refactored alloy inputdate use refactored alloy pickdate,inline,pull up
+standardize usage filenamefilter use filter apis add file extension directory search filter apis incremental cleanup real cleanup unify language specific concept across entire pmd code base specifically cpd language stuff sourcetype sourcetypehandler targetjdk parser ast node anything else miss change wait ready major pmd internal refactoring git svn id baf c fc e,pull up,pull up
+extract connectionlistener creation separate method pool,extract,extract
+add apis modification improve query member,push down,extract
+add linkindexupdator update linkindex previously call linkmanager response repository event recordlinkextractor extract link link field still todo blob field still need testcases stumble upon small block issue repository secondary change add queue mock package contain class fake queue operation use indexer linkmgmt test add repo util utility class useful multiple module repository relate contrast util package dependent lily repository also disable indexer root pom xml build run git svn id svn ssh dev outerthought org outerthought lilyproject project lily trunk b f e bd e dc,extract,move
+add maxvolatiletime para control data provider flush interval little refactors,inline,extract
+recordhandlers set rather list find result logback xml add classappender config comment enable easily want changenamespacetest fix arg test p vivo xsl update use merge record jdbcfetch remove executeold transfer remove emptyjc jc use jc truncate xsltranslator revamp cleanup merge fix work specialentities add exception ability translatetest stop catching exception see fails specialentitiestest update reflect exception,inline,inline
+extract booterserializer surefirebooter extract interface directory scanner minor refactorings functional change initial footwork get surefire move look like go quite journey git svn id f bb ffa edef,move,move
+plugin dependency refactoring extract interface,push down,extract
+make w server write operation truly asynchronous separate websocket interface implementation introduce websocketfactory allow user well customize websockets,push down,push down
+issue change configure mechanism configure longer actual configuration currently property influence user,inline,inline
+face add general utility liferay face alloy component rename widgetvar liferaykey widget liferaycomponent,rename,rename
+aravind make controller request extend baserequest channel,pull up,push down
+use new type deobfuscating make update go time faster use jarjar rule file rename class file deobfuscate change move new type deobfuscating change jar requirement minecraft server jar minecraft servero jar remove code relate reserve list unused anyway clean stuff update minecraft sql match late need sql remove reserve list update sql,move,rename
+doc refactoring hg rename src site apt configuration templates apt beanstalk maven plugin src site apt configuration templates apt rename src site apt continuous integration apt beanstalk maven plugin src site apt continuous integration apt rename src site apt index apt beanstalk maven plugin src site apt index apt rename src site apt usage apt beanstalk maven plugin src site apt usage apt,pull up,rename
+refactoring df j nio continue,pull up,push down
+add table removemany pass message batch message table move use messagebatch batchiterator remove instead messagebatch remove n replace messagebatch getmatchingmessages replaceif,move,move
+rename asyncmultimap removeallmatching sign thomas segismont,rename,rename
+use jangaroo parse infrastructure test green getters inherit,push down,pull up
+fix bug change id ee dec c c cbb f,inline,push down
+make query result type safe add parameter bind query type result type also remove method since need,pull up,inline
+refactor rasterprofile render code preview match actually send lasercutter preview calculate differently preview engrave calculated antialiasing actual lasercutter engrave calculate antialias seem effect rgb argb use,extract,inline
+add checkbox toggle emulation speed,extract,extract
+merge revision via svnmerge snapshot r redsolo apr line add new file ucm activity base change log r redsolo apr line move command lsactivity cleartool r redsolo ti maj line move cleartool executable string hudsoncleartoollauncher r redsolo ti maj line remove cleartool executable string away cleartool implementation r redsolo ti maj line apply path ucmactivity ucmhistorybuilder henrik add outputformat cleartoolformathandler help clear tool format r redsolo maj line clearcase plugin add ucm parse changelog xml patch henrik r redsolo maj line clearcase plugin add test write ucm changelog xml r redsolo maj line clearcase plugin add changlogaction henrik r redsolo maj line clearcase plugin lshistory return reader instead change log r redsolo lö maj line clearcase plugin finish import ucm change henrik r redsolo sö maj line clearcase plugin add patch remove view ucm activity henrik lynggaard r redsolo sö maj line clearcase plugin test file r redsolo sö maj line clearcase plugin correct test ucmchangelogaction r redsolo sö maj line clearcase plugin fix fail test lshistory ct command r redsolo må maj line clearcase plugin fix change log parse base ucm scms r redsolo må maj line clearcase plugin fix compile error test r redsolo må maj line clearcase plugin apply patch remove view ucm activity r redsolo må maj line clearcase plugin apply patch add sub activity change log r lynggaard maj line dummy change test developer access r lynggaard maj line clearcase plugin branch ucm changelog page convert activity base changelog r lynggaard maj line clearcase plugin branch preparation ucm tag support need expose mkbl cleartool command r redsolo maj line clearcase plugin make get method ucm ucmactivity export r lynggaard maj line clearcase plugin branch build extend changelog changelog since last fail build r lynggaard maj line clearcase plugin branch lsactivity need viewname r lynggaard fr maj line clearcase plugin branch user write stream part stream name strip r lynggaard fr maj line clearcase plugin branch extra unittest locate issue r lynggaard fr maj line clearcase plugin branch cleartool particular parameter order r lynggaard lö maj line clearcase plugin branch add tostring method easy debug r lynggaard lö maj line clearcase plugin branch improve ucm specific changelog issue r lynggaard lö maj line clearcase plugin branch ensure changelog action reset extend changelog r lynggaard lö maj line clearcase plugin branch improve ucm changelog provide stream user sub activity r lynggaard lö maj line clearcase plugin branch remove second ucm changelog r lynggaard sö maj line clearcase plugin branch fix tokenize issue branch also r lynggaard sö maj line clearcase plugin branch improve ucm changelog page r lynggaard sö maj line clearcase plugin branch minor change regexp generation r lynggaard sö maj line clearcase plugin branch new ucm fake cleartool setup r lynggaard sö maj line clearcase plugin branch enable edittype icon ucm r lynggaard sö maj line clearcase plugin branch lsactivity run within view r redsolo må maj line clearcase plugin move vob path handle lshistory clearcasescm class fix load rule remove use lshistory command r redsolo ti maj line clearcase plugin need quote command line args argumentlistbuilder already r redsolo ti maj line clearcase plugin fix problem introduce refactoring vob path r redsolo ti maj line clearcase plugin add test getbranchnames r lynggaard maj line clearcase plugin branch remove full username changelog rely hudson user display r lynggaard maj line clearcase plugin branch defensive code handle lshistory empty activity name appear version entry empty activity name version mkbranch item code catch case real version activity however ideally never happen r lynggaard maj line clearcase plugin branch add additional mkview documentation r lynggaard maj line clearcase plugin branch small javadoc update r lynggaard maj line clearcase plugin branch remove old extend changelog code way want r redsolo maj line clearcase plugin fix changelog action add c comment lshistory format r redsolo maj line clearacse plugin remove unused class git svn id c de ed b c,pull up,move
+getmidnightdate move calendarenginehql calendar,move,move
+restructure move testng test add testng config ant task,pull up,move
+make assetscontroller test run window rename assetscontroller test reflect correct behavior mark old assetcontroller method obsolete,rename,rename
+added unlink method class node node linkleft node linkright rename accord java naming convention,rename,rename
+rename onexecute method,rename,rename
+hh drop unused method optimize code bit move postcommithooks usages test example app ivanov,inline,move
+update portfolio aggregate use aggregate annotation spring put commandhandler annotation command handle function drop portfoliocommandhandler rename command handler function handle cmd replace eventhandler eventsourcinghandler rename event handler function event drop useless author tag move map instantiation event source handler portfoliocreatedevent instantiate portfolio simplify couple function overall reindent file rename portfoliocommandhandlertest portfoliotest clean test case,rename,rename
+rename generator factory git svn id guice googlecode com svn trunk f b b b aecad e,rename,rename
+remove dead code need page name reason loop around stuff find clean javadocs bit,inline,inline
+prepared restservlet definition debug project refactored class structure comment cleanup keep rest comment throw npe probably miss something config,pull up,push down
+rename linux unix appropriate,rename,rename
+add one test extract duplication,push down,extract
+face develop resourcehandlerwrapperbase class liferay face util refactor exist resourcehandler implementation subclass,pull up,pull up
+refactor exception plugin management,push down,pull up
+rename uicleanup quit relocate file,rename,rename
+add metric filter,extract,extract
+wip start test renderer refactoring,inline,pull up
+rename class reveal mean convert property specific trigger type,rename,rename
+idatacomposer initialization drop initlistener move validatorfilter avoid problem premature request initialization fix jsf require validatorfilter get request validation idatacomposer initialization,move,move
+barc rename barcdirectory settargetlength easy ruby,rename,rename
+create matrix x homography new extends matrix x,pull up,push down
+updated support mambu api change mbu create group apis also include code mbu edit group api note mbu support mambu add todos test ready clientservice mbu get group role get detail group role apis clientservice mbu get client type api client group api clientservice mbu mbu client profile picture signature apis store retrieve delete clientservice documentservice servicehelper note move makeparamsfordocumentjson servicehelper demoutil move encodefileintobase string demoutil demotestdocuments mbu mbu get repayment schedule preview loan product api loanservice servicehelper mbu patch loan account term api loanservice servicehelper mbu update loan account repayment api repaymentsservice mbu undo loan account disbursement api loanservice mbu custom field refactoring support client type update demo program demotestorganizationservice mbu update comment allow username key id use place username get task mbu updated comment allow user key id update custom field user enhance demoutil provide helper method test run automation create helper run api test specific account product create helper create new account consistent test product type create helper create custom field new account valid test product client role rearrange test case allow high probability successful end end run update demo program test new apis use new generic helper method arrange test call allow good test automation less test data dependency miscellaneous updated pom file use model jar build mambu java bin jar add miss wrapper delete document api available since see mbu documentsservice update apidefinition serviceexecutor support new apis add new definition get own entity patch own entity patch json remove unused class util apiexceptiondata java class never use need mambus returncode enum class use instead remove unused constructor mambuapiresponsemessage reference class deprecate account type enum apidata class mambus existent account type class model use instead updated saving service use mambus account type deprecate original method use account type apidata savingsservice taskserice correction rename gettasks gettask requestexecutorimpl java update log json data well handle encode content profile picture signature api updated raedme file,move,inline
+ashok ashish move validation utils service refactored obd succesful call request web domain request,move,move
+pipeline stuff move separate repository,inline,move
+generalize ruleviolation treatment add abstract base class language specific rule violation implementation consistent pmd code rename iruleviolation ruleviolation never like hungarian notation crap java code anyway extract ruleviolationcomparator standalone class fix implementation seriously broken ruleviolation comparison well define change report use list violation internally instead set since change ruleviolationcomparator cause truly duplicate ruleviolations drop git svn id baf c fc e,push down,push down
+remove unused method add couple miss license header git svn id f bb ffa edef,inline,inline
+move add user agent header class,move,move
+push assert method basetestcase erxtestcase factor remove basetestcase,push down,push down
+refactored kenyaemruiutils utility class singleton bean move api layer accessible module,move,move
+rf qcadoomes rename countmachine countrealized,rename,rename
+add icalendar variable repeatableappointment remove repeatfieldsequals repeatableappointment,pull up,extract
+task batch rename shortids redirections listbasedadiinputparameters spec,rename,rename
+newtools cleanup optiongroup pass add option avoid removal const field move actual code remover optimizer class,move,move
+clean project user orm,inline,inline
+extract copy bucket bucketarchiver copying bucket feature exist difference oldbucketarchiver bucketcopier addition copy thelocal bucket archive thearchiver also delete localbucket successful copy,extract,extract
+rename scope record,rename,rename
+merge extendedreceiver receiver merge extendedmessagelistener messagelistener merge extendedmembershiplistener membershiplistener remove partial state transfer jchannel getstate jchannel connect state transfer stream state transfer,inline,inline
+wcet refactor supergraph,pull up,push down
+fix hudson add support creation removal dynamic view tweak view removal job delete renamed workspace wipe git svn id c de ed b c,pull up,pull up
+rename import pragma import package,rename,rename
+rename jmx attribute,rename,rename
+move pmdatainputimpl logic pmobjectbase,pull up,move
+add timebasedrollovertest list exclude test pom xml take much second execute modify modified consoleappendertest output nothing console relate change teeoutputstream admit null parameter constructor move delay method delayerutil class silent test beautiful,move,move
+remove,inline,inline
+core pipline codecs move tho new repository,push down,move
+half finish preference pane display save back yet move handle xml preference file uistarter userpreferences make logger print class name insead whole package tidy aboutmessagedialog insignificant change,move,move
+merge nperrier addition extract cover art id tag index collection fix,extract,extract
+add test view support fix bug,extract,extract
+refactorings new package cpd dataflow view new abstract superclass action command view loop conversion arraylist list reference change rearrange context menu icon still need unique one three entry dataflow npe fix post view close view always show first method default label method list new tab icon outline position node git svn id baf c fc e,pull up,pull up
+change central weight colour actual weight cell,push down,inline
+junit check assertion message present assertequals delta miss assertion message assertequals double double double detect case assertequals method two argument assertion message miss assertequals method three argument first one string pmd print error first argument type determine gettype null string therefore assertequals getint getint getint detect error however double assertequals detect junitassertionsshouldincludemessagerule check method move inner class assertioncall expand isexception hook assertequals three argument check override isexception method return true first argument determine string violation add also constructor argument swap readability,move,move
+refactor cluster update rest api use api cluster name update cluster attribute api cluster name action state stop start resume change cluster state,push down,inline
+refactor threadlocalcleanup extract warningthreadlocalcleanup subclass,move,extract
+first attempt refactored repository access repository api repository pentaho basic functionality system solution access path handle still need work first attempt use aliasedgroup pluginsettings would really surprised anything actually work point,inline,push down
+extend result task batch engine,pull up,push down
+assert move failutil,move,move
+refactored split itemsessioncontrol cleaner,inline,pull up
+rename method,rename,rename
+rename zone get set capturetouchesenabled get set capturetouches,rename,rename
+remove jaxb address policy object model git svn id cbddccc e eb e b,pull up,pull up
+rewrite sqlstorage tuplestorageservice,inline,inline
+minor addition lzfdecoder allow pass offset additional sanity check,extract,extract
+logtool initial work support new param annotation major refactoring,pull up,push down
+extract method,extract,extract
+mdep remove replace maven specific code clean unused parameter getters setter git svn id f bb ffa edef,inline,inline
+refactor jogltargetfixedfunction common code abstractjogltarget,pull up,pull up
+lily resolve merge conflict due move derefmap delete old derefmap,move,move
+remove mux related code,inline,inline
+final test assert merge actually work,inline,inline
+add support disable rout unpaved road ferry route default way consider paved ferry route add mkgmap unpaved yes true way declare unpaved way rout gps set avoid unpaved road similarly tag way mkgmap ferry yes true cause ignore routing purpose gps set avoid ferry route git svn id f ee dfeeeb,extract,extract
+major change add support multi level query plan measure time follow mode none storm throttle send wait manual batch,extract,extract
+change eventdrivers extend eventdrivers abstract eventdrivers place use underlie event parameter improve speed reliability also simplify logic eventdriver aware event,pull up,inline
+cw move rawdata model,push down,move
+refactoring rename getoccurrences gettokens git svn id baf c fc e,rename,rename
+address issue stage optimization issue multi start slow run single stage make naf objective function single stage refactored objectivefunctionoptimizer readability change multi start optimization run first find good startpoint array run direct bobyqa optimization,extract,inline
+count cache move eventsmanager abstractcalendarengine,move,move
+fix merge issue scopusfetch repo clean,inline,inline
+merge late core refactor branch,push down,inline
+remove current user favor authorizationservice fix issue,pull up,inline
+change code review feedback readablity improvement include method renames give distinct name readablity use stringwriter rather byte stream avoid double charset conversion add code comment resultreader cs document class relationships code flow,rename,extract
+refactor extract unwrap method,extract,extract
+refactoring matsim integration,push down,pull up
+extract sibling goal test client side rest service,extract,extract
+fix help content eclipse ecj support move completion proposal code patchextensionmethodcompletionproposal class move error report eclipseast fix error reporting portal,move,move
+move value string converter pm j common part,inline,move
+refactored remove duplicate code,pull up,pull up
+major index change updates implementation different pojo indexing strategy see javadoc code comment detail add autocomplete indexer index search phrase take search frequency account searched one display first pojo linkedin full indexing set run periodically configured spring task scheduler,push down,inline
+add xml returnformat,extract,extract
+refactor move dct code class,move,move
+extract add move function private method,extract,extract
+refactor move image utility method class,move,move
+change inheritance move stuff erxcomponent,move,move
+add new default mouse listener make hover link cursor listener extend reduce boilerplate code javadocs mouse tracker listener,pull up,extract
+text metadata extraction,extract,extract
+koti vandana refactoring take libfaketime location pom xml specify command line,pull up,move
+added simple style simplexxmarker default draw coheres select state display highlight color add styleconstants rename marker getprops getproperties,rename,rename
+pull string match stuff parser ad tokenqueue reuse selector parser add som text correct behaviour parser,extract,pull up
+move resultoption handle operationmetric,pull up,move
+rename querycount elapsedtime time,rename,rename
+add async prop,extract,extract
+fix encode command array fix,push down,push down
+sample move utilitysampler,move,move
+df qcadoomes refactoring shift,push down,push down
+add embeddedresourcehandler allow static resource embed inside jar file common stuff pull abstractresourcehandler also delete dupe staticdirectory main purpose patch embed useful thing like dnode straight webbit release jar least special packaging,pull up,extract
+remove web app git repository,push down,inline
+rename connection option winrmdebugkerberosauth winrmkerberosdebug,rename,rename
+simplification client api,inline,inline
+remove get helper entity service helper doesnt follow model resource conflics resourcecollections implementation map conflict entity ever implement map helper also arent really necessarry little mostly fixes model name conflict issue,inline,inline
+rf fix rich inplaceselect move definition rich select specific class,push down,move
+move sslcontext field tcpclient server class udp support ssl add miss javadoc add initsecured session method initialize sl layer need git svn id f bb ffa edef,move,extract
+change nio implementation implementation gossiprouter routerstub add pubserver pubclient add send null send add gossiprouternio add static creator method nioserver tcpserver add code create client server tcpgossip tunnel choose block non block connection gossiprouter use nio request response type routerstubs gossiprouters separate enum gossiptype remove gossiprouternio non block io implement gossiprouter use nioserver tcpserver add util buffertoarray move connectionlistener baseserver remove server added list gossipdata receiveradapter us util buffertoarray tcpgossip implement routerstub membersnotification callback routerstub use baseserver connect gosiprouter gossiprouter use baseserver implement connection management add tcpclient nioclient move client server related class org jgroups block cs added tcpclient nioclient move client server related class org jgroups block cs de genericized baseserver et al move package org jgroups block cs reconnects routerstubmanager work use peer connection make unit test pas add suspect handle gossiprouter connection p close suspect p send member group make marshallinf gossipdata type message efficient remove copying message gossiprouter set parameter socket channel connect tcpconnection isopen return true socket create rewrote serverunittest get rid issue dataprovider upgrade testng dep x,inline,move
+crsh line edition support leave right cursor move,pull up,move
+refactoring move movetreedocafter celementswebscriptservice treenodescriptservice,move,move
+feature remove p repository dependency profile,pull up,inline
+squash commit follow commit eb f aed ab fedfdce author bela ban date tue jul ns commit f c dea ef b f c author bela ban date tue jul conflict src org jgroups jchannel java src org jgroups protocol barrier java src org jgroups util blockinginputstream java squash commit follow commit fee efe c f b bc c f dc author bela ban date tue jul ns commit ae cd c bed ad author bela ban date tue jul change stream state transfer state stream state transfer socket state sock commit b aa aad b c bf ca b e author bela ban date tue jul change stream state transfer state stream state transfer socket state sock commit e db cba e b author bela ban date tue jul ns commit e f e c ec f ea author bela ban date mon jul ns commit bbfd c fdbad de dfee b e author bela ban date mon jul ns commit df b de e c ca author bela ban date mon jul ns commit b db eb c author bela ban date mon jul remove channelexception channelclosedexception channelnotconnectedexception commit c fb b c b c ed author bela ban date fri jul replace setstate byte byte getstate callback implementation correspond stream version commit ef ef f e eb e dca fede author bela ban date fri jul convert byte getstate setstate method use input output stream commit c ceb f f author bela ban date fri jul ns commit ba eccdf b bca e f e author bela ban date thu jul ns commit bde b dadb ffd fd e dc c author bela ban date wed jul remove meaningless inheritdoc commit c b af b cd dad c b fa e author bela ban date wed jul ns commit baa cf b cde author bela ban date wed jul ns commit ed ca b ca author bela ban date tue jul change statetransfertest test state transfer protocols commit e fab fe dbbcaf f e ef author bela ban date mon jul add exception getstate setstate callback impls commit c bf abdb f f e b e cbe ef author bela ban date mon jul ns commit caf cdd c dccf f f e author bela ban date fri jul ns commit c ee e bc e c f e aa ab author bela ban date thu jul ns commit bb ef f e ab f c bb author bela ban date thu jul stream state transfer socket work work exception handling need though commit c aea b ba e b author bela ban date wed jul first cut impl stream state transfer socket work still do exception handle client server crash commit f f ed eb bb f dd f fd cd ea author bela ban date wed jul add new test commit bef ce f aa ddefe ead e f f author bela ban date wed jul first cut jgrp stream default transport stream state transfer work stream state transfer socket commit e ed dbb f b f cfc ccf author bela ban date tue jul expose suspend jmx attr commit ce b c eee bb f author bela ban date mon jul make openbarrier public manage op commit f fab feb b ab ff author bela ban date fri jul cherry pick change barrier master commit ae aeaf c ed c e fd bc cea author bela ban date thu jun cherry pick addition blockinginputstream unit test change coordgmsimpl master commit f cef b af e cb b author bela ban date tue jun change loopback false tcp xml commit fd c edd bbc b ed b author bela ban date mon jun first shot statetransfertest merge jgrp merge merge jgrp master,push down,inline
+remove extra unhelpful output move test code test jar git svn id f bb ffa edef,inline,move
+refactoring extract reusable outputsinkitem helper class collect refresh compilation result git p depot path coremedia jangaroo change,extract,extract
+refactor creation title summary report couple common method parent git svn id f bb ffa edef,pull up,pull up
+refactored type class use less memory especially seriazlizing primative type use number refer index instead hg branch idea rename src lang psi type luatype java src lang psi type luatypeimpl java,push down,rename
+implement basic margin collapse various refactorings preparation shrink fit add hack treat auto margin zero,push down,extract
+watchmojo updatestylesheetsmojo simplify,inline,inline
+change stem modification classmirror methodmirror method longer return classmirror object response getsuperclass getinterfaces getexceptions instead return string string detector look class necessary change avoids mirror class know non pausable java javax package weave also faster weaver stop look pausable method hierarchy soon encounter super class name one nonpausable package,inline,move
+add checkstyle,extract,extract
+big id bible getbible refactor,push down,pull up
+slightly untested extraction method compute effective tweet length,extract,extract
+added unit test codewax patch fine tune patch,extract,extract
+rename zaddbinary zadd,rename,rename
+v ashish refactoring subscription request handler,move,inline
+added event dnd functionality add fully functional also lot little fix change eventkeyinput add activated event add move key event eventnode make transferable added isvalid check gmmenubar fix potential locale bug see javadoc string touppercase listener change stringtores use reflection rather conditionals change canimport method prevent unwanted mouse cursor mdimenu bit shuffle around major change mdipane remove todo catchblock comment resnode simplify isdataflavorsupported reason change listener gm filereader restructuring code private static field rather parameter fix exception code prefix string key start class name update message property accordingly event add convenience constructor move key list add compareto equal function eventframe added dnd functionality collision keyselect disable enabled selection add replace checkbox cod yet gmobjectframe add eventinstancenode eventgroupnode class simplify thing bit added addevent function correctly insert add new event selects scroll tree display spriteframe ismavatar subtly suggest extract two main panel spriteframe separate function git svn id f f bc e cd,move,extract
+add billstat still ignore data tag commit focus implementation billstat tester currently read sponsor title currentamd law billaction tag remove replace tester order fix,pull up,inline
+rename asserter assertlowmemory assertnotlowmemory,rename,rename
+shruthi rename providedtreatment treatment,rename,rename
+rename setkeystoreoptions keycertoptions setkeycertoptions keycertoptions settruststoreoptions trustoptions settrustoptions trustoptions,rename,rename
+remove useless static initialization git svn id f bb ffa edef,inline,inline
+rhbz rhbz squash commit zanata init command client pull commit ab cefde b cc ecd e b df author patrick huang date thu aug rhbz handle exist src dir commit dea e c bd c db e eea author patrick huang date thu aug rhbz check server compatible init command commit fe f e c c f f author patrick huang date tue aug message change commit b bd c fc b b c e author patrick huang date tue aug change message template match prompt commit dd bc c author patrick huang date tue aug fix exception type test commit cc b c e fc b c c ff e author patrick huang date tue jul change copyright year message commit ec adde e dbec aa f c author patrick huang date tue jul improve message commit f bd ab f e de fee cbd author patrick huang date tue jul remove unique project id prompt commit b cbddc dbc e f cbf f author patrick huang date tue jul rhbz handle server url user config commit cec f ff ba bb f e author patrick huang date tue jul refactoring commit c f f fa df author patrick huang date tue jul rhbz rename method static import commit f e f fb de dd bdc f ebc b c author patrick huang date tue jul rhbz refactoring commit e ad fa e b b b author patrick huang date mon jul rhbz extract method userconfighandler commit baa eab dc ebbf db author patrick huang date mon jul rhbz refactor project source trans prompt commit cdf efc baeac c author patrick huang date mon jul add copyright file commit ed ab bca baa da c bf author patrick huang date mon jul rhbz extract method projectconfighandler commit ddda afaee f e ea author patrick huang date mon jul rhbz extract method initcommand commit c dbf b ef ab b c c cc author patrick huang date mon jul remove updatechecker production code pending story rfe commit fa af e ad bd ccbf c b c f b author patrick huang date mon jul rhbz miss resource key log error commit e f f f f f ec author patrick huang date mon jul rhbz rename method optionmismatchchecker commit c ebebd bc deb b ee author patrick huang date mon jul rhbz rename class mode displaymode commit ac cb bff c c b f e c author patrick huang date mon jul rhbz rename class commit bb c bfc f da df bae cb author patrick huang date mon jul rhbz refactor initcommand extract method etc commit f f e e cb f e eb e ef author patrick huang date mon jul rhbz refactor class expect user input commit db f dcb e de b e ade author patrick huang date thu jul rhbz add color output change message commit f c f fc c b ee author patrick huang date wed jul rhbz able filter project long list commit fa fee e b acd aa f author patrick huang date fri jul rhbz check key availability resource bundle commit ffe b de author patrick huang date wed jul rhbz check new version client available commit fe e e cb fc e fa cf b c daf author patrick huang date thu jul rhbz externalize string property file commit e e b ebfebc e b eb author patrick huang date tue jul rhbz add init zanataclient commit c c b c b fa b c add dcc f author patrick huang date tue jul rhbz fix minor issue print next suggestion user commit e f f b f cba f f author patrick huang date tue jul rhbz refactor clean code commit f f c ced b author patrick huang date tue jul rhbz refactor extract project version prompt separate class commit caf c f b e ff bdf ce author patrick huang date tue jul rhbz refactor extract project config handle separate class commit f b f eb ed c f fede edc author patrick huang date mon jun rhbz refactor extract separate class commit f f dc e cca author patrick huang date mon jun rhbz refactor test mock server commit c b ec e fc bdc author patrick huang date fri jun rhbz add init mojo maven goal commit f cc b ef f ba c ded c c author patrick huang date fri jun rhbz prompt user trans dir commit c da c e author patrick huang date fri jun rhbz use index number select project version commit cb b dfc baf e b ae dc author patrick huang date fri jun rhbz src dir include excludes prompt commit f e cb e f ff ac c fd author patrick huang date fri jun rhbz refactor zanataproxyfactory allow eager rest version call commit ec dd f e ddbc f c author patrick huang date thu jun rhbz add include excludes zanata config commit c da cc ec c b author patrick huang date thu jun rhbz pull include excludes project configuration commit b bd b b b ca author patrick huang date thu jun rhbz rhbz add src dir trans dir zanata config commit e ef e b c f ac author patrick huang date thu jun check potential wrong src dir podir project commit e edeb f cff author patrick huang date mon jun rhbz create init command commit c ebac da fd fc f c bbecdc e author patrick huang date wed jun add friendly message inform user server,pull up,extract
+redid entire resource kind system use class instead modularized resource kind order relate string especially use egm character string fix recent file change jedit function appear red instead dark blue reflect change translation file git svn id f f bc e cd,push down,push down
+hack remove functionality trigger odious bug,push down,inline
+move config key new rest type cid server rest type,move,move
+mdep push artifactcollector listrepositoriesmojo one use also simplify unittests bit git svn id f bb ffa edef,push down,push down
+refactor placeservice reduce method number,inline,inline
+move rexpro session monitor rexprorexsterserver java extract start shutdown listener,extract,extract
+xhr transport refactoring buffer alloc optimization,inline,pull up
+cleanup unit test test broken audit non audit version repo test disable audit audit specific test enable reduce number test dependent asynchronous processing ie audit,pull up,pull up
+sc qcadoo refactor message translation,pull up,extract
+source map clean ups remove findbug dependency,inline,inline
+initial commit operator branch tag eventally nick branch commit contain several tea language enhancement know operator nick well lots generic type refactorings full description change document elsewhere build basically test,pull up,inline
+rename move cfc proxy class hibernate package,move,rename
+benchmark stage separate namespaces remove separate symlinks xsd file replace single symlink schema directory move radargun xsd radargun benchmark xsd fit good urn radargun benchmark namespace move radargunscenario xsd radargun scenario xsd change namespace urn radargun scenario core stage radargun core xsd reduce code dependency directory lib dir annotatedhelper rename classpathscanner scan whole classpath,rename,move
+synthesis subtree extraction first pas,extract,extract
+add ability specify path cookie,extract,extract
+update doc untested change bitext extraction pipeline,extract,inline
+way feature refactor code compile,push down,pull up
+revert seperate construct select interface ideal approach merge stuff back single builder add appropriate safeguard disallow operation would yield invalid query build builder also add support create unioned query fiddle generic closegroup closeunion give back builder appropriate type also fix bug sparql query renderer relate filter sub expression,push down,push down
+lot change event command contain transaction identifier saga work,push down,inline
+name,move,rename
+move method calendarservice jsondaoutils addobservation method previously openlegcalendarreportservice method move jsonopenlegdaoutils resused openlegagendareportservice eliminate duplicate code,move,move
+waitonreplication use record table instead root table make custom sep listener get confuse trigger row write actual table name actually matter make argument case record table would exist root table always exist remove specific us,inline,inline
+fix refactorings,inline,push down
+simplify dao interface add test,extract,inline
+seperated ftprequest pure request dedicate session class th make seperation duty clear move u closer pattern use mina git svn id f bb ffa edef,move,move
+move equal hashcode vparentbase,pull up,move
+wcet add objectcacheanalysisdemo refactor recursiveanalysis reuse,push down,extract
+make object spawn little bit logical useworld usebiome also pick one object spawn use tree resource remove customobject spawn localworld world random random int x int z use anywhere besides bo bo internals,push down,inline
+create dev branch dev code,push down,push down
+rename protocol context method,rename,rename
+fix bug validation model also n ized model validation message,push down,push down
+add support projection class class expose subset complete entity add expressionbuilder abstract class refactor exist expression builder extend add summarydao functional test,pull up,extract
+make flush private move removechannel onto processqueues flush public since would require u perform synchronization need also flush use shutdown removechannel method intend use remove dead channel earlier okay remove dead channel periodic call processqueues stick around millisecond hand channel exit stage leave one place code,inline,inline
+package dffw rename df j,rename,rename
+rename routeregistry map,rename,rename
+refactoring ivory app class reduce code duplication,pull up,inline
+cleanup base check style complaint javadoc jdk doclint complaint,inline,pull up
+add parameter resume push pull specify document java client,pull up,extract
+extension cleanup killbill remove deprecate method simplifies code add ability stream result outputstream stream apis,extract,extract
+sc qcadoomes add vat number validation,extract,extract
+dependencygraphs clean start remove remove project,pull up,inline
+fix bug make cluster list faster large scale environment retrieve node list cluster list without detail create index foreign key table node node group disk nic,extract,push down
+cpk refactoring test pass cpf pentaho remove pluginslist,pull up,pull up
+rename callrealmethodwitharguments callrealmethodwithargs,rename,rename
+code clean ups,inline,inline
+implement hilite functionality gui add action listener action menus move hilite filtering trellis menu since concern single plate add necessairy field heatmapmodel implement getplatestodisplay method trellis hiliting adapt found belongs model add condition rederers heatwell heattrellis pick right color change screencolorscheme use knime color selection hiliting,push down,push down
+sramp move ramp client ramp server ramp wagon integration test ramp test refactored test arquillian remove resteasy test tjws dependency,pull up,pull up
+merge narmanager eventual removal abstractdependencymojo make goal use nar dependency manage download unpack similarly do automatically jar move download unpack goal like maven dependency plugin,pull up,move
+minor refactoring,pull up,push down
+fix message id topic add method inheritance test refactored nevadoqueueconnection nevadotopicconnection,push down,push down
+refactored check hidden private method prepare shift jpa portletpreferences,extract,inline
+add base class parser implementation eliminate duplicate code also add tokenmanager wrapper interface implementation parser ultimately stuff need move language specific package expect effort need do generalize anything everything related tokenizers parser asts etc explore way get javacc use actual interface thing seem generate duplicate one implementation implement standard set interface javacc implementation pmd really need way make appear identical pmd internals settle javacc standard pmd seem like easy choice mix thing future get work simple case git svn id baf c fc e,move,move
+mdr change set mdr flag name mdr value separate city record city name different region well different map save mdr value directly mdr record think need post processing value git svn id region index f ee dfeeeb,inline,extract
+rename promotionbadgelist status,rename,rename
+mocdtw creation model relate place subsequent change wrapper,push down,inline
+rename method worldmanagerapi,rename,rename
+get virtual ip work core refactored virtual repository use interface autowiring,push down,push down
+major new functionality featues add file downloader integrate tvrageprovider implement check update preference option code change finally make preference static yay rename many uistarter variable conform nametype move string handle stringutils updated test,move,move
+rename removetopic deletetopic,rename,rename
+simplify abstractprotocolencoderoutput git svn id f bb ffa edef,push down,inline
+renames method encoder also move encodequeryparameters method encoder class,move,move
+refactoring io state interface generation,push down,push down
+improvement assessmentresult generation item generate full assessmentresult add support record context sessionidentifier,extract,extract
+indexupdater fix record change different rule indexerconf match different set vtags might become active case delete must do solr remove entry correspond old vtags indexupdater able need know rule match hence need old new record state exactly need evaluate indexrecordfilter indexawaremqfeeder put recordevent indexselectionrecordupdatehook therefore information provide hook also useful indexupdater additionally update denormalized data work record index access dereference expression also need match indexrecordfilter able express need support include rule empty vtags basically say include record index could achieve rule exclude record index expensive recordfilter decision make without even load record currently help much dynamic field either solve brought couple change refactored vtaggedrecord move thing dependend recordevent load record recordeventhelper probably could use refactoring completely split two vtaggedrecord also use case recordevent maybe reintroduce third party combine indexer integration drop merge engine due circular dependency test engine test need indexrecordfilterhook could solve also split indexer integration two different project decide ok together engine rename recordevent indexselection recordevent indexrecordfilterdata rename indexselectionrecordupdatehook indexrecordfilterhook fix npe indexrecordfilterhook case record update record type specify pulled code create record information store recordevent new utility class indexrecordfilterutil reuse indexupdater indexertest need indexrecordfilterhook depend indexermodel previously use test,move,move
+jcbc join nest key clause use key syntax motivation n ql correct syntax key clause nest join key expression key expression currently implement also clause use key keyword differently reference primary key document id use key syntax use syntax expect string array string token could implement usekeys method next current key method modification keyselement take enum denote type key clause keyspath key method join side thing rename onkeys add usekeys side thing reference primary key onkeys usekeys accept array string usekeys array size produce string query json array refactored unit test key expect modified unit test use key mean instead key result unit test pass one clause primary key use usekeys method syntax join key clause fix onkeys method change id da c b c afe fb dd dcd review tested simon baslé review michael nitschinger,rename,inline
+rename jacksonmapper withvisibilitychecker setvisibilitychecker faithful jackson,rename,rename
+remove circular dependency documentloader jsonutils public api documentloader unchanged protect static api documentloader modify move implementation method field jsonutils,move,inline
+first iteration remove code duplication,pull up,pull up
+refactoring etc,pull up,pull up
+introduce latebound rule may replace reduce need provider,inline,inline
+renames room space withmaxattemptsforplacement maxattemptstoplaceword,rename,rename
+add sharedobjecttypedescription class change api apps use appropriately file share feature collab example app remain broken test debug need repair,push down,inline
+refactoring model good abstraction lot duplicat functionality opmobject opmprocess unite opmthing,pull up,pull up
+refactored infinispan cache wrapper hieararchy wrapper keep linear hierarchy accord infinispan version one wrapper per plugin feature implement separate object wrapper feature enrich separately code core wrapper move lifecycle basicoperations feature wrapper hold cache orchestrate feature infinispanwrapper work multi cache wrapper well see stresstest usebuckets,inline,move
+remove getchildren diffnode really need,inline,inline
+java move rule signaturedeclarethrowsexception typeresolution strictexception replace exist rule typeresolution base implementation,move,move
+revert vishal move display logic patient class revert commit ba ecef e ceff da f ca f f b,move,move
+cache refactoring,push down,pull up
+boleto refactoring tirando interface data,pull up,move
+resolve test failure add test,extract,extract
+readablity supportability improvement includng code comment rename refactoring motivate code review feedback,rename,rename
+rf change api,push down,inline
+tp move version check handlesinglemessage handlemessagebatch receive tp implement receive inputstream receive byte baseserver discard length byte receiver callback instal tcpconnection create intermediate buffer pass input stream directly receive callback gossiprouter routerstub implement receive callback pubclient pubserver implement receive callback roundtrip receive never use correct offset read data,inline,move
+logging add,extract,extract
+pmd refactor pmd main class functional change refactor focus reduce amount responsibility pmd class therefore thread manbo jambo move separate subpackage algorithm associate mono thread multithreaded strategy also move two separate class share common signature code abstract class also add large amount code move pmd class rulesetsfactory utility class reduce couple scope responsibility last pmd class two field configuration object new object call sourcecodeprocessor charge process source code anyway change pure inner refactoring harmless project pmdeclipse maven plugin however good plan tend go boum minute state love plan come together please let know run issue thesis change best support git svn id baf c fc e,move,move
+add test retrieval tool add option specify store id add number attempt output file various small fix refactorings git svn id ed cd f c b fe bcb,push down,extract
+lot refactoring make everything homogeneous introduce new one parallel many rename related own add referenced need code could optimize model instantiation store info classinfo correct npe risk,rename,rename
+rename builder method,rename,rename
+refactoring,pull up,pull up
+fix,push down,push down
+added support parametrized log similar slf j api sign manish kumar,extract,extract
+initial redesign classic request execution chain git svn id f bb ffa edef,inline,push down
+add providesinto set map optional multibindingsscanner allow user annotate method module element contribute multibinder mapbinder optionalbinder create moe java moe migrate revid,extract,extract
+superbuilder tobuilder move static helper method builder impl,pull up,move
+refactoring,push down,pull up
+df refactored hook fix test,move,push down
+rename attribute,rename,rename
+refactoring extract method easy subclass thetopleveltransaction disable persistence data,extract,extract
+remove property duplicationmethodproperty fieldproperty common superclass duplicate code commit reduce duplication push common code superclass time add additional test functionality,pull up,pull up
+rename public method,rename,rename
+rename miss field method projection ref,rename,rename
+improve metric collectd implementation add stylistic improvement small refactorings,inline,push down
+refactored rule base class around rule interface instead around ast visitor interface long term goal support additional language beyond java organize like pmd abstractrule core rule implementation pmd xpathrule core xpath rule implementation pmd java abstractjavarule java specific rule implementation pmd jsp abstractjsprule jsp specific rule implementation pmd xxx abstractxxxrule language xxx specific rule implementation start much large reorganize effort get thing sync additional work need generalize xpathrule git svn id baf c fc e,push down,pull up
+core multipletestcorrection bonferroni bh fdr ui mtc welcomeview mtc action command refactorings git svn id b f e b ddf,pull up,pull up
+refactored initial condition,extract,pull up
+disassociate credential type common library move populate method utility class,move,move
+extract common code,extract,extract
+pr mpmd refactor exclude work pmd cpd git svn id f bb ffa edef,pull up,pull up
+extend test cover resultsreader getnextevent,pull up,pull up
+mant generate build user xml à la eclipse add overwrite parameter mojo overwrite build xml update antbuildwriter generate build xml could overwrite maven build xml maven build property use import task ant build xml target could override updated test case git svn id f bb ffa edef,extract,extract
+stub change hg branch idea rename src lang psi type luaprimativetype java src lang psi type luaprimitivetype java rename src lang psi type luaprimativetypeimpl java src lang psi type luaprimitivetypeimpl java,rename,rename
+added test class encoder improvement elementutils class many improvement add setter encoders class,extract,extract
+drop use hbase rowlock record create fixes exception wal processmessage log case create update log code rename method putmessageonwalandprocess putrowwithwalprocessing since former obvious method put row metric hbaseaction put report anymore reported create update updatemutablefields readded interest git svn id svn ssh dev outerthought org outerthought lilyproject trunk b f e bd e dc,rename,rename
+minvoker provide way install extra dependency add support relocation root artifact git svn id f bb ffa edef,extract,extract
+refactoring core component,push down,pull up
+remove plan package use find query inlining functionality findquery new class compatiblerelationgroup,inline,move
+added support keep cursor across multiple capture api cleanup mostly tool moved property anonymous project todo somehow tool get incorrect parent frame null cause property destroy,pull up,move
+cs cs transition create every property support transition even transition set automatically set transition finish instant necessary properly get rule transition rule without transition,push down,inline
+refactoring towards generalize triplerelation use code noderelations,move,pull up
+added support multiple profile plugin xml add jbpm full brms profile,extract,extract
+split doc save method move part script service,move,move
+remove duplicate code handle ping simplify constructor,pull up,inline
+nrepl input area add hopefully work auto eval enter feature,extract,extract
+fix hyperloglog builder improvement can not make constructor builder match hyperloglog without risk behavior change downstream also default constructor either add one could contentious therefore added static method somewhat go expect builder pattern though hyperloglog builder really follow anyway one set closer supplier additionally would little silly also implement non static method since code would look exactly lastly builder performs eager validation rsd log lead extra validation call live,extract,push down
+icy let select appropriate importer multiple choice available loader many change provide good support fileimporter sequencefileimporter class fileimporter acceptfile method use path parameter layer panel opacity set move bottom support custom set panel per layer overlay getoptionspanel sequenceutil c z merge operation preserve metadata add getsubsequence sequence roi double method user email information store preference refactoring imageloaderdialog loaderdialog imagesaverdialog saverdialog loaddialog opendialog others minor improvement bug fix cleanup,move,inline
+rewrite transformer make position availabe executionlog,push down,inline
+hv fix value extraction resolution logic force implicitunwrapping,extract,extract
+major refactor bring youview publisher codebases late granular task base pattern lovefilm unbox code use granular interface code move across task granular task generator old non granular generator code remove non task base schedule task remove,move,move
+lot refactoring move unit test around add support object expansion additional code clean,extract,pull up
+rework processor object optimize number thread use application limit win jvm add threadutil runsingle run single instance process previous bgrunsingle sequenceutil scale correctly update pixel size information fix xlsutil error message cleanup,push down,inline
+extract helper method separate class refactored towards compose method,extract,extract
+move page virtual collection cache algorithm utility class pagedcollectioncachebase,pull up,move
+remove subclass vertxhandler keep class,pull up,push down
+splitting record scanner rest test different test method forget upgrade guava version git svn id svn ssh dev outerthought org outerthought lilyproject branch scanner b f e bd e dc,extract,move
+fix layout gmobjectframe timelineframe use grouplayout manager extract actionlist related code separate class see also r r git svn id f f bc e cd,extract,extract
+rename metrictype metricattribute common terminology enumeration introduce earlier,rename,rename
+refactoring java code generation utils,pull up,pull up
