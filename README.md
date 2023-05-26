@@ -5,6 +5,8 @@ This is a collection of notebooks extending the work of AlOmar et al. in 'On the
 
 In this work, several methods of word embedding techniques including BERT and fastText, are used to gain additional insight into the practices of commit messages. The same dataset was used for our study. One initial train/test split was performed so each model could be compared evenly. The models compared are a replication of AlOmar et al.'s model, a model vectorized with Word2Vec[[2]](#2), a BERT model[[3]](#3), and a fastText model[[4]](#4).
 
+The final fastText model was deployed as a browser-based tool that can take commit messages as input, and show the top three predictions as well as the resulting character n-grams created by the model. To run the model, the trained fastText model is required which is not included in the repository due to github file size limits (the trained model is ~4GB while the quantized model is ~500MB). The model can be created by running the code in the fasttext_model_1 notebook.
+
 This was a group project created with fellow Data Science MS students at RIT, Connor Gallagher and Pulkit Saxena.
 
 ## References
