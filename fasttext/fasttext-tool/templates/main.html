@@ -1,0 +1,32 @@
+{% extends 'base.html' %}
+
+{% block head %}
+<h1>Commit Message Prediction</h1>
+{% endblock %}
+
+{% block body %}
+<div class="ml-container">
+
+    <form action="{{ url_for('main')}}" method="POST">
+    <p>Enter Your Message Here</p>
+    <textarea name="message" rows="4" cols="50"></textarea>
+    <br/>
+
+    <input type="submit" class="btn-info" value="predict">
+    
+</form>
+</div>
+
+<div class="result">
+    <br>
+    <p>Cleaned text:</p>
+    {{ input }}
+    <br>
+    <p>Prediction:</p>
+    {{ prediction }}
+    <br>
+    <p>Char n-grams:</p>
+    {{ ngrams }}
+    <br>
+</div>
+{% endblock %}
